@@ -1,0 +1,1041 @@
+﻿YearStart,YearEnd,LocationAbbr,LocationDesc,Data_Value,Education,GeoLocation,Stratification1,StratificationCategoryId1,StratificationID1
+2011,2011,AL,Alabama,33.8,Some college or technical school,"(32.84057112200048, -86.63186076199969)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,AL,Alabama,33.6,Less than high school,"(32.84057112200048, -86.63186076199969)",Less than high school,EDU,EDUHS
+2011,2011,AL,Alabama,32.8,High school graduate,"(32.84057112200048, -86.63186076199969)",High school graduate,EDU,EDUHSGRAD
+2011,2011,AL,Alabama,26.4,College graduate,"(32.84057112200048, -86.63186076199969)",College graduate,EDU,EDUCOGRAD
+2012,2012,AL,Alabama,34.4,Some college or technical school,"(32.84057112200048, -86.63186076199969)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,AL,Alabama,35.2,Less than high school,"(32.84057112200048, -86.63186076199969)",Less than high school,EDU,EDUHS
+2012,2012,AL,Alabama,33.5,High school graduate,"(32.84057112200048, -86.63186076199969)",High school graduate,EDU,EDUHSGRAD
+2012,2012,AL,Alabama,27.8,College graduate,"(32.84057112200048, -86.63186076199969)",College graduate,EDU,EDUCOGRAD
+2013,2013,AL,Alabama,35.2,Some college or technical school,"(32.84057112200048, -86.63186076199969)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,AL,Alabama,33.8,Less than high school,"(32.84057112200048, -86.63186076199969)",Less than high school,EDU,EDUHS
+2013,2013,AL,Alabama,32.1,High school graduate,"(32.84057112200048, -86.63186076199969)",High school graduate,EDU,EDUHSGRAD
+2013,2013,AL,Alabama,27.6,College graduate,"(32.84057112200048, -86.63186076199969)",College graduate,EDU,EDUCOGRAD
+2014,2014,AL,Alabama,34.4,Some college or technical school,"(32.84057112200048, -86.63186076199969)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,AL,Alabama,34.8,Less than high school,"(32.84057112200048, -86.63186076199969)",Less than high school,EDU,EDUHS
+2014,2014,AL,Alabama,35.4,High school graduate,"(32.84057112200048, -86.63186076199969)",High school graduate,EDU,EDUHSGRAD
+2014,2014,AL,Alabama,28.1,College graduate,"(32.84057112200048, -86.63186076199969)",College graduate,EDU,EDUCOGRAD
+2015,2015,AL,Alabama,36.5,Some college or technical school,"(32.84057112200048, -86.63186076199969)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,AL,Alabama,38.4,Less than high school,"(32.84057112200048, -86.63186076199969)",Less than high school,EDU,EDUHS
+2015,2015,AL,Alabama,37.6,High school graduate,"(32.84057112200048, -86.63186076199969)",High school graduate,EDU,EDUHSGRAD
+2015,2015,AL,Alabama,29.1,College graduate,"(32.84057112200048, -86.63186076199969)",College graduate,EDU,EDUCOGRAD
+2011,2011,AK,Alaska,25.8,Some college or technical school,"(64.84507995700051, -147.72205903599973)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,AK,Alaska,28.8,Less than high school,"(64.84507995700051, -147.72205903599973)",Less than high school,EDU,EDUHS
+2011,2011,AK,Alaska,33.1,High school graduate,"(64.84507995700051, -147.72205903599973)",High school graduate,EDU,EDUHSGRAD
+2011,2011,AK,Alaska,22.1,College graduate,"(64.84507995700051, -147.72205903599973)",College graduate,EDU,EDUCOGRAD
+2012,2012,AK,Alaska,26.9,Some college or technical school,"(64.84507995700051, -147.72205903599973)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,AK,Alaska,23.3,Less than high school,"(64.84507995700051, -147.72205903599973)",Less than high school,EDU,EDUHS
+2012,2012,AK,Alaska,25.8,High school graduate,"(64.84507995700051, -147.72205903599973)",High school graduate,EDU,EDUHSGRAD
+2012,2012,AK,Alaska,24.9,College graduate,"(64.84507995700051, -147.72205903599973)",College graduate,EDU,EDUCOGRAD
+2013,2013,AK,Alaska,29.6,Some college or technical school,"(64.84507995700051, -147.72205903599973)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,AK,Alaska,28.2,Less than high school,"(64.84507995700051, -147.72205903599973)",Less than high school,EDU,EDUHS
+2013,2013,AK,Alaska,33.1,High school graduate,"(64.84507995700051, -147.72205903599973)",High school graduate,EDU,EDUHSGRAD
+2013,2013,AK,Alaska,21.2,College graduate,"(64.84507995700051, -147.72205903599973)",College graduate,EDU,EDUCOGRAD
+2014,2014,AK,Alaska,34,Some college or technical school,"(64.84507995700051, -147.72205903599973)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,AK,Alaska,32.8,Less than high school,"(64.84507995700051, -147.72205903599973)",Less than high school,EDU,EDUHS
+2014,2014,AK,Alaska,28.3,High school graduate,"(64.84507995700051, -147.72205903599973)",High school graduate,EDU,EDUHSGRAD
+2014,2014,AK,Alaska,23.4,College graduate,"(64.84507995700051, -147.72205903599973)",College graduate,EDU,EDUCOGRAD
+2015,2015,AK,Alaska,33,Some college or technical school,"(64.84507995700051, -147.72205903599973)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,AK,Alaska,30.2,Less than high school,"(64.84507995700051, -147.72205903599973)",Less than high school,EDU,EDUHS
+2015,2015,AK,Alaska,28.4,High school graduate,"(64.84507995700051, -147.72205903599973)",High school graduate,EDU,EDUHSGRAD
+2015,2015,AK,Alaska,26.7,College graduate,"(64.84507995700051, -147.72205903599973)",College graduate,EDU,EDUCOGRAD
+2011,2011,AZ,Arizona,25.9,Some college or technical school,"(34.865970280000454, -111.76381127699972)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,AZ,Arizona,36.2,Less than high school,"(34.865970280000454, -111.76381127699972)",Less than high school,EDU,EDUHS
+2011,2011,AZ,Arizona,25.2,High school graduate,"(34.865970280000454, -111.76381127699972)",High school graduate,EDU,EDUHSGRAD
+2011,2011,AZ,Arizona,17.4,College graduate,"(34.865970280000454, -111.76381127699972)",College graduate,EDU,EDUCOGRAD
+2012,2012,AZ,Arizona,25.3,Some college or technical school,"(34.865970280000454, -111.76381127699972)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,AZ,Arizona,32.3,Less than high school,"(34.865970280000454, -111.76381127699972)",Less than high school,EDU,EDUHS
+2012,2012,AZ,Arizona,26.9,High school graduate,"(34.865970280000454, -111.76381127699972)",High school graduate,EDU,EDUHSGRAD
+2012,2012,AZ,Arizona,22.3,College graduate,"(34.865970280000454, -111.76381127699972)",College graduate,EDU,EDUCOGRAD
+2013,2013,AZ,Arizona,24.9,Some college or technical school,"(34.865970280000454, -111.76381127699972)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,AZ,Arizona,42.5,Less than high school,"(34.865970280000454, -111.76381127699972)",Less than high school,EDU,EDUHS
+2013,2013,AZ,Arizona,27.3,High school graduate,"(34.865970280000454, -111.76381127699972)",High school graduate,EDU,EDUHSGRAD
+2013,2013,AZ,Arizona,19.2,College graduate,"(34.865970280000454, -111.76381127699972)",College graduate,EDU,EDUCOGRAD
+2014,2014,AZ,Arizona,32.1,Some college or technical school,"(34.865970280000454, -111.76381127699972)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,AZ,Arizona,32.1,Less than high school,"(34.865970280000454, -111.76381127699972)",Less than high school,EDU,EDUHS
+2014,2014,AZ,Arizona,29.8,High school graduate,"(34.865970280000454, -111.76381127699972)",High school graduate,EDU,EDUHSGRAD
+2014,2014,AZ,Arizona,21.6,College graduate,"(34.865970280000454, -111.76381127699972)",College graduate,EDU,EDUCOGRAD
+2015,2015,AZ,Arizona,30.3,Some college or technical school,"(34.865970280000454, -111.76381127699972)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,AZ,Arizona,37.5,Less than high school,"(34.865970280000454, -111.76381127699972)",Less than high school,EDU,EDUHS
+2015,2015,AZ,Arizona,28.2,High school graduate,"(34.865970280000454, -111.76381127699972)",High school graduate,EDU,EDUHSGRAD
+2015,2015,AZ,Arizona,21,College graduate,"(34.865970280000454, -111.76381127699972)",College graduate,EDU,EDUCOGRAD
+2011,2011,AR,Arkansas,31,Some college or technical school,"(34.74865012400045, -92.27449074299966)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,AR,Arkansas,31.1,Less than high school,"(34.74865012400045, -92.27449074299966)",Less than high school,EDU,EDUHS
+2011,2011,AR,Arkansas,33,High school graduate,"(34.74865012400045, -92.27449074299966)",High school graduate,EDU,EDUHSGRAD
+2011,2011,AR,Arkansas,26.4,College graduate,"(34.74865012400045, -92.27449074299966)",College graduate,EDU,EDUCOGRAD
+2012,2012,AR,Arkansas,32.7,Some college or technical school,"(34.74865012400045, -92.27449074299966)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,AR,Arkansas,38.9,Less than high school,"(34.74865012400045, -92.27449074299966)",Less than high school,EDU,EDUHS
+2012,2012,AR,Arkansas,36,High school graduate,"(34.74865012400045, -92.27449074299966)",High school graduate,EDU,EDUHSGRAD
+2012,2012,AR,Arkansas,30.7,College graduate,"(34.74865012400045, -92.27449074299966)",College graduate,EDU,EDUCOGRAD
+2013,2013,AR,Arkansas,34.5,Some college or technical school,"(34.74865012400045, -92.27449074299966)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,AR,Arkansas,39.6,Less than high school,"(34.74865012400045, -92.27449074299966)",Less than high school,EDU,EDUHS
+2013,2013,AR,Arkansas,36,High school graduate,"(34.74865012400045, -92.27449074299966)",High school graduate,EDU,EDUHSGRAD
+2013,2013,AR,Arkansas,27.2,College graduate,"(34.74865012400045, -92.27449074299966)",College graduate,EDU,EDUCOGRAD
+2014,2014,AR,Arkansas,37.4,Some college or technical school,"(34.74865012400045, -92.27449074299966)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,AR,Arkansas,37,Less than high school,"(34.74865012400045, -92.27449074299966)",Less than high school,EDU,EDUHS
+2014,2014,AR,Arkansas,38,High school graduate,"(34.74865012400045, -92.27449074299966)",High school graduate,EDU,EDUHSGRAD
+2014,2014,AR,Arkansas,28.7,College graduate,"(34.74865012400045, -92.27449074299966)",College graduate,EDU,EDUCOGRAD
+2015,2015,AR,Arkansas,36.9,Some college or technical school,"(34.74865012400045, -92.27449074299966)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,AR,Arkansas,36.2,Less than high school,"(34.74865012400045, -92.27449074299966)",Less than high school,EDU,EDUHS
+2015,2015,AR,Arkansas,33.6,High school graduate,"(34.74865012400045, -92.27449074299966)",High school graduate,EDU,EDUHSGRAD
+2015,2015,AR,Arkansas,30.9,College graduate,"(34.74865012400045, -92.27449074299966)",College graduate,EDU,EDUCOGRAD
+2011,2011,CA,California,24,Some college or technical school,"(37.63864012300047, -120.99999953799971)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,CA,California,32.9,Less than high school,"(37.63864012300047, -120.99999953799971)",Less than high school,EDU,EDUHS
+2011,2011,CA,California,26.4,High school graduate,"(37.63864012300047, -120.99999953799971)",High school graduate,EDU,EDUHSGRAD
+2011,2011,CA,California,15.3,College graduate,"(37.63864012300047, -120.99999953799971)",College graduate,EDU,EDUCOGRAD
+2012,2012,CA,California,26.3,Some college or technical school,"(37.63864012300047, -120.99999953799971)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,CA,California,34.8,Less than high school,"(37.63864012300047, -120.99999953799971)",Less than high school,EDU,EDUHS
+2012,2012,CA,California,26.4,High school graduate,"(37.63864012300047, -120.99999953799971)",High school graduate,EDU,EDUHSGRAD
+2012,2012,CA,California,16,College graduate,"(37.63864012300047, -120.99999953799971)",College graduate,EDU,EDUCOGRAD
+2013,2013,CA,California,26.4,Some college or technical school,"(37.63864012300047, -120.99999953799971)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,CA,California,34.3,Less than high school,"(37.63864012300047, -120.99999953799971)",Less than high school,EDU,EDUHS
+2013,2013,CA,California,24.5,High school graduate,"(37.63864012300047, -120.99999953799971)",High school graduate,EDU,EDUHSGRAD
+2013,2013,CA,California,14.3,College graduate,"(37.63864012300047, -120.99999953799971)",College graduate,EDU,EDUCOGRAD
+2014,2014,CA,California,26.1,Some college or technical school,"(37.63864012300047, -120.99999953799971)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,CA,California,34.2,Less than high school,"(37.63864012300047, -120.99999953799971)",Less than high school,EDU,EDUHS
+2014,2014,CA,California,25,High school graduate,"(37.63864012300047, -120.99999953799971)",High school graduate,EDU,EDUHSGRAD
+2014,2014,CA,California,17.2,College graduate,"(37.63864012300047, -120.99999953799971)",College graduate,EDU,EDUCOGRAD
+2015,2015,CA,California,25.3,Some college or technical school,"(37.63864012300047, -120.99999953799971)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,CA,California,33.9,Less than high school,"(37.63864012300047, -120.99999953799971)",Less than high school,EDU,EDUHS
+2015,2015,CA,California,26.6,High school graduate,"(37.63864012300047, -120.99999953799971)",High school graduate,EDU,EDUHSGRAD
+2015,2015,CA,California,15.1,College graduate,"(37.63864012300047, -120.99999953799971)",College graduate,EDU,EDUCOGRAD
+2011,2011,CO,Colorado,22.3,Some college or technical school,"(38.843840757000464, -106.13361092099967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,CO,Colorado,25.7,Less than high school,"(38.843840757000464, -106.13361092099967)",Less than high school,EDU,EDUHS
+2011,2011,CO,Colorado,23.5,High school graduate,"(38.843840757000464, -106.13361092099967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,CO,Colorado,15.6,College graduate,"(38.843840757000464, -106.13361092099967)",College graduate,EDU,EDUCOGRAD
+2012,2012,CO,Colorado,21.9,Some college or technical school,"(38.843840757000464, -106.13361092099967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,CO,Colorado,25.6,Less than high school,"(38.843840757000464, -106.13361092099967)",Less than high school,EDU,EDUHS
+2012,2012,CO,Colorado,23.1,High school graduate,"(38.843840757000464, -106.13361092099967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,CO,Colorado,15.7,College graduate,"(38.843840757000464, -106.13361092099967)",College graduate,EDU,EDUCOGRAD
+2013,2013,CO,Colorado,24.1,Some college or technical school,"(38.843840757000464, -106.13361092099967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,CO,Colorado,28.8,Less than high school,"(38.843840757000464, -106.13361092099967)",Less than high school,EDU,EDUHS
+2013,2013,CO,Colorado,21.7,High school graduate,"(38.843840757000464, -106.13361092099967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,CO,Colorado,15.8,College graduate,"(38.843840757000464, -106.13361092099967)",College graduate,EDU,EDUCOGRAD
+2014,2014,CO,Colorado,23.7,Some college or technical school,"(38.843840757000464, -106.13361092099967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,CO,Colorado,26.3,Less than high school,"(38.843840757000464, -106.13361092099967)",Less than high school,EDU,EDUHS
+2014,2014,CO,Colorado,23.3,High school graduate,"(38.843840757000464, -106.13361092099967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,CO,Colorado,16.2,College graduate,"(38.843840757000464, -106.13361092099967)",College graduate,EDU,EDUCOGRAD
+2015,2015,CO,Colorado,21.8,Some college or technical school,"(38.843840757000464, -106.13361092099967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,CO,Colorado,28.8,Less than high school,"(38.843840757000464, -106.13361092099967)",Less than high school,EDU,EDUHS
+2015,2015,CO,Colorado,22.5,High school graduate,"(38.843840757000464, -106.13361092099967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,CO,Colorado,14.7,College graduate,"(38.843840757000464, -106.13361092099967)",College graduate,EDU,EDUCOGRAD
+2011,2011,CT,Connecticut,26.4,Some college or technical school,"(41.56266102000046, -72.64984095199964)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,CT,Connecticut,31.2,Less than high school,"(41.56266102000046, -72.64984095199964)",Less than high school,EDU,EDUHS
+2011,2011,CT,Connecticut,29,High school graduate,"(41.56266102000046, -72.64984095199964)",High school graduate,EDU,EDUHSGRAD
+2011,2011,CT,Connecticut,16.7,College graduate,"(41.56266102000046, -72.64984095199964)",College graduate,EDU,EDUCOGRAD
+2012,2012,CT,Connecticut,28.3,Some college or technical school,"(41.56266102000046, -72.64984095199964)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,CT,Connecticut,33,Less than high school,"(41.56266102000046, -72.64984095199964)",Less than high school,EDU,EDUHS
+2012,2012,CT,Connecticut,29.2,High school graduate,"(41.56266102000046, -72.64984095199964)",High school graduate,EDU,EDUHSGRAD
+2012,2012,CT,Connecticut,17.8,College graduate,"(41.56266102000046, -72.64984095199964)",College graduate,EDU,EDUCOGRAD
+2013,2013,CT,Connecticut,26.9,Some college or technical school,"(41.56266102000046, -72.64984095199964)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,CT,Connecticut,29.8,Less than high school,"(41.56266102000046, -72.64984095199964)",Less than high school,EDU,EDUHS
+2013,2013,CT,Connecticut,28.5,High school graduate,"(41.56266102000046, -72.64984095199964)",High school graduate,EDU,EDUHSGRAD
+2013,2013,CT,Connecticut,18.6,College graduate,"(41.56266102000046, -72.64984095199964)",College graduate,EDU,EDUCOGRAD
+2014,2014,CT,Connecticut,28.7,Some college or technical school,"(41.56266102000046, -72.64984095199964)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,CT,Connecticut,30.7,Less than high school,"(41.56266102000046, -72.64984095199964)",Less than high school,EDU,EDUHS
+2014,2014,CT,Connecticut,29.2,High school graduate,"(41.56266102000046, -72.64984095199964)",High school graduate,EDU,EDUHSGRAD
+2014,2014,CT,Connecticut,20.1,College graduate,"(41.56266102000046, -72.64984095199964)",College graduate,EDU,EDUCOGRAD
+2015,2015,CT,Connecticut,26,Some college or technical school,"(41.56266102000046, -72.64984095199964)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,CT,Connecticut,34.5,Less than high school,"(41.56266102000046, -72.64984095199964)",Less than high school,EDU,EDUHS
+2015,2015,CT,Connecticut,28.9,High school graduate,"(41.56266102000046, -72.64984095199964)",High school graduate,EDU,EDUHSGRAD
+2015,2015,CT,Connecticut,18.8,College graduate,"(41.56266102000046, -72.64984095199964)",College graduate,EDU,EDUCOGRAD
+2011,2011,DE,Delaware,30.9,Some college or technical school,"(39.008830667000495, -75.57774116799965)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,DE,Delaware,35.2,Less than high school,"(39.008830667000495, -75.57774116799965)",Less than high school,EDU,EDUHS
+2011,2011,DE,Delaware,27.9,High school graduate,"(39.008830667000495, -75.57774116799965)",High school graduate,EDU,EDUHSGRAD
+2011,2011,DE,Delaware,24.1,College graduate,"(39.008830667000495, -75.57774116799965)",College graduate,EDU,EDUCOGRAD
+2012,2012,DE,Delaware,31.2,Some college or technical school,"(39.008830667000495, -75.57774116799965)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,DE,Delaware,27.6,Less than high school,"(39.008830667000495, -75.57774116799965)",Less than high school,EDU,EDUHS
+2012,2012,DE,Delaware,27.8,High school graduate,"(39.008830667000495, -75.57774116799965)",High school graduate,EDU,EDUHSGRAD
+2012,2012,DE,Delaware,20.5,College graduate,"(39.008830667000495, -75.57774116799965)",College graduate,EDU,EDUCOGRAD
+2013,2013,DE,Delaware,34.6,Some college or technical school,"(39.008830667000495, -75.57774116799965)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,DE,Delaware,39.3,Less than high school,"(39.008830667000495, -75.57774116799965)",Less than high school,EDU,EDUHS
+2013,2013,DE,Delaware,29.8,High school graduate,"(39.008830667000495, -75.57774116799965)",High school graduate,EDU,EDUHSGRAD
+2013,2013,DE,Delaware,24.7,College graduate,"(39.008830667000495, -75.57774116799965)",College graduate,EDU,EDUCOGRAD
+2014,2014,DE,Delaware,33,Some college or technical school,"(39.008830667000495, -75.57774116799965)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,DE,Delaware,30.8,Less than high school,"(39.008830667000495, -75.57774116799965)",Less than high school,EDU,EDUHS
+2014,2014,DE,Delaware,32.7,High school graduate,"(39.008830667000495, -75.57774116799965)",High school graduate,EDU,EDUHSGRAD
+2014,2014,DE,Delaware,25.2,College graduate,"(39.008830667000495, -75.57774116799965)",College graduate,EDU,EDUCOGRAD
+2015,2015,DE,Delaware,29.2,Some college or technical school,"(39.008830667000495, -75.57774116799965)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,DE,Delaware,36.1,Less than high school,"(39.008830667000495, -75.57774116799965)",Less than high school,EDU,EDUHS
+2015,2015,DE,Delaware,31.4,High school graduate,"(39.008830667000495, -75.57774116799965)",High school graduate,EDU,EDUHSGRAD
+2015,2015,DE,Delaware,25.6,College graduate,"(39.008830667000495, -75.57774116799965)",College graduate,EDU,EDUCOGRAD
+2011,2011,DC,District of Columbia,31,Some college or technical school,"(38.89037138500049, -77.03196112699965)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,DC,District of Columbia,39.7,Less than high school,"(38.89037138500049, -77.03196112699965)",Less than high school,EDU,EDUHS
+2011,2011,DC,District of Columbia,33,High school graduate,"(38.89037138500049, -77.03196112699965)",High school graduate,EDU,EDUHSGRAD
+2011,2011,DC,District of Columbia,11.9,College graduate,"(38.89037138500049, -77.03196112699965)",College graduate,EDU,EDUCOGRAD
+2012,2012,DC,District of Columbia,27.8,Some college or technical school,"(38.89037138500049, -77.03196112699965)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,DC,District of Columbia,31.6,Less than high school,"(38.89037138500049, -77.03196112699965)",Less than high school,EDU,EDUHS
+2012,2012,DC,District of Columbia,32.3,High school graduate,"(38.89037138500049, -77.03196112699965)",High school graduate,EDU,EDUHSGRAD
+2012,2012,DC,District of Columbia,12,College graduate,"(38.89037138500049, -77.03196112699965)",College graduate,EDU,EDUCOGRAD
+2013,2013,DC,District of Columbia,27.7,Some college or technical school,"(38.89037138500049, -77.03196112699965)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,DC,District of Columbia,37.8,Less than high school,"(38.89037138500049, -77.03196112699965)",Less than high school,EDU,EDUHS
+2013,2013,DC,District of Columbia,31.3,High school graduate,"(38.89037138500049, -77.03196112699965)",High school graduate,EDU,EDUHSGRAD
+2013,2013,DC,District of Columbia,13.7,College graduate,"(38.89037138500049, -77.03196112699965)",College graduate,EDU,EDUCOGRAD
+2014,2014,DC,District of Columbia,27.3,Some college or technical school,"(38.89037138500049, -77.03196112699965)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,DC,District of Columbia,37.5,Less than high school,"(38.89037138500049, -77.03196112699965)",Less than high school,EDU,EDUHS
+2014,2014,DC,District of Columbia,30.1,High school graduate,"(38.89037138500049, -77.03196112699965)",High school graduate,EDU,EDUHSGRAD
+2014,2014,DC,District of Columbia,12.6,College graduate,"(38.89037138500049, -77.03196112699965)",College graduate,EDU,EDUCOGRAD
+2015,2015,DC,District of Columbia,28.8,Some college or technical school,"(38.89037138500049, -77.03196112699965)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,DC,District of Columbia,40.3,Less than high school,"(38.89037138500049, -77.03196112699965)",Less than high school,EDU,EDUHS
+2015,2015,DC,District of Columbia,30.2,High school graduate,"(38.89037138500049, -77.03196112699965)",High school graduate,EDU,EDUHSGRAD
+2015,2015,DC,District of Columbia,12.7,College graduate,"(38.89037138500049, -77.03196112699965)",College graduate,EDU,EDUCOGRAD
+2011,2011,FL,Florida,27.4,Some college or technical school,"(28.932040377000476, -81.92896053899966)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,FL,Florida,32.7,Less than high school,"(28.932040377000476, -81.92896053899966)",Less than high school,EDU,EDUHS
+2011,2011,FL,Florida,27.5,High school graduate,"(28.932040377000476, -81.92896053899966)",High school graduate,EDU,EDUHSGRAD
+2011,2011,FL,Florida,21.1,College graduate,"(28.932040377000476, -81.92896053899966)",College graduate,EDU,EDUCOGRAD
+2012,2012,FL,Florida,24.3,Some college or technical school,"(28.932040377000476, -81.92896053899966)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,FL,Florida,25.9,Less than high school,"(28.932040377000476, -81.92896053899966)",Less than high school,EDU,EDUHS
+2012,2012,FL,Florida,28.1,High school graduate,"(28.932040377000476, -81.92896053899966)",High school graduate,EDU,EDUHSGRAD
+2012,2012,FL,Florida,22.5,College graduate,"(28.932040377000476, -81.92896053899966)",College graduate,EDU,EDUCOGRAD
+2013,2013,FL,Florida,26.5,Some college or technical school,"(28.932040377000476, -81.92896053899966)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,FL,Florida,29.4,Less than high school,"(28.932040377000476, -81.92896053899966)",Less than high school,EDU,EDUHS
+2013,2013,FL,Florida,28.4,High school graduate,"(28.932040377000476, -81.92896053899966)",High school graduate,EDU,EDUHSGRAD
+2013,2013,FL,Florida,21.8,College graduate,"(28.932040377000476, -81.92896053899966)",College graduate,EDU,EDUCOGRAD
+2014,2014,FL,Florida,28.1,Some college or technical school,"(28.932040377000476, -81.92896053899966)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,FL,Florida,29.5,Less than high school,"(28.932040377000476, -81.92896053899966)",Less than high school,EDU,EDUHS
+2014,2014,FL,Florida,27.4,High school graduate,"(28.932040377000476, -81.92896053899966)",High school graduate,EDU,EDUHSGRAD
+2014,2014,FL,Florida,20.2,College graduate,"(28.932040377000476, -81.92896053899966)",College graduate,EDU,EDUCOGRAD
+2015,2015,FL,Florida,28.3,Some college or technical school,"(28.932040377000476, -81.92896053899966)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,FL,Florida,28.7,Less than high school,"(28.932040377000476, -81.92896053899966)",Less than high school,EDU,EDUHS
+2015,2015,FL,Florida,29,High school graduate,"(28.932040377000476, -81.92896053899966)",High school graduate,EDU,EDUHSGRAD
+2015,2015,FL,Florida,21.3,College graduate,"(28.932040377000476, -81.92896053899966)",College graduate,EDU,EDUCOGRAD
+2011,2011,GA,Georgia,28.6,Some college or technical school,"(32.83968109300048, -83.62758034599966)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,GA,Georgia,34.1,Less than high school,"(32.83968109300048, -83.62758034599966)",Less than high school,EDU,EDUHS
+2011,2011,GA,Georgia,29.5,High school graduate,"(32.83968109300048, -83.62758034599966)",High school graduate,EDU,EDUHSGRAD
+2011,2011,GA,Georgia,21.4,College graduate,"(32.83968109300048, -83.62758034599966)",College graduate,EDU,EDUCOGRAD
+2012,2012,GA,Georgia,31,Some college or technical school,"(32.83968109300048, -83.62758034599966)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,GA,Georgia,28.4,Less than high school,"(32.83968109300048, -83.62758034599966)",Less than high school,EDU,EDUHS
+2012,2012,GA,Georgia,32.6,High school graduate,"(32.83968109300048, -83.62758034599966)",High school graduate,EDU,EDUHSGRAD
+2012,2012,GA,Georgia,23.2,College graduate,"(32.83968109300048, -83.62758034599966)",College graduate,EDU,EDUCOGRAD
+2013,2013,GA,Georgia,30.8,Some college or technical school,"(32.83968109300048, -83.62758034599966)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,GA,Georgia,35.1,Less than high school,"(32.83968109300048, -83.62758034599966)",Less than high school,EDU,EDUHS
+2013,2013,GA,Georgia,32,High school graduate,"(32.83968109300048, -83.62758034599966)",High school graduate,EDU,EDUHSGRAD
+2013,2013,GA,Georgia,24.6,College graduate,"(32.83968109300048, -83.62758034599966)",College graduate,EDU,EDUCOGRAD
+2014,2014,GA,Georgia,30.6,Some college or technical school,"(32.83968109300048, -83.62758034599966)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,GA,Georgia,37.7,Less than high school,"(32.83968109300048, -83.62758034599966)",Less than high school,EDU,EDUHS
+2014,2014,GA,Georgia,30.8,High school graduate,"(32.83968109300048, -83.62758034599966)",High school graduate,EDU,EDUHSGRAD
+2014,2014,GA,Georgia,25.6,College graduate,"(32.83968109300048, -83.62758034599966)",College graduate,EDU,EDUCOGRAD
+2015,2015,GA,Georgia,33,Some college or technical school,"(32.83968109300048, -83.62758034599966)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,GA,Georgia,33.6,Less than high school,"(32.83968109300048, -83.62758034599966)",Less than high school,EDU,EDUHS
+2015,2015,GA,Georgia,32.4,High school graduate,"(32.83968109300048, -83.62758034599966)",High school graduate,EDU,EDUHSGRAD
+2015,2015,GA,Georgia,24.4,College graduate,"(32.83968109300048, -83.62758034599966)",College graduate,EDU,EDUCOGRAD
+2014,2014,GU,Guam,27.3,Some college or technical school,"(13.444304, 144.793731)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,GU,Guam,33.2,Less than high school,"(13.444304, 144.793731)",Less than high school,EDU,EDUHS
+2014,2014,GU,Guam,29.3,High school graduate,"(13.444304, 144.793731)",High school graduate,EDU,EDUHSGRAD
+2014,2014,GU,Guam,21.9,College graduate,"(13.444304, 144.793731)",College graduate,EDU,EDUCOGRAD
+2015,2015,GU,Guam,28.8,Some college or technical school,"(13.444304, 144.793731)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,GU,Guam,35,Less than high school,"(13.444304, 144.793731)",Less than high school,EDU,EDUHS
+2015,2015,GU,Guam,34.4,High school graduate,"(13.444304, 144.793731)",High school graduate,EDU,EDUHSGRAD
+2015,2015,GU,Guam,26.4,College graduate,"(13.444304, 144.793731)",College graduate,EDU,EDUCOGRAD
+2011,2011,HI,Hawaii,22.8,Some college or technical school,"(21.304850435000446, -157.85774940299973)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,HI,Hawaii,27.1,Less than high school,"(21.304850435000446, -157.85774940299973)",Less than high school,EDU,EDUHS
+2011,2011,HI,Hawaii,24.9,High school graduate,"(21.304850435000446, -157.85774940299973)",High school graduate,EDU,EDUHSGRAD
+2011,2011,HI,Hawaii,15.2,College graduate,"(21.304850435000446, -157.85774940299973)",College graduate,EDU,EDUCOGRAD
+2012,2012,HI,Hawaii,23.6,Some college or technical school,"(21.304850435000446, -157.85774940299973)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,HI,Hawaii,27.4,Less than high school,"(21.304850435000446, -157.85774940299973)",Less than high school,EDU,EDUHS
+2012,2012,HI,Hawaii,27.8,High school graduate,"(21.304850435000446, -157.85774940299973)",High school graduate,EDU,EDUHSGRAD
+2012,2012,HI,Hawaii,17.4,College graduate,"(21.304850435000446, -157.85774940299973)",College graduate,EDU,EDUCOGRAD
+2013,2013,HI,Hawaii,22.3,Some college or technical school,"(21.304850435000446, -157.85774940299973)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,HI,Hawaii,29.3,Less than high school,"(21.304850435000446, -157.85774940299973)",Less than high school,EDU,EDUHS
+2013,2013,HI,Hawaii,24.2,High school graduate,"(21.304850435000446, -157.85774940299973)",High school graduate,EDU,EDUHSGRAD
+2013,2013,HI,Hawaii,15.7,College graduate,"(21.304850435000446, -157.85774940299973)",College graduate,EDU,EDUCOGRAD
+2014,2014,HI,Hawaii,23.2,Some college or technical school,"(21.304850435000446, -157.85774940299973)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,HI,Hawaii,21.3,Less than high school,"(21.304850435000446, -157.85774940299973)",Less than high school,EDU,EDUHS
+2014,2014,HI,Hawaii,25.2,High school graduate,"(21.304850435000446, -157.85774940299973)",High school graduate,EDU,EDUHSGRAD
+2014,2014,HI,Hawaii,17.4,College graduate,"(21.304850435000446, -157.85774940299973)",College graduate,EDU,EDUCOGRAD
+2015,2015,HI,Hawaii,22.7,Some college or technical school,"(21.304850435000446, -157.85774940299973)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,HI,Hawaii,32,Less than high school,"(21.304850435000446, -157.85774940299973)",Less than high school,EDU,EDUHS
+2015,2015,HI,Hawaii,24.8,High school graduate,"(21.304850435000446, -157.85774940299973)",High school graduate,EDU,EDUHSGRAD
+2015,2015,HI,Hawaii,17.1,College graduate,"(21.304850435000446, -157.85774940299973)",College graduate,EDU,EDUCOGRAD
+2011,2011,ID,Idaho,27.6,Some college or technical school,"(43.682630005000476, -114.3637300419997)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,ID,Idaho,32.8,Less than high school,"(43.682630005000476, -114.3637300419997)",Less than high school,EDU,EDUHS
+2011,2011,ID,Idaho,28.2,High school graduate,"(43.682630005000476, -114.3637300419997)",High school graduate,EDU,EDUHSGRAD
+2011,2011,ID,Idaho,21.5,College graduate,"(43.682630005000476, -114.3637300419997)",College graduate,EDU,EDUCOGRAD
+2012,2012,ID,Idaho,29,Some college or technical school,"(43.682630005000476, -114.3637300419997)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,ID,Idaho,30.3,Less than high school,"(43.682630005000476, -114.3637300419997)",Less than high school,EDU,EDUHS
+2012,2012,ID,Idaho,24.5,High school graduate,"(43.682630005000476, -114.3637300419997)",High school graduate,EDU,EDUHSGRAD
+2012,2012,ID,Idaho,24.2,College graduate,"(43.682630005000476, -114.3637300419997)",College graduate,EDU,EDUCOGRAD
+2013,2013,ID,Idaho,30.9,Some college or technical school,"(43.682630005000476, -114.3637300419997)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,ID,Idaho,32.3,Less than high school,"(43.682630005000476, -114.3637300419997)",Less than high school,EDU,EDUHS
+2013,2013,ID,Idaho,31.1,High school graduate,"(43.682630005000476, -114.3637300419997)",High school graduate,EDU,EDUHSGRAD
+2013,2013,ID,Idaho,24.2,College graduate,"(43.682630005000476, -114.3637300419997)",College graduate,EDU,EDUCOGRAD
+2014,2014,ID,Idaho,30.3,Some college or technical school,"(43.682630005000476, -114.3637300419997)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,ID,Idaho,34.4,Less than high school,"(43.682630005000476, -114.3637300419997)",Less than high school,EDU,EDUHS
+2014,2014,ID,Idaho,28.7,High school graduate,"(43.682630005000476, -114.3637300419997)",High school graduate,EDU,EDUHSGRAD
+2014,2014,ID,Idaho,24.3,College graduate,"(43.682630005000476, -114.3637300419997)",College graduate,EDU,EDUCOGRAD
+2015,2015,ID,Idaho,30.1,Some college or technical school,"(43.682630005000476, -114.3637300419997)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,ID,Idaho,32.8,Less than high school,"(43.682630005000476, -114.3637300419997)",Less than high school,EDU,EDUHS
+2015,2015,ID,Idaho,29.6,High school graduate,"(43.682630005000476, -114.3637300419997)",High school graduate,EDU,EDUHSGRAD
+2015,2015,ID,Idaho,23,College graduate,"(43.682630005000476, -114.3637300419997)",College graduate,EDU,EDUCOGRAD
+2011,2011,IL,Illinois,28,Some college or technical school,"(40.48501028300046, -88.99771017799969)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,IL,Illinois,29,Less than high school,"(40.48501028300046, -88.99771017799969)",Less than high school,EDU,EDUHS
+2011,2011,IL,Illinois,29,High school graduate,"(40.48501028300046, -88.99771017799969)",High school graduate,EDU,EDUHSGRAD
+2011,2011,IL,Illinois,23.4,College graduate,"(40.48501028300046, -88.99771017799969)",College graduate,EDU,EDUCOGRAD
+2012,2012,IL,Illinois,28.4,Some college or technical school,"(40.48501028300046, -88.99771017799969)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,IL,Illinois,30,Less than high school,"(40.48501028300046, -88.99771017799969)",Less than high school,EDU,EDUHS
+2012,2012,IL,Illinois,30.7,High school graduate,"(40.48501028300046, -88.99771017799969)",High school graduate,EDU,EDUHSGRAD
+2012,2012,IL,Illinois,24.2,College graduate,"(40.48501028300046, -88.99771017799969)",College graduate,EDU,EDUCOGRAD
+2013,2013,IL,Illinois,30.9,Some college or technical school,"(40.48501028300046, -88.99771017799969)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,IL,Illinois,31.2,Less than high school,"(40.48501028300046, -88.99771017799969)",Less than high school,EDU,EDUHS
+2013,2013,IL,Illinois,33.5,High school graduate,"(40.48501028300046, -88.99771017799969)",High school graduate,EDU,EDUHSGRAD
+2013,2013,IL,Illinois,22.8,College graduate,"(40.48501028300046, -88.99771017799969)",College graduate,EDU,EDUCOGRAD
+2014,2014,IL,Illinois,31.5,Some college or technical school,"(40.48501028300046, -88.99771017799969)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,IL,Illinois,32.3,Less than high school,"(40.48501028300046, -88.99771017799969)",Less than high school,EDU,EDUHS
+2014,2014,IL,Illinois,33,High school graduate,"(40.48501028300046, -88.99771017799969)",High school graduate,EDU,EDUHSGRAD
+2014,2014,IL,Illinois,22,College graduate,"(40.48501028300046, -88.99771017799969)",College graduate,EDU,EDUCOGRAD
+2015,2015,IL,Illinois,33.4,Some college or technical school,"(40.48501028300046, -88.99771017799969)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,IL,Illinois,32.5,Less than high school,"(40.48501028300046, -88.99771017799969)",Less than high school,EDU,EDUHS
+2015,2015,IL,Illinois,34.9,High school graduate,"(40.48501028300046, -88.99771017799969)",High school graduate,EDU,EDUHSGRAD
+2015,2015,IL,Illinois,23.5,College graduate,"(40.48501028300046, -88.99771017799969)",College graduate,EDU,EDUCOGRAD
+2011,2011,IN,Indiana,31.8,Some college or technical school,"(39.766910452000445, -86.14996019399968)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,IN,Indiana,36.2,Less than high school,"(39.766910452000445, -86.14996019399968)",Less than high school,EDU,EDUHS
+2011,2011,IN,Indiana,32.3,High school graduate,"(39.766910452000445, -86.14996019399968)",High school graduate,EDU,EDUHSGRAD
+2011,2011,IN,Indiana,23.5,College graduate,"(39.766910452000445, -86.14996019399968)",College graduate,EDU,EDUCOGRAD
+2012,2012,IN,Indiana,32.6,Some college or technical school,"(39.766910452000445, -86.14996019399968)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,IN,Indiana,37.5,Less than high school,"(39.766910452000445, -86.14996019399968)",Less than high school,EDU,EDUHS
+2012,2012,IN,Indiana,32.1,High school graduate,"(39.766910452000445, -86.14996019399968)",High school graduate,EDU,EDUHSGRAD
+2012,2012,IN,Indiana,24.2,College graduate,"(39.766910452000445, -86.14996019399968)",College graduate,EDU,EDUCOGRAD
+2013,2013,IN,Indiana,33.6,Some college or technical school,"(39.766910452000445, -86.14996019399968)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,IN,Indiana,35.1,Less than high school,"(39.766910452000445, -86.14996019399968)",Less than high school,EDU,EDUHS
+2013,2013,IN,Indiana,33,High school graduate,"(39.766910452000445, -86.14996019399968)",High school graduate,EDU,EDUHSGRAD
+2013,2013,IN,Indiana,25.4,College graduate,"(39.766910452000445, -86.14996019399968)",College graduate,EDU,EDUCOGRAD
+2014,2014,IN,Indiana,33.8,Some college or technical school,"(39.766910452000445, -86.14996019399968)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,IN,Indiana,34.9,Less than high school,"(39.766910452000445, -86.14996019399968)",Less than high school,EDU,EDUHS
+2014,2014,IN,Indiana,34.1,High school graduate,"(39.766910452000445, -86.14996019399968)",High school graduate,EDU,EDUHSGRAD
+2014,2014,IN,Indiana,27.6,College graduate,"(39.766910452000445, -86.14996019399968)",College graduate,EDU,EDUCOGRAD
+2015,2015,IN,Indiana,32.3,Some college or technical school,"(39.766910452000445, -86.14996019399968)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,IN,Indiana,26.1,Less than high school,"(39.766910452000445, -86.14996019399968)",Less than high school,EDU,EDUHS
+2015,2015,IN,Indiana,35.3,High school graduate,"(39.766910452000445, -86.14996019399968)",High school graduate,EDU,EDUHSGRAD
+2015,2015,IN,Indiana,26.5,College graduate,"(39.766910452000445, -86.14996019399968)",College graduate,EDU,EDUCOGRAD
+2011,2011,IA,Iowa,29,Some college or technical school,"(42.46940091300047, -93.81649055599968)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,IA,Iowa,28.2,Less than high school,"(42.46940091300047, -93.81649055599968)",Less than high school,EDU,EDUHS
+2011,2011,IA,Iowa,33,High school graduate,"(42.46940091300047, -93.81649055599968)",High school graduate,EDU,EDUHSGRAD
+2011,2011,IA,Iowa,23.2,College graduate,"(42.46940091300047, -93.81649055599968)",College graduate,EDU,EDUCOGRAD
+2012,2012,IA,Iowa,32.3,Some college or technical school,"(42.46940091300047, -93.81649055599968)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,IA,Iowa,28.6,Less than high school,"(42.46940091300047, -93.81649055599968)",Less than high school,EDU,EDUHS
+2012,2012,IA,Iowa,33.5,High school graduate,"(42.46940091300047, -93.81649055599968)",High school graduate,EDU,EDUHSGRAD
+2012,2012,IA,Iowa,23.9,College graduate,"(42.46940091300047, -93.81649055599968)",College graduate,EDU,EDUCOGRAD
+2013,2013,IA,Iowa,32.5,Some college or technical school,"(42.46940091300047, -93.81649055599968)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,IA,Iowa,32.2,Less than high school,"(42.46940091300047, -93.81649055599968)",Less than high school,EDU,EDUHS
+2013,2013,IA,Iowa,33,High school graduate,"(42.46940091300047, -93.81649055599968)",High school graduate,EDU,EDUHSGRAD
+2013,2013,IA,Iowa,26.7,College graduate,"(42.46940091300047, -93.81649055599968)",College graduate,EDU,EDUCOGRAD
+2014,2014,IA,Iowa,31.9,Some college or technical school,"(42.46940091300047, -93.81649055599968)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,IA,Iowa,37.4,Less than high school,"(42.46940091300047, -93.81649055599968)",Less than high school,EDU,EDUHS
+2014,2014,IA,Iowa,32.5,High school graduate,"(42.46940091300047, -93.81649055599968)",High school graduate,EDU,EDUHSGRAD
+2014,2014,IA,Iowa,25,College graduate,"(42.46940091300047, -93.81649055599968)",College graduate,EDU,EDUCOGRAD
+2015,2015,IA,Iowa,33.5,Some college or technical school,"(42.46940091300047, -93.81649055599968)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,IA,Iowa,33.4,Less than high school,"(42.46940091300047, -93.81649055599968)",Less than high school,EDU,EDUHS
+2015,2015,IA,Iowa,34.5,High school graduate,"(42.46940091300047, -93.81649055599968)",High school graduate,EDU,EDUHSGRAD
+2015,2015,IA,Iowa,26.6,College graduate,"(42.46940091300047, -93.81649055599968)",College graduate,EDU,EDUCOGRAD
+2011,2011,KS,Kansas,31.3,Some college or technical school,"(38.34774030000045, -98.20078122699965)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,KS,Kansas,30.6,Less than high school,"(38.34774030000045, -98.20078122699965)",Less than high school,EDU,EDUHS
+2011,2011,KS,Kansas,31.5,High school graduate,"(38.34774030000045, -98.20078122699965)",High school graduate,EDU,EDUHSGRAD
+2011,2011,KS,Kansas,24.9,College graduate,"(38.34774030000045, -98.20078122699965)",College graduate,EDU,EDUCOGRAD
+2012,2012,KS,Kansas,31.6,Some college or technical school,"(38.34774030000045, -98.20078122699965)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,KS,Kansas,36,Less than high school,"(38.34774030000045, -98.20078122699965)",Less than high school,EDU,EDUHS
+2012,2012,KS,Kansas,31.4,High school graduate,"(38.34774030000045, -98.20078122699965)",High school graduate,EDU,EDUHSGRAD
+2012,2012,KS,Kansas,23.6,College graduate,"(38.34774030000045, -98.20078122699965)",College graduate,EDU,EDUCOGRAD
+2013,2013,KS,Kansas,31.4,Some college or technical school,"(38.34774030000045, -98.20078122699965)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,KS,Kansas,35.1,Less than high school,"(38.34774030000045, -98.20078122699965)",Less than high school,EDU,EDUHS
+2013,2013,KS,Kansas,31,High school graduate,"(38.34774030000045, -98.20078122699965)",High school graduate,EDU,EDUHSGRAD
+2013,2013,KS,Kansas,25.1,College graduate,"(38.34774030000045, -98.20078122699965)",College graduate,EDU,EDUCOGRAD
+2014,2014,KS,Kansas,32.7,Some college or technical school,"(38.34774030000045, -98.20078122699965)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,KS,Kansas,31.2,Less than high school,"(38.34774030000045, -98.20078122699965)",Less than high school,EDU,EDUHS
+2014,2014,KS,Kansas,33.4,High school graduate,"(38.34774030000045, -98.20078122699965)",High school graduate,EDU,EDUHSGRAD
+2014,2014,KS,Kansas,27.4,College graduate,"(38.34774030000045, -98.20078122699965)",College graduate,EDU,EDUCOGRAD
+2015,2015,KS,Kansas,34.5,Some college or technical school,"(38.34774030000045, -98.20078122699965)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,KS,Kansas,39.3,Less than high school,"(38.34774030000045, -98.20078122699965)",Less than high school,EDU,EDUHS
+2015,2015,KS,Kansas,36.4,High school graduate,"(38.34774030000045, -98.20078122699965)",High school graduate,EDU,EDUHSGRAD
+2015,2015,KS,Kansas,30,College graduate,"(38.34774030000045, -98.20078122699965)",College graduate,EDU,EDUCOGRAD
+2011,2011,KY,Kentucky,30.6,Some college or technical school,"(37.645970271000465, -84.77497104799966)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,KY,Kentucky,34,Less than high school,"(37.645970271000465, -84.77497104799966)",Less than high school,EDU,EDUHS
+2011,2011,KY,Kentucky,31.4,High school graduate,"(37.645970271000465, -84.77497104799966)",High school graduate,EDU,EDUHSGRAD
+2011,2011,KY,Kentucky,24.4,College graduate,"(37.645970271000465, -84.77497104799966)",College graduate,EDU,EDUCOGRAD
+2012,2012,KY,Kentucky,32.6,Some college or technical school,"(37.645970271000465, -84.77497104799966)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,KY,Kentucky,33.2,Less than high school,"(37.645970271000465, -84.77497104799966)",Less than high school,EDU,EDUHS
+2012,2012,KY,Kentucky,31.8,High school graduate,"(37.645970271000465, -84.77497104799966)",High school graduate,EDU,EDUHSGRAD
+2012,2012,KY,Kentucky,26.5,College graduate,"(37.645970271000465, -84.77497104799966)",College graduate,EDU,EDUCOGRAD
+2013,2013,KY,Kentucky,34.3,Some college or technical school,"(37.645970271000465, -84.77497104799966)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,KY,Kentucky,34.2,Less than high school,"(37.645970271000465, -84.77497104799966)",Less than high school,EDU,EDUHS
+2013,2013,KY,Kentucky,35.7,High school graduate,"(37.645970271000465, -84.77497104799966)",High school graduate,EDU,EDUHSGRAD
+2013,2013,KY,Kentucky,25.7,College graduate,"(37.645970271000465, -84.77497104799966)",College graduate,EDU,EDUCOGRAD
+2014,2014,KY,Kentucky,31.1,Some college or technical school,"(37.645970271000465, -84.77497104799966)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,KY,Kentucky,33.2,Less than high school,"(37.645970271000465, -84.77497104799966)",Less than high school,EDU,EDUHS
+2014,2014,KY,Kentucky,33.3,High school graduate,"(37.645970271000465, -84.77497104799966)",High school graduate,EDU,EDUHSGRAD
+2014,2014,KY,Kentucky,28.1,College graduate,"(37.645970271000465, -84.77497104799966)",College graduate,EDU,EDUCOGRAD
+2015,2015,KY,Kentucky,35,Some college or technical school,"(37.645970271000465, -84.77497104799966)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,KY,Kentucky,36.4,Less than high school,"(37.645970271000465, -84.77497104799966)",Less than high school,EDU,EDUHS
+2015,2015,KY,Kentucky,35.9,High school graduate,"(37.645970271000465, -84.77497104799966)",High school graduate,EDU,EDUHSGRAD
+2015,2015,KY,Kentucky,30.6,College graduate,"(37.645970271000465, -84.77497104799966)",College graduate,EDU,EDUCOGRAD
+2011,2011,LA,Louisiana,35.8,Some college or technical school,"(31.31266064400046, -92.44568007099969)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,LA,Louisiana,36.3,Less than high school,"(31.31266064400046, -92.44568007099969)",Less than high school,EDU,EDUHS
+2011,2011,LA,Louisiana,33.6,High school graduate,"(31.31266064400046, -92.44568007099969)",High school graduate,EDU,EDUHSGRAD
+2011,2011,LA,Louisiana,26.6,College graduate,"(31.31266064400046, -92.44568007099969)",College graduate,EDU,EDUCOGRAD
+2012,2012,LA,Louisiana,37.5,Some college or technical school,"(31.31266064400046, -92.44568007099969)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,LA,Louisiana,38.6,Less than high school,"(31.31266064400046, -92.44568007099969)",Less than high school,EDU,EDUHS
+2012,2012,LA,Louisiana,34,High school graduate,"(31.31266064400046, -92.44568007099969)",High school graduate,EDU,EDUHSGRAD
+2012,2012,LA,Louisiana,28.3,College graduate,"(31.31266064400046, -92.44568007099969)",College graduate,EDU,EDUCOGRAD
+2013,2013,LA,Louisiana,32.5,Some college or technical school,"(31.31266064400046, -92.44568007099969)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,LA,Louisiana,38.8,Less than high school,"(31.31266064400046, -92.44568007099969)",Less than high school,EDU,EDUHS
+2013,2013,LA,Louisiana,34.7,High school graduate,"(31.31266064400046, -92.44568007099969)",High school graduate,EDU,EDUHSGRAD
+2013,2013,LA,Louisiana,25.8,College graduate,"(31.31266064400046, -92.44568007099969)",College graduate,EDU,EDUCOGRAD
+2014,2014,LA,Louisiana,34.4,Some college or technical school,"(31.31266064400046, -92.44568007099969)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,LA,Louisiana,36.1,Less than high school,"(31.31266064400046, -92.44568007099969)",Less than high school,EDU,EDUHS
+2014,2014,LA,Louisiana,37.1,High school graduate,"(31.31266064400046, -92.44568007099969)",High school graduate,EDU,EDUHSGRAD
+2014,2014,LA,Louisiana,30.7,College graduate,"(31.31266064400046, -92.44568007099969)",College graduate,EDU,EDUCOGRAD
+2015,2015,LA,Louisiana,35.2,Some college or technical school,"(31.31266064400046, -92.44568007099969)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,LA,Louisiana,40.2,Less than high school,"(31.31266064400046, -92.44568007099969)",Less than high school,EDU,EDUHS
+2015,2015,LA,Louisiana,39.2,High school graduate,"(31.31266064400046, -92.44568007099969)",High school graduate,EDU,EDUHSGRAD
+2015,2015,LA,Louisiana,29.1,College graduate,"(31.31266064400046, -92.44568007099969)",College graduate,EDU,EDUCOGRAD
+2011,2011,ME,Maine,28.4,Some college or technical school,"(45.254228894000505, -68.98503133599962)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,ME,Maine,32.2,Less than high school,"(45.254228894000505, -68.98503133599962)",Less than high school,EDU,EDUHS
+2011,2011,ME,Maine,31.4,High school graduate,"(45.254228894000505, -68.98503133599962)",High school graduate,EDU,EDUHSGRAD
+2011,2011,ME,Maine,20.2,College graduate,"(45.254228894000505, -68.98503133599962)",College graduate,EDU,EDUCOGRAD
+2012,2012,ME,Maine,29.6,Some college or technical school,"(45.254228894000505, -68.98503133599962)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,ME,Maine,34.8,Less than high school,"(45.254228894000505, -68.98503133599962)",Less than high school,EDU,EDUHS
+2012,2012,ME,Maine,31.6,High school graduate,"(45.254228894000505, -68.98503133599962)",High school graduate,EDU,EDUHSGRAD
+2012,2012,ME,Maine,19.7,College graduate,"(45.254228894000505, -68.98503133599962)",College graduate,EDU,EDUCOGRAD
+2013,2013,ME,Maine,29.8,Some college or technical school,"(45.254228894000505, -68.98503133599962)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,ME,Maine,34.2,Less than high school,"(45.254228894000505, -68.98503133599962)",Less than high school,EDU,EDUHS
+2013,2013,ME,Maine,31.5,High school graduate,"(45.254228894000505, -68.98503133599962)",High school graduate,EDU,EDUHSGRAD
+2013,2013,ME,Maine,22.2,College graduate,"(45.254228894000505, -68.98503133599962)",College graduate,EDU,EDUCOGRAD
+2014,2014,ME,Maine,28.8,Some college or technical school,"(45.254228894000505, -68.98503133599962)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,ME,Maine,30.9,Less than high school,"(45.254228894000505, -68.98503133599962)",Less than high school,EDU,EDUHS
+2014,2014,ME,Maine,31.1,High school graduate,"(45.254228894000505, -68.98503133599962)",High school graduate,EDU,EDUHSGRAD
+2014,2014,ME,Maine,22.5,College graduate,"(45.254228894000505, -68.98503133599962)",College graduate,EDU,EDUCOGRAD
+2015,2015,ME,Maine,31.7,Some college or technical school,"(45.254228894000505, -68.98503133599962)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,ME,Maine,32.4,Less than high school,"(45.254228894000505, -68.98503133599962)",Less than high school,EDU,EDUHS
+2015,2015,ME,Maine,34.1,High school graduate,"(45.254228894000505, -68.98503133599962)",High school graduate,EDU,EDUHSGRAD
+2015,2015,ME,Maine,21.8,College graduate,"(45.254228894000505, -68.98503133599962)",College graduate,EDU,EDUCOGRAD
+2011,2011,MD,Maryland,29.3,Some college or technical school,"(39.29058096400047, -76.60926011099963)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,MD,Maryland,35.2,Less than high school,"(39.29058096400047, -76.60926011099963)",Less than high school,EDU,EDUHS
+2011,2011,MD,Maryland,32.6,High school graduate,"(39.29058096400047, -76.60926011099963)",High school graduate,EDU,EDUHSGRAD
+2011,2011,MD,Maryland,21.3,College graduate,"(39.29058096400047, -76.60926011099963)",College graduate,EDU,EDUCOGRAD
+2012,2012,MD,Maryland,29.1,Some college or technical school,"(39.29058096400047, -76.60926011099963)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,MD,Maryland,33.7,Less than high school,"(39.29058096400047, -76.60926011099963)",Less than high school,EDU,EDUHS
+2012,2012,MD,Maryland,31.6,High school graduate,"(39.29058096400047, -76.60926011099963)",High school graduate,EDU,EDUHSGRAD
+2012,2012,MD,Maryland,21.1,College graduate,"(39.29058096400047, -76.60926011099963)",College graduate,EDU,EDUCOGRAD
+2013,2013,MD,Maryland,29.8,Some college or technical school,"(39.29058096400047, -76.60926011099963)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,MD,Maryland,30.9,Less than high school,"(39.29058096400047, -76.60926011099963)",Less than high school,EDU,EDUHS
+2013,2013,MD,Maryland,33.8,High school graduate,"(39.29058096400047, -76.60926011099963)",High school graduate,EDU,EDUHSGRAD
+2013,2013,MD,Maryland,21.7,College graduate,"(39.29058096400047, -76.60926011099963)",College graduate,EDU,EDUCOGRAD
+2014,2014,MD,Maryland,30.2,Some college or technical school,"(39.29058096400047, -76.60926011099963)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,MD,Maryland,36.6,Less than high school,"(39.29058096400047, -76.60926011099963)",Less than high school,EDU,EDUHS
+2014,2014,MD,Maryland,34.3,High school graduate,"(39.29058096400047, -76.60926011099963)",High school graduate,EDU,EDUHSGRAD
+2014,2014,MD,Maryland,22.9,College graduate,"(39.29058096400047, -76.60926011099963)",College graduate,EDU,EDUCOGRAD
+2015,2015,MD,Maryland,29.9,Some college or technical school,"(39.29058096400047, -76.60926011099963)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,MD,Maryland,35.9,Less than high school,"(39.29058096400047, -76.60926011099963)",Less than high school,EDU,EDUHS
+2015,2015,MD,Maryland,34.2,High school graduate,"(39.29058096400047, -76.60926011099963)",High school graduate,EDU,EDUHSGRAD
+2015,2015,MD,Maryland,21.4,College graduate,"(39.29058096400047, -76.60926011099963)",College graduate,EDU,EDUCOGRAD
+2011,2011,MA,Massachusetts,24.1,Some college or technical school,"(42.27687047000046, -72.08269067499964)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,MA,Massachusetts,31.1,Less than high school,"(42.27687047000046, -72.08269067499964)",Less than high school,EDU,EDUHS
+2011,2011,MA,Massachusetts,25.2,High school graduate,"(42.27687047000046, -72.08269067499964)",High school graduate,EDU,EDUHSGRAD
+2011,2011,MA,Massachusetts,17.3,College graduate,"(42.27687047000046, -72.08269067499964)",College graduate,EDU,EDUCOGRAD
+2012,2012,MA,Massachusetts,25.2,Some college or technical school,"(42.27687047000046, -72.08269067499964)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,MA,Massachusetts,30.7,Less than high school,"(42.27687047000046, -72.08269067499964)",Less than high school,EDU,EDUHS
+2012,2012,MA,Massachusetts,26.5,High school graduate,"(42.27687047000046, -72.08269067499964)",High school graduate,EDU,EDUHSGRAD
+2012,2012,MA,Massachusetts,16.2,College graduate,"(42.27687047000046, -72.08269067499964)",College graduate,EDU,EDUCOGRAD
+2013,2013,MA,Massachusetts,25.3,Some college or technical school,"(42.27687047000046, -72.08269067499964)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,MA,Massachusetts,30.2,Less than high school,"(42.27687047000046, -72.08269067499964)",Less than high school,EDU,EDUHS
+2013,2013,MA,Massachusetts,28.4,High school graduate,"(42.27687047000046, -72.08269067499964)",High school graduate,EDU,EDUHSGRAD
+2013,2013,MA,Massachusetts,16.8,College graduate,"(42.27687047000046, -72.08269067499964)",College graduate,EDU,EDUCOGRAD
+2014,2014,MA,Massachusetts,26.1,Some college or technical school,"(42.27687047000046, -72.08269067499964)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,MA,Massachusetts,30.2,Less than high school,"(42.27687047000046, -72.08269067499964)",Less than high school,EDU,EDUHS
+2014,2014,MA,Massachusetts,26.4,High school graduate,"(42.27687047000046, -72.08269067499964)",High school graduate,EDU,EDUHSGRAD
+2014,2014,MA,Massachusetts,17,College graduate,"(42.27687047000046, -72.08269067499964)",College graduate,EDU,EDUCOGRAD
+2015,2015,MA,Massachusetts,26.5,Some college or technical school,"(42.27687047000046, -72.08269067499964)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,MA,Massachusetts,34.8,Less than high school,"(42.27687047000046, -72.08269067499964)",Less than high school,EDU,EDUHS
+2015,2015,MA,Massachusetts,27.5,High school graduate,"(42.27687047000046, -72.08269067499964)",High school graduate,EDU,EDUHSGRAD
+2015,2015,MA,Massachusetts,17.3,College graduate,"(42.27687047000046, -72.08269067499964)",College graduate,EDU,EDUCOGRAD
+2011,2011,MI,Michigan,32.8,Some college or technical school,"(44.6613195430005, -84.71439026999968)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,MI,Michigan,33.8,Less than high school,"(44.6613195430005, -84.71439026999968)",Less than high school,EDU,EDUHS
+2011,2011,MI,Michigan,32.1,High school graduate,"(44.6613195430005, -84.71439026999968)",High school graduate,EDU,EDUHSGRAD
+2011,2011,MI,Michigan,26.6,College graduate,"(44.6613195430005, -84.71439026999968)",College graduate,EDU,EDUCOGRAD
+2012,2012,MI,Michigan,32.4,Some college or technical school,"(44.6613195430005, -84.71439026999968)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,MI,Michigan,30.6,Less than high school,"(44.6613195430005, -84.71439026999968)",Less than high school,EDU,EDUHS
+2012,2012,MI,Michigan,33.9,High school graduate,"(44.6613195430005, -84.71439026999968)",High school graduate,EDU,EDUHSGRAD
+2012,2012,MI,Michigan,25.5,College graduate,"(44.6613195430005, -84.71439026999968)",College graduate,EDU,EDUCOGRAD
+2013,2013,MI,Michigan,34.5,Some college or technical school,"(44.6613195430005, -84.71439026999968)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,MI,Michigan,31.5,Less than high school,"(44.6613195430005, -84.71439026999968)",Less than high school,EDU,EDUHS
+2013,2013,MI,Michigan,32.7,High school graduate,"(44.6613195430005, -84.71439026999968)",High school graduate,EDU,EDUHSGRAD
+2013,2013,MI,Michigan,25.5,College graduate,"(44.6613195430005, -84.71439026999968)",College graduate,EDU,EDUCOGRAD
+2014,2014,MI,Michigan,32.4,Some college or technical school,"(44.6613195430005, -84.71439026999968)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,MI,Michigan,29.4,Less than high school,"(44.6613195430005, -84.71439026999968)",Less than high school,EDU,EDUHS
+2014,2014,MI,Michigan,33.6,High school graduate,"(44.6613195430005, -84.71439026999968)",High school graduate,EDU,EDUHSGRAD
+2014,2014,MI,Michigan,25.2,College graduate,"(44.6613195430005, -84.71439026999968)",College graduate,EDU,EDUCOGRAD
+2015,2015,MI,Michigan,32.1,Some college or technical school,"(44.6613195430005, -84.71439026999968)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,MI,Michigan,31.8,Less than high school,"(44.6613195430005, -84.71439026999968)",Less than high school,EDU,EDUHS
+2015,2015,MI,Michigan,34.2,High school graduate,"(44.6613195430005, -84.71439026999968)",High school graduate,EDU,EDUHSGRAD
+2015,2015,MI,Michigan,25.9,College graduate,"(44.6613195430005, -84.71439026999968)",College graduate,EDU,EDUCOGRAD
+2011,2011,MN,Minnesota,27.2,Some college or technical school,"(46.35564873600049, -94.79420050299967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,MN,Minnesota,28.2,Less than high school,"(46.35564873600049, -94.79420050299967)",Less than high school,EDU,EDUHS
+2011,2011,MN,Minnesota,28.9,High school graduate,"(46.35564873600049, -94.79420050299967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,MN,Minnesota,20.1,College graduate,"(46.35564873600049, -94.79420050299967)",College graduate,EDU,EDUCOGRAD
+2012,2012,MN,Minnesota,27.4,Some college or technical school,"(46.35564873600049, -94.79420050299967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,MN,Minnesota,31.6,Less than high school,"(46.35564873600049, -94.79420050299967)",Less than high school,EDU,EDUHS
+2012,2012,MN,Minnesota,28.2,High school graduate,"(46.35564873600049, -94.79420050299967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,MN,Minnesota,19.6,College graduate,"(46.35564873600049, -94.79420050299967)",College graduate,EDU,EDUCOGRAD
+2013,2013,MN,Minnesota,27.9,Some college or technical school,"(46.35564873600049, -94.79420050299967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,MN,Minnesota,27.1,Less than high school,"(46.35564873600049, -94.79420050299967)",Less than high school,EDU,EDUHS
+2013,2013,MN,Minnesota,28.7,High school graduate,"(46.35564873600049, -94.79420050299967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,MN,Minnesota,19.1,College graduate,"(46.35564873600049, -94.79420050299967)",College graduate,EDU,EDUCOGRAD
+2014,2014,MN,Minnesota,30.3,Some college or technical school,"(46.35564873600049, -94.79420050299967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,MN,Minnesota,31.6,Less than high school,"(46.35564873600049, -94.79420050299967)",Less than high school,EDU,EDUHS
+2014,2014,MN,Minnesota,29.3,High school graduate,"(46.35564873600049, -94.79420050299967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,MN,Minnesota,21.9,College graduate,"(46.35564873600049, -94.79420050299967)",College graduate,EDU,EDUCOGRAD
+2015,2015,MN,Minnesota,27,Some college or technical school,"(46.35564873600049, -94.79420050299967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,MN,Minnesota,30.3,Less than high school,"(46.35564873600049, -94.79420050299967)",Less than high school,EDU,EDUHS
+2015,2015,MN,Minnesota,28.8,High school graduate,"(46.35564873600049, -94.79420050299967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,MN,Minnesota,21.8,College graduate,"(46.35564873600049, -94.79420050299967)",College graduate,EDU,EDUCOGRAD
+2011,2011,MS,Mississippi,36.9,Some college or technical school,"(32.745510099000455, -89.53803082499968)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,MS,Mississippi,35.4,Less than high school,"(32.745510099000455, -89.53803082499968)",Less than high school,EDU,EDUHS
+2011,2011,MS,Mississippi,34.7,High school graduate,"(32.745510099000455, -89.53803082499968)",High school graduate,EDU,EDUHSGRAD
+2011,2011,MS,Mississippi,31.2,College graduate,"(32.745510099000455, -89.53803082499968)",College graduate,EDU,EDUCOGRAD
+2012,2012,MS,Mississippi,35.6,Some college or technical school,"(32.745510099000455, -89.53803082499968)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,MS,Mississippi,37.4,Less than high school,"(32.745510099000455, -89.53803082499968)",Less than high school,EDU,EDUHS
+2012,2012,MS,Mississippi,34.1,High school graduate,"(32.745510099000455, -89.53803082499968)",High school graduate,EDU,EDUHSGRAD
+2012,2012,MS,Mississippi,30.6,College graduate,"(32.745510099000455, -89.53803082499968)",College graduate,EDU,EDUCOGRAD
+2013,2013,MS,Mississippi,32.7,Some college or technical school,"(32.745510099000455, -89.53803082499968)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,MS,Mississippi,38.7,Less than high school,"(32.745510099000455, -89.53803082499968)",Less than high school,EDU,EDUHS
+2013,2013,MS,Mississippi,38.2,High school graduate,"(32.745510099000455, -89.53803082499968)",High school graduate,EDU,EDUHSGRAD
+2013,2013,MS,Mississippi,30.6,College graduate,"(32.745510099000455, -89.53803082499968)",College graduate,EDU,EDUCOGRAD
+2014,2014,MS,Mississippi,36.2,Some college or technical school,"(32.745510099000455, -89.53803082499968)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,MS,Mississippi,36.9,Less than high school,"(32.745510099000455, -89.53803082499968)",Less than high school,EDU,EDUHS
+2014,2014,MS,Mississippi,37.7,High school graduate,"(32.745510099000455, -89.53803082499968)",High school graduate,EDU,EDUHSGRAD
+2014,2014,MS,Mississippi,29.4,College graduate,"(32.745510099000455, -89.53803082499968)",College graduate,EDU,EDUCOGRAD
+2015,2015,MS,Mississippi,37.2,Some college or technical school,"(32.745510099000455, -89.53803082499968)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,MS,Mississippi,38.2,Less than high school,"(32.745510099000455, -89.53803082499968)",Less than high school,EDU,EDUHS
+2015,2015,MS,Mississippi,35,High school graduate,"(32.745510099000455, -89.53803082499968)",High school graduate,EDU,EDUHSGRAD
+2015,2015,MS,Mississippi,30.9,College graduate,"(32.745510099000455, -89.53803082499968)",College graduate,EDU,EDUCOGRAD
+2011,2011,MO,Missouri,31.5,Some college or technical school,"(38.635790776000476, -92.56630005299968)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,MO,Missouri,33.8,Less than high school,"(38.635790776000476, -92.56630005299968)",Less than high school,EDU,EDUHS
+2011,2011,MO,Missouri,30.3,High school graduate,"(38.635790776000476, -92.56630005299968)",High school graduate,EDU,EDUHSGRAD
+2011,2011,MO,Missouri,26.4,College graduate,"(38.635790776000476, -92.56630005299968)",College graduate,EDU,EDUCOGRAD
+2012,2012,MO,Missouri,29.9,Some college or technical school,"(38.635790776000476, -92.56630005299968)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,MO,Missouri,33.9,Less than high school,"(38.635790776000476, -92.56630005299968)",Less than high school,EDU,EDUHS
+2012,2012,MO,Missouri,29.1,High school graduate,"(38.635790776000476, -92.56630005299968)",High school graduate,EDU,EDUHSGRAD
+2012,2012,MO,Missouri,27.3,College graduate,"(38.635790776000476, -92.56630005299968)",College graduate,EDU,EDUCOGRAD
+2013,2013,MO,Missouri,34,Some college or technical school,"(38.635790776000476, -92.56630005299968)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,MO,Missouri,31.3,Less than high school,"(38.635790776000476, -92.56630005299968)",Less than high school,EDU,EDUHS
+2013,2013,MO,Missouri,32,High school graduate,"(38.635790776000476, -92.56630005299968)",High school graduate,EDU,EDUHSGRAD
+2013,2013,MO,Missouri,23.1,College graduate,"(38.635790776000476, -92.56630005299968)",College graduate,EDU,EDUCOGRAD
+2014,2014,MO,Missouri,30.3,Some college or technical school,"(38.635790776000476, -92.56630005299968)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,MO,Missouri,33.7,Less than high school,"(38.635790776000476, -92.56630005299968)",Less than high school,EDU,EDUHS
+2014,2014,MO,Missouri,32.7,High school graduate,"(38.635790776000476, -92.56630005299968)",High school graduate,EDU,EDUHSGRAD
+2014,2014,MO,Missouri,25.2,College graduate,"(38.635790776000476, -92.56630005299968)",College graduate,EDU,EDUCOGRAD
+2015,2015,MO,Missouri,32.6,Some college or technical school,"(38.635790776000476, -92.56630005299968)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,MO,Missouri,38.5,Less than high school,"(38.635790776000476, -92.56630005299968)",Less than high school,EDU,EDUHS
+2015,2015,MO,Missouri,32.7,High school graduate,"(38.635790776000476, -92.56630005299968)",High school graduate,EDU,EDUHSGRAD
+2015,2015,MO,Missouri,28.7,College graduate,"(38.635790776000476, -92.56630005299968)",College graduate,EDU,EDUCOGRAD
+2011,2011,MT,Montana,25.3,Some college or technical school,"(47.06652897200047, -109.42442064499971)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,MT,Montana,23.5,Less than high school,"(47.06652897200047, -109.42442064499971)",Less than high school,EDU,EDUHS
+2011,2011,MT,Montana,27.8,High school graduate,"(47.06652897200047, -109.42442064499971)",High school graduate,EDU,EDUHSGRAD
+2011,2011,MT,Montana,20.2,College graduate,"(47.06652897200047, -109.42442064499971)",College graduate,EDU,EDUCOGRAD
+2012,2012,MT,Montana,26.3,Some college or technical school,"(47.06652897200047, -109.42442064499971)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,MT,Montana,30.3,Less than high school,"(47.06652897200047, -109.42442064499971)",Less than high school,EDU,EDUHS
+2012,2012,MT,Montana,25.6,High school graduate,"(47.06652897200047, -109.42442064499971)",High school graduate,EDU,EDUHSGRAD
+2012,2012,MT,Montana,17.7,College graduate,"(47.06652897200047, -109.42442064499971)",College graduate,EDU,EDUCOGRAD
+2013,2013,MT,Montana,25.4,Some college or technical school,"(47.06652897200047, -109.42442064499971)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,MT,Montana,24.2,Less than high school,"(47.06652897200047, -109.42442064499971)",Less than high school,EDU,EDUHS
+2013,2013,MT,Montana,27.3,High school graduate,"(47.06652897200047, -109.42442064499971)",High school graduate,EDU,EDUHSGRAD
+2013,2013,MT,Montana,20.5,College graduate,"(47.06652897200047, -109.42442064499971)",College graduate,EDU,EDUCOGRAD
+2014,2014,MT,Montana,26.1,Some college or technical school,"(47.06652897200047, -109.42442064499971)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,MT,Montana,34.4,Less than high school,"(47.06652897200047, -109.42442064499971)",Less than high school,EDU,EDUHS
+2014,2014,MT,Montana,29.5,High school graduate,"(47.06652897200047, -109.42442064499971)",High school graduate,EDU,EDUHSGRAD
+2014,2014,MT,Montana,20.5,College graduate,"(47.06652897200047, -109.42442064499971)",College graduate,EDU,EDUCOGRAD
+2015,2015,MT,Montana,25.8,Some college or technical school,"(47.06652897200047, -109.42442064499971)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,MT,Montana,27.5,Less than high school,"(47.06652897200047, -109.42442064499971)",Less than high school,EDU,EDUHS
+2015,2015,MT,Montana,24.6,High school graduate,"(47.06652897200047, -109.42442064499971)",High school graduate,EDU,EDUHSGRAD
+2015,2015,MT,Montana,18.5,College graduate,"(47.06652897200047, -109.42442064499971)",College graduate,EDU,EDUCOGRAD
+2011,2011,NE,Nebraska,30,Some college or technical school,"(41.6410409880005, -99.36572062299967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,NE,Nebraska,28.1,Less than high school,"(41.6410409880005, -99.36572062299967)",Less than high school,EDU,EDUHS
+2011,2011,NE,Nebraska,30.3,High school graduate,"(41.6410409880005, -99.36572062299967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,NE,Nebraska,24.1,College graduate,"(41.6410409880005, -99.36572062299967)",College graduate,EDU,EDUCOGRAD
+2012,2012,NE,Nebraska,28.7,Some college or technical school,"(41.6410409880005, -99.36572062299967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,NE,Nebraska,29.5,Less than high school,"(41.6410409880005, -99.36572062299967)",Less than high school,EDU,EDUHS
+2012,2012,NE,Nebraska,32,High school graduate,"(41.6410409880005, -99.36572062299967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,NE,Nebraska,24.5,College graduate,"(41.6410409880005, -99.36572062299967)",College graduate,EDU,EDUCOGRAD
+2013,2013,NE,Nebraska,32.1,Some college or technical school,"(41.6410409880005, -99.36572062299967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,NE,Nebraska,30.1,Less than high school,"(41.6410409880005, -99.36572062299967)",Less than high school,EDU,EDUHS
+2013,2013,NE,Nebraska,30.9,High school graduate,"(41.6410409880005, -99.36572062299967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,NE,Nebraska,24.3,College graduate,"(41.6410409880005, -99.36572062299967)",College graduate,EDU,EDUCOGRAD
+2014,2014,NE,Nebraska,32.5,Some college or technical school,"(41.6410409880005, -99.36572062299967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,NE,Nebraska,34.9,Less than high school,"(41.6410409880005, -99.36572062299967)",Less than high school,EDU,EDUHS
+2014,2014,NE,Nebraska,31.1,High school graduate,"(41.6410409880005, -99.36572062299967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,NE,Nebraska,24.4,College graduate,"(41.6410409880005, -99.36572062299967)",College graduate,EDU,EDUCOGRAD
+2015,2015,NE,Nebraska,34.3,Some college or technical school,"(41.6410409880005, -99.36572062299967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,NE,Nebraska,29.6,Less than high school,"(41.6410409880005, -99.36572062299967)",Less than high school,EDU,EDUHS
+2015,2015,NE,Nebraska,34.1,High school graduate,"(41.6410409880005, -99.36572062299967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,NE,Nebraska,25.4,College graduate,"(41.6410409880005, -99.36572062299967)",College graduate,EDU,EDUCOGRAD
+2011,2011,NV,Nevada,27.4,Some college or technical school,"(39.493240390000494, -117.07184056399967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,NV,Nevada,27.6,Less than high school,"(39.493240390000494, -117.07184056399967)",Less than high school,EDU,EDUHS
+2011,2011,NV,Nevada,23.1,High school graduate,"(39.493240390000494, -117.07184056399967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,NV,Nevada,19.4,College graduate,"(39.493240390000494, -117.07184056399967)",College graduate,EDU,EDUCOGRAD
+2012,2012,NV,Nevada,27.3,Some college or technical school,"(39.493240390000494, -117.07184056399967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,NV,Nevada,31.2,Less than high school,"(39.493240390000494, -117.07184056399967)",Less than high school,EDU,EDUHS
+2012,2012,NV,Nevada,26.8,High school graduate,"(39.493240390000494, -117.07184056399967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,NV,Nevada,19.2,College graduate,"(39.493240390000494, -117.07184056399967)",College graduate,EDU,EDUCOGRAD
+2013,2013,NV,Nevada,25.8,Some college or technical school,"(39.493240390000494, -117.07184056399967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,NV,Nevada,27.7,Less than high school,"(39.493240390000494, -117.07184056399967)",Less than high school,EDU,EDUHS
+2013,2013,NV,Nevada,29,High school graduate,"(39.493240390000494, -117.07184056399967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,NV,Nevada,21.4,College graduate,"(39.493240390000494, -117.07184056399967)",College graduate,EDU,EDUCOGRAD
+2014,2014,NV,Nevada,27.4,Some college or technical school,"(39.493240390000494, -117.07184056399967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,NV,Nevada,37.8,Less than high school,"(39.493240390000494, -117.07184056399967)",Less than high school,EDU,EDUHS
+2014,2014,NV,Nevada,26.2,High school graduate,"(39.493240390000494, -117.07184056399967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,NV,Nevada,22.6,College graduate,"(39.493240390000494, -117.07184056399967)",College graduate,EDU,EDUCOGRAD
+2015,2015,NV,Nevada,23.5,Some college or technical school,"(39.493240390000494, -117.07184056399967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,NV,Nevada,34.4,Less than high school,"(39.493240390000494, -117.07184056399967)",Less than high school,EDU,EDUHS
+2015,2015,NV,Nevada,30.6,High school graduate,"(39.493240390000494, -117.07184056399967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,NV,Nevada,20.9,College graduate,"(39.493240390000494, -117.07184056399967)",College graduate,EDU,EDUCOGRAD
+2011,2011,NH,New Hampshire,29.1,Some college or technical school,"(43.65595011300047, -71.50036091999965)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,NH,New Hampshire,28.4,Less than high school,"(43.65595011300047, -71.50036091999965)",Less than high school,EDU,EDUHS
+2011,2011,NH,New Hampshire,29.3,High school graduate,"(43.65595011300047, -71.50036091999965)",High school graduate,EDU,EDUHSGRAD
+2011,2011,NH,New Hampshire,19.6,College graduate,"(43.65595011300047, -71.50036091999965)",College graduate,EDU,EDUCOGRAD
+2012,2012,NH,New Hampshire,28.4,Some college or technical school,"(43.65595011300047, -71.50036091999965)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,NH,New Hampshire,35.8,Less than high school,"(43.65595011300047, -71.50036091999965)",Less than high school,EDU,EDUHS
+2012,2012,NH,New Hampshire,30.6,High school graduate,"(43.65595011300047, -71.50036091999965)",High school graduate,EDU,EDUHSGRAD
+2012,2012,NH,New Hampshire,20.7,College graduate,"(43.65595011300047, -71.50036091999965)",College graduate,EDU,EDUCOGRAD
+2013,2013,NH,New Hampshire,26.6,Some college or technical school,"(43.65595011300047, -71.50036091999965)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,NH,New Hampshire,33.5,Less than high school,"(43.65595011300047, -71.50036091999965)",Less than high school,EDU,EDUHS
+2013,2013,NH,New Hampshire,29.4,High school graduate,"(43.65595011300047, -71.50036091999965)",High school graduate,EDU,EDUHSGRAD
+2013,2013,NH,New Hampshire,22.3,College graduate,"(43.65595011300047, -71.50036091999965)",College graduate,EDU,EDUCOGRAD
+2014,2014,NH,New Hampshire,31.3,Some college or technical school,"(43.65595011300047, -71.50036091999965)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,NH,New Hampshire,26.3,Less than high school,"(43.65595011300047, -71.50036091999965)",Less than high school,EDU,EDUHS
+2014,2014,NH,New Hampshire,30.6,High school graduate,"(43.65595011300047, -71.50036091999965)",High school graduate,EDU,EDUHSGRAD
+2014,2014,NH,New Hampshire,21,College graduate,"(43.65595011300047, -71.50036091999965)",College graduate,EDU,EDUCOGRAD
+2015,2015,NH,New Hampshire,26.9,Some college or technical school,"(43.65595011300047, -71.50036091999965)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,NH,New Hampshire,28.9,Less than high school,"(43.65595011300047, -71.50036091999965)",Less than high school,EDU,EDUHS
+2015,2015,NH,New Hampshire,30.9,High school graduate,"(43.65595011300047, -71.50036091999965)",High school graduate,EDU,EDUHSGRAD
+2015,2015,NH,New Hampshire,20.9,College graduate,"(43.65595011300047, -71.50036091999965)",College graduate,EDU,EDUCOGRAD
+2011,2011,NJ,New Jersey,25.1,Some college or technical school,"(40.13057004800049, -74.27369128799967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,NJ,New Jersey,29.4,Less than high school,"(40.13057004800049, -74.27369128799967)",Less than high school,EDU,EDUHS
+2011,2011,NJ,New Jersey,26.9,High school graduate,"(40.13057004800049, -74.27369128799967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,NJ,New Jersey,17.4,College graduate,"(40.13057004800049, -74.27369128799967)",College graduate,EDU,EDUCOGRAD
+2012,2012,NJ,New Jersey,26.1,Some college or technical school,"(40.13057004800049, -74.27369128799967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,NJ,New Jersey,31.7,Less than high school,"(40.13057004800049, -74.27369128799967)",Less than high school,EDU,EDUHS
+2012,2012,NJ,New Jersey,27.6,High school graduate,"(40.13057004800049, -74.27369128799967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,NJ,New Jersey,18.3,College graduate,"(40.13057004800049, -74.27369128799967)",College graduate,EDU,EDUCOGRAD
+2013,2013,NJ,New Jersey,28.1,Some college or technical school,"(40.13057004800049, -74.27369128799967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,NJ,New Jersey,35.5,Less than high school,"(40.13057004800049, -74.27369128799967)",Less than high school,EDU,EDUHS
+2013,2013,NJ,New Jersey,29.1,High school graduate,"(40.13057004800049, -74.27369128799967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,NJ,New Jersey,19.1,College graduate,"(40.13057004800049, -74.27369128799967)",College graduate,EDU,EDUCOGRAD
+2014,2014,NJ,New Jersey,26.3,Some college or technical school,"(40.13057004800049, -74.27369128799967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,NJ,New Jersey,31.8,Less than high school,"(40.13057004800049, -74.27369128799967)",Less than high school,EDU,EDUHS
+2014,2014,NJ,New Jersey,32.3,High school graduate,"(40.13057004800049, -74.27369128799967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,NJ,New Jersey,20.7,College graduate,"(40.13057004800049, -74.27369128799967)",College graduate,EDU,EDUCOGRAD
+2015,2015,NJ,New Jersey,25.1,Some college or technical school,"(40.13057004800049, -74.27369128799967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,NJ,New Jersey,32.6,Less than high school,"(40.13057004800049, -74.27369128799967)",Less than high school,EDU,EDUHS
+2015,2015,NJ,New Jersey,29,High school graduate,"(40.13057004800049, -74.27369128799967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,NJ,New Jersey,20.4,College graduate,"(40.13057004800049, -74.27369128799967)",College graduate,EDU,EDUCOGRAD
+2011,2011,NM,New Mexico,27,Some college or technical school,"(34.52088095200048, -106.24058098499967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,NM,New Mexico,31.9,Less than high school,"(34.52088095200048, -106.24058098499967)",Less than high school,EDU,EDUHS
+2011,2011,NM,New Mexico,27.8,High school graduate,"(34.52088095200048, -106.24058098499967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,NM,New Mexico,19.4,College graduate,"(34.52088095200048, -106.24058098499967)",College graduate,EDU,EDUCOGRAD
+2012,2012,NM,New Mexico,29.5,Some college or technical school,"(34.52088095200048, -106.24058098499967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,NM,New Mexico,31.8,Less than high school,"(34.52088095200048, -106.24058098499967)",Less than high school,EDU,EDUHS
+2012,2012,NM,New Mexico,28.2,High school graduate,"(34.52088095200048, -106.24058098499967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,NM,New Mexico,19,College graduate,"(34.52088095200048, -106.24058098499967)",College graduate,EDU,EDUCOGRAD
+2013,2013,NM,New Mexico,27.5,Some college or technical school,"(34.52088095200048, -106.24058098499967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,NM,New Mexico,34.5,Less than high school,"(34.52088095200048, -106.24058098499967)",Less than high school,EDU,EDUHS
+2013,2013,NM,New Mexico,26.7,High school graduate,"(34.52088095200048, -106.24058098499967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,NM,New Mexico,18.3,College graduate,"(34.52088095200048, -106.24058098499967)",College graduate,EDU,EDUCOGRAD
+2014,2014,NM,New Mexico,29.5,Some college or technical school,"(34.52088095200048, -106.24058098499967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,NM,New Mexico,35.8,Less than high school,"(34.52088095200048, -106.24058098499967)",Less than high school,EDU,EDUHS
+2014,2014,NM,New Mexico,28.1,High school graduate,"(34.52088095200048, -106.24058098499967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,NM,New Mexico,22.2,College graduate,"(34.52088095200048, -106.24058098499967)",College graduate,EDU,EDUCOGRAD
+2015,2015,NM,New Mexico,29.8,Some college or technical school,"(34.52088095200048, -106.24058098499967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,NM,New Mexico,35.1,Less than high school,"(34.52088095200048, -106.24058098499967)",Less than high school,EDU,EDUHS
+2015,2015,NM,New Mexico,30.3,High school graduate,"(34.52088095200048, -106.24058098499967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,NM,New Mexico,21.1,College graduate,"(34.52088095200048, -106.24058098499967)",College graduate,EDU,EDUCOGRAD
+2011,2011,NY,New York,27.1,Some college or technical school,"(42.82700103200045, -75.54397042699964)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,NY,New York,27.5,Less than high school,"(42.82700103200045, -75.54397042699964)",Less than high school,EDU,EDUHS
+2011,2011,NY,New York,26.9,High school graduate,"(42.82700103200045, -75.54397042699964)",High school graduate,EDU,EDUHSGRAD
+2011,2011,NY,New York,18.2,College graduate,"(42.82700103200045, -75.54397042699964)",College graduate,EDU,EDUCOGRAD
+2012,2012,NY,New York,25.4,Some college or technical school,"(42.82700103200045, -75.54397042699964)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,NY,New York,33,Less than high school,"(42.82700103200045, -75.54397042699964)",Less than high school,EDU,EDUHS
+2012,2012,NY,New York,23,High school graduate,"(42.82700103200045, -75.54397042699964)",High school graduate,EDU,EDUHSGRAD
+2012,2012,NY,New York,18,College graduate,"(42.82700103200045, -75.54397042699964)",College graduate,EDU,EDUCOGRAD
+2013,2013,NY,New York,28,Some college or technical school,"(42.82700103200045, -75.54397042699964)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,NY,New York,32.7,Less than high school,"(42.82700103200045, -75.54397042699964)",Less than high school,EDU,EDUHS
+2013,2013,NY,New York,28.2,High school graduate,"(42.82700103200045, -75.54397042699964)",High school graduate,EDU,EDUHSGRAD
+2013,2013,NY,New York,17.1,College graduate,"(42.82700103200045, -75.54397042699964)",College graduate,EDU,EDUCOGRAD
+2014,2014,NY,New York,28.6,Some college or technical school,"(42.82700103200045, -75.54397042699964)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,NY,New York,37.4,Less than high school,"(42.82700103200045, -75.54397042699964)",Less than high school,EDU,EDUHS
+2014,2014,NY,New York,29.8,High school graduate,"(42.82700103200045, -75.54397042699964)",High school graduate,EDU,EDUHSGRAD
+2014,2014,NY,New York,18.6,College graduate,"(42.82700103200045, -75.54397042699964)",College graduate,EDU,EDUCOGRAD
+2015,2015,NY,New York,26.5,Some college or technical school,"(42.82700103200045, -75.54397042699964)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,NY,New York,32.8,Less than high school,"(42.82700103200045, -75.54397042699964)",Less than high school,EDU,EDUHS
+2015,2015,NY,New York,28.6,High school graduate,"(42.82700103200045, -75.54397042699964)",High school graduate,EDU,EDUHSGRAD
+2015,2015,NY,New York,17.2,College graduate,"(42.82700103200045, -75.54397042699964)",College graduate,EDU,EDUCOGRAD
+2011,2011,NC,North Carolina,31.4,Some college or technical school,"(35.466220975000454, -79.15925046299964)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,NC,North Carolina,31.9,Less than high school,"(35.466220975000454, -79.15925046299964)",Less than high school,EDU,EDUHS
+2011,2011,NC,North Carolina,31.1,High school graduate,"(35.466220975000454, -79.15925046299964)",High school graduate,EDU,EDUHSGRAD
+2011,2011,NC,North Carolina,22.2,College graduate,"(35.466220975000454, -79.15925046299964)",College graduate,EDU,EDUCOGRAD
+2012,2012,NC,North Carolina,30.5,Some college or technical school,"(35.466220975000454, -79.15925046299964)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,NC,North Carolina,32.3,Less than high school,"(35.466220975000454, -79.15925046299964)",Less than high school,EDU,EDUHS
+2012,2012,NC,North Carolina,31.8,High school graduate,"(35.466220975000454, -79.15925046299964)",High school graduate,EDU,EDUHSGRAD
+2012,2012,NC,North Carolina,24.1,College graduate,"(35.466220975000454, -79.15925046299964)",College graduate,EDU,EDUCOGRAD
+2013,2013,NC,North Carolina,30.7,Some college or technical school,"(35.466220975000454, -79.15925046299964)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,NC,North Carolina,35.2,Less than high school,"(35.466220975000454, -79.15925046299964)",Less than high school,EDU,EDUHS
+2013,2013,NC,North Carolina,30.4,High school graduate,"(35.466220975000454, -79.15925046299964)",High school graduate,EDU,EDUHSGRAD
+2013,2013,NC,North Carolina,22.7,College graduate,"(35.466220975000454, -79.15925046299964)",College graduate,EDU,EDUCOGRAD
+2014,2014,NC,North Carolina,29.5,Some college or technical school,"(35.466220975000454, -79.15925046299964)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,NC,North Carolina,34.5,Less than high school,"(35.466220975000454, -79.15925046299964)",Less than high school,EDU,EDUHS
+2014,2014,NC,North Carolina,32.7,High school graduate,"(35.466220975000454, -79.15925046299964)",High school graduate,EDU,EDUHSGRAD
+2014,2014,NC,North Carolina,23.6,College graduate,"(35.466220975000454, -79.15925046299964)",College graduate,EDU,EDUCOGRAD
+2015,2015,NC,North Carolina,30.7,Some college or technical school,"(35.466220975000454, -79.15925046299964)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,NC,North Carolina,36.8,Less than high school,"(35.466220975000454, -79.15925046299964)",Less than high school,EDU,EDUHS
+2015,2015,NC,North Carolina,33.2,High school graduate,"(35.466220975000454, -79.15925046299964)",High school graduate,EDU,EDUHSGRAD
+2015,2015,NC,North Carolina,22.3,College graduate,"(35.466220975000454, -79.15925046299964)",College graduate,EDU,EDUCOGRAD
+2011,2011,ND,North Dakota,29.2,Some college or technical school,"(47.47531977900047, -100.11842104899966)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,ND,North Dakota,25.1,Less than high school,"(47.47531977900047, -100.11842104899966)",Less than high school,EDU,EDUHS
+2011,2011,ND,North Dakota,28,High school graduate,"(47.47531977900047, -100.11842104899966)",High school graduate,EDU,EDUHSGRAD
+2011,2011,ND,North Dakota,26.5,College graduate,"(47.47531977900047, -100.11842104899966)",College graduate,EDU,EDUCOGRAD
+2012,2012,ND,North Dakota,30.2,Some college or technical school,"(47.47531977900047, -100.11842104899966)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,ND,North Dakota,38.3,Less than high school,"(47.47531977900047, -100.11842104899966)",Less than high school,EDU,EDUHS
+2012,2012,ND,North Dakota,29.9,High school graduate,"(47.47531977900047, -100.11842104899966)",High school graduate,EDU,EDUHSGRAD
+2012,2012,ND,North Dakota,25,College graduate,"(47.47531977900047, -100.11842104899966)",College graduate,EDU,EDUCOGRAD
+2013,2013,ND,North Dakota,33.4,Some college or technical school,"(47.47531977900047, -100.11842104899966)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,ND,North Dakota,28.6,Less than high school,"(47.47531977900047, -100.11842104899966)",Less than high school,EDU,EDUHS
+2013,2013,ND,North Dakota,32,High school graduate,"(47.47531977900047, -100.11842104899966)",High school graduate,EDU,EDUHSGRAD
+2013,2013,ND,North Dakota,26.8,College graduate,"(47.47531977900047, -100.11842104899966)",College graduate,EDU,EDUCOGRAD
+2014,2014,ND,North Dakota,34.9,Some college or technical school,"(47.47531977900047, -100.11842104899966)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,ND,North Dakota,33.3,Less than high school,"(47.47531977900047, -100.11842104899966)",Less than high school,EDU,EDUHS
+2014,2014,ND,North Dakota,33,High school graduate,"(47.47531977900047, -100.11842104899966)",High school graduate,EDU,EDUHSGRAD
+2014,2014,ND,North Dakota,26.9,College graduate,"(47.47531977900047, -100.11842104899966)",College graduate,EDU,EDUCOGRAD
+2015,2015,ND,North Dakota,31.7,Some college or technical school,"(47.47531977900047, -100.11842104899966)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,ND,North Dakota,32.1,Less than high school,"(47.47531977900047, -100.11842104899966)",Less than high school,EDU,EDUHS
+2015,2015,ND,North Dakota,34.1,High school graduate,"(47.47531977900047, -100.11842104899966)",High school graduate,EDU,EDUHSGRAD
+2015,2015,ND,North Dakota,26.3,College graduate,"(47.47531977900047, -100.11842104899966)",College graduate,EDU,EDUCOGRAD
+2011,2011,OH,Ohio,30.5,Some college or technical school,"(40.06021014100048, -82.40426005599966)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,OH,Ohio,34.6,Less than high school,"(40.06021014100048, -82.40426005599966)",Less than high school,EDU,EDUHS
+2011,2011,OH,Ohio,32.1,High school graduate,"(40.06021014100048, -82.40426005599966)",High school graduate,EDU,EDUHSGRAD
+2011,2011,OH,Ohio,22,College graduate,"(40.06021014100048, -82.40426005599966)",College graduate,EDU,EDUCOGRAD
+2012,2012,OH,Ohio,31.1,Some college or technical school,"(40.06021014100048, -82.40426005599966)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,OH,Ohio,35.6,Less than high school,"(40.06021014100048, -82.40426005599966)",Less than high school,EDU,EDUHS
+2012,2012,OH,Ohio,31.1,High school graduate,"(40.06021014100048, -82.40426005599966)",High school graduate,EDU,EDUHSGRAD
+2012,2012,OH,Ohio,24.3,College graduate,"(40.06021014100048, -82.40426005599966)",College graduate,EDU,EDUCOGRAD
+2013,2013,OH,Ohio,30.9,Some college or technical school,"(40.06021014100048, -82.40426005599966)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,OH,Ohio,36,Less than high school,"(40.06021014100048, -82.40426005599966)",Less than high school,EDU,EDUHS
+2013,2013,OH,Ohio,31.7,High school graduate,"(40.06021014100048, -82.40426005599966)",High school graduate,EDU,EDUHSGRAD
+2013,2013,OH,Ohio,24.6,College graduate,"(40.06021014100048, -82.40426005599966)",College graduate,EDU,EDUCOGRAD
+2014,2014,OH,Ohio,34.5,Some college or technical school,"(40.06021014100048, -82.40426005599966)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,OH,Ohio,36.5,Less than high school,"(40.06021014100048, -82.40426005599966)",Less than high school,EDU,EDUHS
+2014,2014,OH,Ohio,34.2,High school graduate,"(40.06021014100048, -82.40426005599966)",High school graduate,EDU,EDUHSGRAD
+2014,2014,OH,Ohio,25.8,College graduate,"(40.06021014100048, -82.40426005599966)",College graduate,EDU,EDUCOGRAD
+2015,2015,OH,Ohio,32.8,Some college or technical school,"(40.06021014100048, -82.40426005599966)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,OH,Ohio,28.7,Less than high school,"(40.06021014100048, -82.40426005599966)",Less than high school,EDU,EDUHS
+2015,2015,OH,Ohio,32.4,High school graduate,"(40.06021014100048, -82.40426005599966)",High school graduate,EDU,EDUHSGRAD
+2015,2015,OH,Ohio,22.8,College graduate,"(40.06021014100048, -82.40426005599966)",College graduate,EDU,EDUCOGRAD
+2011,2011,OK,Oklahoma,31.3,Some college or technical school,"(35.47203135600046, -97.52107021399968)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,OK,Oklahoma,31,Less than high school,"(35.47203135600046, -97.52107021399968)",Less than high school,EDU,EDUHS
+2011,2011,OK,Oklahoma,33.8,High school graduate,"(35.47203135600046, -97.52107021399968)",High school graduate,EDU,EDUHSGRAD
+2011,2011,OK,Oklahoma,26.5,College graduate,"(35.47203135600046, -97.52107021399968)",College graduate,EDU,EDUCOGRAD
+2012,2012,OK,Oklahoma,34.9,Some college or technical school,"(35.47203135600046, -97.52107021399968)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,OK,Oklahoma,31.9,Less than high school,"(35.47203135600046, -97.52107021399968)",Less than high school,EDU,EDUHS
+2012,2012,OK,Oklahoma,33.9,High school graduate,"(35.47203135600046, -97.52107021399968)",High school graduate,EDU,EDUHSGRAD
+2012,2012,OK,Oklahoma,25.6,College graduate,"(35.47203135600046, -97.52107021399968)",College graduate,EDU,EDUCOGRAD
+2013,2013,OK,Oklahoma,32.6,Some college or technical school,"(35.47203135600046, -97.52107021399968)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,OK,Oklahoma,35.6,Less than high school,"(35.47203135600046, -97.52107021399968)",Less than high school,EDU,EDUHS
+2013,2013,OK,Oklahoma,33.9,High school graduate,"(35.47203135600046, -97.52107021399968)",High school graduate,EDU,EDUHSGRAD
+2013,2013,OK,Oklahoma,28.3,College graduate,"(35.47203135600046, -97.52107021399968)",College graduate,EDU,EDUCOGRAD
+2014,2014,OK,Oklahoma,34.6,Some college or technical school,"(35.47203135600046, -97.52107021399968)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,OK,Oklahoma,36.3,Less than high school,"(35.47203135600046, -97.52107021399968)",Less than high school,EDU,EDUHS
+2014,2014,OK,Oklahoma,34.3,High school graduate,"(35.47203135600046, -97.52107021399968)",High school graduate,EDU,EDUHSGRAD
+2014,2014,OK,Oklahoma,26.4,College graduate,"(35.47203135600046, -97.52107021399968)",College graduate,EDU,EDUCOGRAD
+2015,2015,OK,Oklahoma,36.3,Some college or technical school,"(35.47203135600046, -97.52107021399968)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,OK,Oklahoma,36,Less than high school,"(35.47203135600046, -97.52107021399968)",Less than high school,EDU,EDUHS
+2015,2015,OK,Oklahoma,35,High school graduate,"(35.47203135600046, -97.52107021399968)",High school graduate,EDU,EDUHSGRAD
+2015,2015,OK,Oklahoma,27.1,College graduate,"(35.47203135600046, -97.52107021399968)",College graduate,EDU,EDUCOGRAD
+2011,2011,OR,Oregon,31.4,Some college or technical school,"(44.56744942400047, -120.15503132599969)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,OR,Oregon,31.4,Less than high school,"(44.56744942400047, -120.15503132599969)",Less than high school,EDU,EDUHS
+2011,2011,OR,Oregon,27.8,High school graduate,"(44.56744942400047, -120.15503132599969)",High school graduate,EDU,EDUHSGRAD
+2011,2011,OR,Oregon,17.1,College graduate,"(44.56744942400047, -120.15503132599969)",College graduate,EDU,EDUCOGRAD
+2012,2012,OR,Oregon,28,Some college or technical school,"(44.56744942400047, -120.15503132599969)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,OR,Oregon,35.4,Less than high school,"(44.56744942400047, -120.15503132599969)",Less than high school,EDU,EDUHS
+2012,2012,OR,Oregon,31.3,High school graduate,"(44.56744942400047, -120.15503132599969)",High school graduate,EDU,EDUHSGRAD
+2012,2012,OR,Oregon,19.3,College graduate,"(44.56744942400047, -120.15503132599969)",College graduate,EDU,EDUCOGRAD
+2013,2013,OR,Oregon,29.2,Some college or technical school,"(44.56744942400047, -120.15503132599969)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,OR,Oregon,31.4,Less than high school,"(44.56744942400047, -120.15503132599969)",Less than high school,EDU,EDUHS
+2013,2013,OR,Oregon,29.4,High school graduate,"(44.56744942400047, -120.15503132599969)",High school graduate,EDU,EDUHSGRAD
+2013,2013,OR,Oregon,17.9,College graduate,"(44.56744942400047, -120.15503132599969)",College graduate,EDU,EDUCOGRAD
+2014,2014,OR,Oregon,31.7,Some college or technical school,"(44.56744942400047, -120.15503132599969)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,OR,Oregon,28.8,Less than high school,"(44.56744942400047, -120.15503132599969)",Less than high school,EDU,EDUHS
+2014,2014,OR,Oregon,30.2,High school graduate,"(44.56744942400047, -120.15503132599969)",High school graduate,EDU,EDUHSGRAD
+2014,2014,OR,Oregon,20.2,College graduate,"(44.56744942400047, -120.15503132599969)",College graduate,EDU,EDUCOGRAD
+2015,2015,OR,Oregon,35.7,Some college or technical school,"(44.56744942400047, -120.15503132599969)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,OR,Oregon,34.1,Less than high school,"(44.56744942400047, -120.15503132599969)",Less than high school,EDU,EDUHS
+2015,2015,OR,Oregon,29.9,High school graduate,"(44.56744942400047, -120.15503132599969)",High school graduate,EDU,EDUHSGRAD
+2015,2015,OR,Oregon,21.5,College graduate,"(44.56744942400047, -120.15503132599969)",College graduate,EDU,EDUCOGRAD
+2011,2011,PA,Pennsylvania,30,Some college or technical school,"(40.79373015200048, -77.86070029399963)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,PA,Pennsylvania,30.8,Less than high school,"(40.79373015200048, -77.86070029399963)",Less than high school,EDU,EDUHS
+2011,2011,PA,Pennsylvania,31.6,High school graduate,"(40.79373015200048, -77.86070029399963)",High school graduate,EDU,EDUHSGRAD
+2011,2011,PA,Pennsylvania,21.5,College graduate,"(40.79373015200048, -77.86070029399963)",College graduate,EDU,EDUCOGRAD
+2012,2012,PA,Pennsylvania,29.4,Some college or technical school,"(40.79373015200048, -77.86070029399963)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,PA,Pennsylvania,31.1,Less than high school,"(40.79373015200048, -77.86070029399963)",Less than high school,EDU,EDUHS
+2012,2012,PA,Pennsylvania,33,High school graduate,"(40.79373015200048, -77.86070029399963)",High school graduate,EDU,EDUHSGRAD
+2012,2012,PA,Pennsylvania,21.7,College graduate,"(40.79373015200048, -77.86070029399963)",College graduate,EDU,EDUCOGRAD
+2013,2013,PA,Pennsylvania,33.1,Some college or technical school,"(40.79373015200048, -77.86070029399963)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,PA,Pennsylvania,35.1,Less than high school,"(40.79373015200048, -77.86070029399963)",Less than high school,EDU,EDUHS
+2013,2013,PA,Pennsylvania,32.4,High school graduate,"(40.79373015200048, -77.86070029399963)",High school graduate,EDU,EDUHSGRAD
+2013,2013,PA,Pennsylvania,21,College graduate,"(40.79373015200048, -77.86070029399963)",College graduate,EDU,EDUCOGRAD
+2014,2014,PA,Pennsylvania,30.9,Some college or technical school,"(40.79373015200048, -77.86070029399963)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,PA,Pennsylvania,35.4,Less than high school,"(40.79373015200048, -77.86070029399963)",Less than high school,EDU,EDUHS
+2014,2014,PA,Pennsylvania,34.3,High school graduate,"(40.79373015200048, -77.86070029399963)",High school graduate,EDU,EDUHSGRAD
+2014,2014,PA,Pennsylvania,21.1,College graduate,"(40.79373015200048, -77.86070029399963)",College graduate,EDU,EDUCOGRAD
+2015,2015,PA,Pennsylvania,31.8,Some college or technical school,"(40.79373015200048, -77.86070029399963)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,PA,Pennsylvania,32.3,Less than high school,"(40.79373015200048, -77.86070029399963)",Less than high school,EDU,EDUHS
+2015,2015,PA,Pennsylvania,34.2,High school graduate,"(40.79373015200048, -77.86070029399963)",High school graduate,EDU,EDUHSGRAD
+2015,2015,PA,Pennsylvania,21.3,College graduate,"(40.79373015200048, -77.86070029399963)",College graduate,EDU,EDUCOGRAD
+2013,2013,PR,Puerto Rico,27.1,Some college or technical school,"(18.220833, -66.590149)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,PR,Puerto Rico,28.7,Less than high school,"(18.220833, -66.590149)",Less than high school,EDU,EDUHS
+2013,2013,PR,Puerto Rico,30,High school graduate,"(18.220833, -66.590149)",High school graduate,EDU,EDUHSGRAD
+2013,2013,PR,Puerto Rico,25.4,College graduate,"(18.220833, -66.590149)",College graduate,EDU,EDUCOGRAD
+2014,2014,PR,Puerto Rico,28.6,Some college or technical school,"(18.220833, -66.590149)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,PR,Puerto Rico,31.4,Less than high school,"(18.220833, -66.590149)",Less than high school,EDU,EDUHS
+2014,2014,PR,Puerto Rico,26.6,High school graduate,"(18.220833, -66.590149)",High school graduate,EDU,EDUHSGRAD
+2014,2014,PR,Puerto Rico,26.8,College graduate,"(18.220833, -66.590149)",College graduate,EDU,EDUCOGRAD
+2015,2015,PR,Puerto Rico,29.5,Some college or technical school,"(18.220833, -66.590149)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,PR,Puerto Rico,30.1,Less than high school,"(18.220833, -66.590149)",Less than high school,EDU,EDUHS
+2015,2015,PR,Puerto Rico,31.6,High school graduate,"(18.220833, -66.590149)",High school graduate,EDU,EDUHSGRAD
+2015,2015,PR,Puerto Rico,26.4,College graduate,"(18.220833, -66.590149)",College graduate,EDU,EDUCOGRAD
+2011,2011,RI,Rhode Island,27.9,Some college or technical school,"(41.70828019300046, -71.52247031399963)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,RI,Rhode Island,28.7,Less than high school,"(41.70828019300046, -71.52247031399963)",Less than high school,EDU,EDUHS
+2011,2011,RI,Rhode Island,27,High school graduate,"(41.70828019300046, -71.52247031399963)",High school graduate,EDU,EDUHSGRAD
+2011,2011,RI,Rhode Island,19.3,College graduate,"(41.70828019300046, -71.52247031399963)",College graduate,EDU,EDUCOGRAD
+2012,2012,RI,Rhode Island,26.9,Some college or technical school,"(41.70828019300046, -71.52247031399963)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,RI,Rhode Island,27.4,Less than high school,"(41.70828019300046, -71.52247031399963)",Less than high school,EDU,EDUHS
+2012,2012,RI,Rhode Island,29.2,High school graduate,"(41.70828019300046, -71.52247031399963)",High school graduate,EDU,EDUHSGRAD
+2012,2012,RI,Rhode Island,20.2,College graduate,"(41.70828019300046, -71.52247031399963)",College graduate,EDU,EDUCOGRAD
+2013,2013,RI,Rhode Island,29.6,Some college or technical school,"(41.70828019300046, -71.52247031399963)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,RI,Rhode Island,31,Less than high school,"(41.70828019300046, -71.52247031399963)",Less than high school,EDU,EDUHS
+2013,2013,RI,Rhode Island,28.9,High school graduate,"(41.70828019300046, -71.52247031399963)",High school graduate,EDU,EDUHSGRAD
+2013,2013,RI,Rhode Island,21.2,College graduate,"(41.70828019300046, -71.52247031399963)",College graduate,EDU,EDUCOGRAD
+2014,2014,RI,Rhode Island,27.3,Some college or technical school,"(41.70828019300046, -71.52247031399963)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,RI,Rhode Island,32.7,Less than high school,"(41.70828019300046, -71.52247031399963)",Less than high school,EDU,EDUHS
+2014,2014,RI,Rhode Island,30.8,High school graduate,"(41.70828019300046, -71.52247031399963)",High school graduate,EDU,EDUHSGRAD
+2014,2014,RI,Rhode Island,20.2,College graduate,"(41.70828019300046, -71.52247031399963)",College graduate,EDU,EDUCOGRAD
+2015,2015,RI,Rhode Island,24.9,Some college or technical school,"(41.70828019300046, -71.52247031399963)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,RI,Rhode Island,32.1,Less than high school,"(41.70828019300046, -71.52247031399963)",Less than high school,EDU,EDUHS
+2015,2015,RI,Rhode Island,30,High school graduate,"(41.70828019300046, -71.52247031399963)",High school graduate,EDU,EDUHSGRAD
+2015,2015,RI,Rhode Island,20.2,College graduate,"(41.70828019300046, -71.52247031399963)",College graduate,EDU,EDUCOGRAD
+2011,2011,SC,South Carolina,32.9,Some college or technical school,"(33.998821303000454, -81.04537120699968)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,SC,South Carolina,32.7,Less than high school,"(33.998821303000454, -81.04537120699968)",Less than high school,EDU,EDUHS
+2011,2011,SC,South Carolina,31.8,High school graduate,"(33.998821303000454, -81.04537120699968)",High school graduate,EDU,EDUHSGRAD
+2011,2011,SC,South Carolina,25.3,College graduate,"(33.998821303000454, -81.04537120699968)",College graduate,EDU,EDUCOGRAD
+2012,2012,SC,South Carolina,32.4,Some college or technical school,"(33.998821303000454, -81.04537120699968)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,SC,South Carolina,38.3,Less than high school,"(33.998821303000454, -81.04537120699968)",Less than high school,EDU,EDUHS
+2012,2012,SC,South Carolina,32.7,High school graduate,"(33.998821303000454, -81.04537120699968)",High school graduate,EDU,EDUHSGRAD
+2012,2012,SC,South Carolina,23.9,College graduate,"(33.998821303000454, -81.04537120699968)",College graduate,EDU,EDUCOGRAD
+2013,2013,SC,South Carolina,33.9,Some college or technical school,"(33.998821303000454, -81.04537120699968)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,SC,South Carolina,35.3,Less than high school,"(33.998821303000454, -81.04537120699968)",Less than high school,EDU,EDUHS
+2013,2013,SC,South Carolina,32.4,High school graduate,"(33.998821303000454, -81.04537120699968)",High school graduate,EDU,EDUHSGRAD
+2013,2013,SC,South Carolina,25.4,College graduate,"(33.998821303000454, -81.04537120699968)",College graduate,EDU,EDUCOGRAD
+2014,2014,SC,South Carolina,33.1,Some college or technical school,"(33.998821303000454, -81.04537120699968)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,SC,South Carolina,35.5,Less than high school,"(33.998821303000454, -81.04537120699968)",Less than high school,EDU,EDUHS
+2014,2014,SC,South Carolina,33.7,High school graduate,"(33.998821303000454, -81.04537120699968)",High school graduate,EDU,EDUHSGRAD
+2014,2014,SC,South Carolina,26,College graduate,"(33.998821303000454, -81.04537120699968)",College graduate,EDU,EDUCOGRAD
+2015,2015,SC,South Carolina,31,Some college or technical school,"(33.998821303000454, -81.04537120699968)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,SC,South Carolina,33.4,Less than high school,"(33.998821303000454, -81.04537120699968)",Less than high school,EDU,EDUHS
+2015,2015,SC,South Carolina,36.3,High school graduate,"(33.998821303000454, -81.04537120699968)",High school graduate,EDU,EDUHSGRAD
+2015,2015,SC,South Carolina,25.6,College graduate,"(33.998821303000454, -81.04537120699968)",College graduate,EDU,EDUCOGRAD
+2011,2011,SD,South Dakota,27.2,Some college or technical school,"(44.353130053000484, -100.3735306369997)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,SD,South Dakota,30.7,Less than high school,"(44.353130053000484, -100.3735306369997)",Less than high school,EDU,EDUHS
+2011,2011,SD,South Dakota,29.7,High school graduate,"(44.353130053000484, -100.3735306369997)",High school graduate,EDU,EDUHSGRAD
+2011,2011,SD,South Dakota,26.1,College graduate,"(44.353130053000484, -100.3735306369997)",College graduate,EDU,EDUCOGRAD
+2012,2012,SD,South Dakota,28.1,Some college or technical school,"(44.353130053000484, -100.3735306369997)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,SD,South Dakota,31.6,Less than high school,"(44.353130053000484, -100.3735306369997)",Less than high school,EDU,EDUHS
+2012,2012,SD,South Dakota,30.8,High school graduate,"(44.353130053000484, -100.3735306369997)",High school graduate,EDU,EDUHSGRAD
+2012,2012,SD,South Dakota,23.1,College graduate,"(44.353130053000484, -100.3735306369997)",College graduate,EDU,EDUCOGRAD
+2013,2013,SD,South Dakota,32.6,Some college or technical school,"(44.353130053000484, -100.3735306369997)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,SD,South Dakota,31.6,Less than high school,"(44.353130053000484, -100.3735306369997)",Less than high school,EDU,EDUHS
+2013,2013,SD,South Dakota,27.8,High school graduate,"(44.353130053000484, -100.3735306369997)",High school graduate,EDU,EDUHSGRAD
+2013,2013,SD,South Dakota,27.6,College graduate,"(44.353130053000484, -100.3735306369997)",College graduate,EDU,EDUCOGRAD
+2014,2014,SD,South Dakota,31.4,Some college or technical school,"(44.353130053000484, -100.3735306369997)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,SD,South Dakota,30.5,Less than high school,"(44.353130053000484, -100.3735306369997)",Less than high school,EDU,EDUHS
+2014,2014,SD,South Dakota,30.2,High school graduate,"(44.353130053000484, -100.3735306369997)",High school graduate,EDU,EDUHSGRAD
+2014,2014,SD,South Dakota,26.9,College graduate,"(44.353130053000484, -100.3735306369997)",College graduate,EDU,EDUCOGRAD
+2015,2015,SD,South Dakota,32.8,Some college or technical school,"(44.353130053000484, -100.3735306369997)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,SD,South Dakota,30.2,Less than high school,"(44.353130053000484, -100.3735306369997)",Less than high school,EDU,EDUHS
+2015,2015,SD,South Dakota,29.3,High school graduate,"(44.353130053000484, -100.3735306369997)",High school graduate,EDU,EDUHSGRAD
+2015,2015,SD,South Dakota,28.6,College graduate,"(44.353130053000484, -100.3735306369997)",College graduate,EDU,EDUCOGRAD
+2011,2011,TN,Tennessee,28,Some college or technical school,"(35.68094058000048, -85.77449091399967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,TN,Tennessee,34.1,Less than high school,"(35.68094058000048, -85.77449091399967)",Less than high school,EDU,EDUHS
+2011,2011,TN,Tennessee,32.4,High school graduate,"(35.68094058000048, -85.77449091399967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,TN,Tennessee,22,College graduate,"(35.68094058000048, -85.77449091399967)",College graduate,EDU,EDUCOGRAD
+2012,2012,TN,Tennessee,33.2,Some college or technical school,"(35.68094058000048, -85.77449091399967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,TN,Tennessee,34.2,Less than high school,"(35.68094058000048, -85.77449091399967)",Less than high school,EDU,EDUHS
+2012,2012,TN,Tennessee,31.7,High school graduate,"(35.68094058000048, -85.77449091399967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,TN,Tennessee,25.2,College graduate,"(35.68094058000048, -85.77449091399967)",College graduate,EDU,EDUCOGRAD
+2013,2013,TN,Tennessee,33.2,Some college or technical school,"(35.68094058000048, -85.77449091399967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,TN,Tennessee,41.3,Less than high school,"(35.68094058000048, -85.77449091399967)",Less than high school,EDU,EDUHS
+2013,2013,TN,Tennessee,34.7,High school graduate,"(35.68094058000048, -85.77449091399967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,TN,Tennessee,27,College graduate,"(35.68094058000048, -85.77449091399967)",College graduate,EDU,EDUCOGRAD
+2014,2014,TN,Tennessee,30.9,Some college or technical school,"(35.68094058000048, -85.77449091399967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,TN,Tennessee,38.2,Less than high school,"(35.68094058000048, -85.77449091399967)",Less than high school,EDU,EDUHS
+2014,2014,TN,Tennessee,31.8,High school graduate,"(35.68094058000048, -85.77449091399967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,TN,Tennessee,25.5,College graduate,"(35.68094058000048, -85.77449091399967)",College graduate,EDU,EDUCOGRAD
+2015,2015,TN,Tennessee,35.5,Some college or technical school,"(35.68094058000048, -85.77449091399967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,TN,Tennessee,33.1,Less than high school,"(35.68094058000048, -85.77449091399967)",Less than high school,EDU,EDUHS
+2015,2015,TN,Tennessee,37,High school graduate,"(35.68094058000048, -85.77449091399967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,TN,Tennessee,27,College graduate,"(35.68094058000048, -85.77449091399967)",College graduate,EDU,EDUCOGRAD
+2011,2011,TX,Texas,32.2,Some college or technical school,"(31.827240407000488, -99.42677020599967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,TX,Texas,33.6,Less than high school,"(31.827240407000488, -99.42677020599967)",Less than high school,EDU,EDUHS
+2011,2011,TX,Texas,32.5,High school graduate,"(31.827240407000488, -99.42677020599967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,TX,Texas,23.5,College graduate,"(31.827240407000488, -99.42677020599967)",College graduate,EDU,EDUCOGRAD
+2012,2012,TX,Texas,29,Some college or technical school,"(31.827240407000488, -99.42677020599967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,TX,Texas,34.3,Less than high school,"(31.827240407000488, -99.42677020599967)",Less than high school,EDU,EDUHS
+2012,2012,TX,Texas,31,High school graduate,"(31.827240407000488, -99.42677020599967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,TX,Texas,23.8,College graduate,"(31.827240407000488, -99.42677020599967)",College graduate,EDU,EDUCOGRAD
+2013,2013,TX,Texas,29.8,Some college or technical school,"(31.827240407000488, -99.42677020599967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,TX,Texas,38.7,Less than high school,"(31.827240407000488, -99.42677020599967)",Less than high school,EDU,EDUHS
+2013,2013,TX,Texas,34,High school graduate,"(31.827240407000488, -99.42677020599967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,TX,Texas,22.9,College graduate,"(31.827240407000488, -99.42677020599967)",College graduate,EDU,EDUCOGRAD
+2014,2014,TX,Texas,32.6,Some college or technical school,"(31.827240407000488, -99.42677020599967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,TX,Texas,38.9,Less than high school,"(31.827240407000488, -99.42677020599967)",Less than high school,EDU,EDUHS
+2014,2014,TX,Texas,35.3,High school graduate,"(31.827240407000488, -99.42677020599967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,TX,Texas,22.1,College graduate,"(31.827240407000488, -99.42677020599967)",College graduate,EDU,EDUCOGRAD
+2015,2015,TX,Texas,32.5,Some college or technical school,"(31.827240407000488, -99.42677020599967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,TX,Texas,40.2,Less than high school,"(31.827240407000488, -99.42677020599967)",Less than high school,EDU,EDUHS
+2015,2015,TX,Texas,34,High school graduate,"(31.827240407000488, -99.42677020599967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,TX,Texas,25.4,College graduate,"(31.827240407000488, -99.42677020599967)",College graduate,EDU,EDUCOGRAD
+2011,2011,UT,Utah,25.4,Some college or technical school,"(39.360700171000474, -111.58713063499971)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,UT,Utah,31.2,Less than high school,"(39.360700171000474, -111.58713063499971)",Less than high school,EDU,EDUHS
+2011,2011,UT,Utah,24.5,High school graduate,"(39.360700171000474, -111.58713063499971)",High school graduate,EDU,EDUHSGRAD
+2011,2011,UT,Utah,20.2,College graduate,"(39.360700171000474, -111.58713063499971)",College graduate,EDU,EDUCOGRAD
+2012,2012,UT,Utah,25.5,Some college or technical school,"(39.360700171000474, -111.58713063499971)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,UT,Utah,27,Less than high school,"(39.360700171000474, -111.58713063499971)",Less than high school,EDU,EDUHS
+2012,2012,UT,Utah,24,High school graduate,"(39.360700171000474, -111.58713063499971)",High school graduate,EDU,EDUHSGRAD
+2012,2012,UT,Utah,21.7,College graduate,"(39.360700171000474, -111.58713063499971)",College graduate,EDU,EDUCOGRAD
+2013,2013,UT,Utah,26,Some college or technical school,"(39.360700171000474, -111.58713063499971)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,UT,Utah,21.9,Less than high school,"(39.360700171000474, -111.58713063499971)",Less than high school,EDU,EDUHS
+2013,2013,UT,Utah,25.4,High school graduate,"(39.360700171000474, -111.58713063499971)",High school graduate,EDU,EDUHSGRAD
+2013,2013,UT,Utah,20.8,College graduate,"(39.360700171000474, -111.58713063499971)",College graduate,EDU,EDUCOGRAD
+2014,2014,UT,Utah,27,Some college or technical school,"(39.360700171000474, -111.58713063499971)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,UT,Utah,29.3,Less than high school,"(39.360700171000474, -111.58713063499971)",Less than high school,EDU,EDUHS
+2014,2014,UT,Utah,26.3,High school graduate,"(39.360700171000474, -111.58713063499971)",High school graduate,EDU,EDUHSGRAD
+2014,2014,UT,Utah,22,College graduate,"(39.360700171000474, -111.58713063499971)",College graduate,EDU,EDUCOGRAD
+2015,2015,UT,Utah,25.8,Some college or technical school,"(39.360700171000474, -111.58713063499971)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,UT,Utah,27.6,Less than high school,"(39.360700171000474, -111.58713063499971)",Less than high school,EDU,EDUHS
+2015,2015,UT,Utah,25,High school graduate,"(39.360700171000474, -111.58713063499971)",High school graduate,EDU,EDUHSGRAD
+2015,2015,UT,Utah,21.2,College graduate,"(39.360700171000474, -111.58713063499971)",College graduate,EDU,EDUCOGRAD
+2011,2011,VT,Vermont,25.1,Some college or technical school,"(43.62538123900049, -72.51764079099962)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,VT,Vermont,26.7,Less than high school,"(43.62538123900049, -72.51764079099962)",Less than high school,EDU,EDUHS
+2011,2011,VT,Vermont,33.1,High school graduate,"(43.62538123900049, -72.51764079099962)",High school graduate,EDU,EDUHSGRAD
+2011,2011,VT,Vermont,17.4,College graduate,"(43.62538123900049, -72.51764079099962)",College graduate,EDU,EDUCOGRAD
+2012,2012,VT,Vermont,24.5,Some college or technical school,"(43.62538123900049, -72.51764079099962)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,VT,Vermont,27.7,Less than high school,"(43.62538123900049, -72.51764079099962)",Less than high school,EDU,EDUHS
+2012,2012,VT,Vermont,28.9,High school graduate,"(43.62538123900049, -72.51764079099962)",High school graduate,EDU,EDUHSGRAD
+2012,2012,VT,Vermont,16.5,College graduate,"(43.62538123900049, -72.51764079099962)",College graduate,EDU,EDUCOGRAD
+2013,2013,VT,Vermont,27.6,Some college or technical school,"(43.62538123900049, -72.51764079099962)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,VT,Vermont,33.6,Less than high school,"(43.62538123900049, -72.51764079099962)",Less than high school,EDU,EDUHS
+2013,2013,VT,Vermont,28.4,High school graduate,"(43.62538123900049, -72.51764079099962)",High school graduate,EDU,EDUHSGRAD
+2013,2013,VT,Vermont,16,College graduate,"(43.62538123900049, -72.51764079099962)",College graduate,EDU,EDUCOGRAD
+2014,2014,VT,Vermont,25.5,Some college or technical school,"(43.62538123900049, -72.51764079099962)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,VT,Vermont,31.9,Less than high school,"(43.62538123900049, -72.51764079099962)",Less than high school,EDU,EDUHS
+2014,2014,VT,Vermont,30.5,High school graduate,"(43.62538123900049, -72.51764079099962)",High school graduate,EDU,EDUHSGRAD
+2014,2014,VT,Vermont,16.8,College graduate,"(43.62538123900049, -72.51764079099962)",College graduate,EDU,EDUCOGRAD
+2015,2015,VT,Vermont,25.6,Some college or technical school,"(43.62538123900049, -72.51764079099962)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,VT,Vermont,34.2,Less than high school,"(43.62538123900049, -72.51764079099962)",Less than high school,EDU,EDUHS
+2015,2015,VT,Vermont,31.2,High school graduate,"(43.62538123900049, -72.51764079099962)",High school graduate,EDU,EDUHSGRAD
+2015,2015,VT,Vermont,17,College graduate,"(43.62538123900049, -72.51764079099962)",College graduate,EDU,EDUCOGRAD
+2011,2011,VA,Virginia,29.2,Some college or technical school,"(37.54268067400045, -78.45789046299967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,VA,Virginia,38.1,Less than high school,"(37.54268067400045, -78.45789046299967)",Less than high school,EDU,EDUHS
+2011,2011,VA,Virginia,32.4,High school graduate,"(37.54268067400045, -78.45789046299967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,VA,Virginia,22.8,College graduate,"(37.54268067400045, -78.45789046299967)",College graduate,EDU,EDUCOGRAD
+2012,2012,VA,Virginia,28.1,Some college or technical school,"(37.54268067400045, -78.45789046299967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,VA,Virginia,33.9,Less than high school,"(37.54268067400045, -78.45789046299967)",Less than high school,EDU,EDUHS
+2012,2012,VA,Virginia,32.5,High school graduate,"(37.54268067400045, -78.45789046299967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,VA,Virginia,19.8,College graduate,"(37.54268067400045, -78.45789046299967)",College graduate,EDU,EDUCOGRAD
+2013,2013,VA,Virginia,28.8,Some college or technical school,"(37.54268067400045, -78.45789046299967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,VA,Virginia,30.6,Less than high school,"(37.54268067400045, -78.45789046299967)",Less than high school,EDU,EDUHS
+2013,2013,VA,Virginia,31,High school graduate,"(37.54268067400045, -78.45789046299967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,VA,Virginia,21.4,College graduate,"(37.54268067400045, -78.45789046299967)",College graduate,EDU,EDUCOGRAD
+2014,2014,VA,Virginia,30.9,Some college or technical school,"(37.54268067400045, -78.45789046299967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,VA,Virginia,31.5,Less than high school,"(37.54268067400045, -78.45789046299967)",Less than high school,EDU,EDUHS
+2014,2014,VA,Virginia,32.6,High school graduate,"(37.54268067400045, -78.45789046299967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,VA,Virginia,21.5,College graduate,"(37.54268067400045, -78.45789046299967)",College graduate,EDU,EDUCOGRAD
+2015,2015,VA,Virginia,30.3,Some college or technical school,"(37.54268067400045, -78.45789046299967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,VA,Virginia,40.5,Less than high school,"(37.54268067400045, -78.45789046299967)",Less than high school,EDU,EDUHS
+2015,2015,VA,Virginia,30.5,High school graduate,"(37.54268067400045, -78.45789046299967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,VA,Virginia,23,College graduate,"(37.54268067400045, -78.45789046299967)",College graduate,EDU,EDUCOGRAD
+2011,2011,WA,Washington,30.2,Some college or technical school,"(47.52227862900048, -120.47001078999972)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,WA,Washington,28.2,Less than high school,"(47.52227862900048, -120.47001078999972)",Less than high school,EDU,EDUHS
+2011,2011,WA,Washington,29.3,High school graduate,"(47.52227862900048, -120.47001078999972)",High school graduate,EDU,EDUHSGRAD
+2011,2011,WA,Washington,18.8,College graduate,"(47.52227862900048, -120.47001078999972)",College graduate,EDU,EDUCOGRAD
+2012,2012,WA,Washington,28.6,Some college or technical school,"(47.52227862900048, -120.47001078999972)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,WA,Washington,32.5,Less than high school,"(47.52227862900048, -120.47001078999972)",Less than high school,EDU,EDUHS
+2012,2012,WA,Washington,29.9,High school graduate,"(47.52227862900048, -120.47001078999972)",High school graduate,EDU,EDUHSGRAD
+2012,2012,WA,Washington,20.2,College graduate,"(47.52227862900048, -120.47001078999972)",College graduate,EDU,EDUCOGRAD
+2013,2013,WA,Washington,29.1,Some college or technical school,"(47.52227862900048, -120.47001078999972)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,WA,Washington,30.5,Less than high school,"(47.52227862900048, -120.47001078999972)",Less than high school,EDU,EDUHS
+2013,2013,WA,Washington,31.3,High school graduate,"(47.52227862900048, -120.47001078999972)",High school graduate,EDU,EDUHSGRAD
+2013,2013,WA,Washington,20.1,College graduate,"(47.52227862900048, -120.47001078999972)",College graduate,EDU,EDUCOGRAD
+2014,2014,WA,Washington,28.1,Some college or technical school,"(47.52227862900048, -120.47001078999972)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,WA,Washington,32.3,Less than high school,"(47.52227862900048, -120.47001078999972)",Less than high school,EDU,EDUHS
+2014,2014,WA,Washington,29.7,High school graduate,"(47.52227862900048, -120.47001078999972)",High school graduate,EDU,EDUHSGRAD
+2014,2014,WA,Washington,22.6,College graduate,"(47.52227862900048, -120.47001078999972)",College graduate,EDU,EDUCOGRAD
+2015,2015,WA,Washington,29.4,Some college or technical school,"(47.52227862900048, -120.47001078999972)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,WA,Washington,27.3,Less than high school,"(47.52227862900048, -120.47001078999972)",Less than high school,EDU,EDUHS
+2015,2015,WA,Washington,29.4,High school graduate,"(47.52227862900048, -120.47001078999972)",High school graduate,EDU,EDUHSGRAD
+2015,2015,WA,Washington,20.1,College graduate,"(47.52227862900048, -120.47001078999972)",College graduate,EDU,EDUCOGRAD
+2011,2011,WV,West Virginia,32.8,Some college or technical school,"(38.66551020200046, -80.71264013499967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,WV,West Virginia,32.7,Less than high school,"(38.66551020200046, -80.71264013499967)",Less than high school,EDU,EDUHS
+2011,2011,WV,West Virginia,33.3,High school graduate,"(38.66551020200046, -80.71264013499967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,WV,West Virginia,29.6,College graduate,"(38.66551020200046, -80.71264013499967)",College graduate,EDU,EDUCOGRAD
+2012,2012,WV,West Virginia,35,Some college or technical school,"(38.66551020200046, -80.71264013499967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,WV,West Virginia,33.1,Less than high school,"(38.66551020200046, -80.71264013499967)",Less than high school,EDU,EDUHS
+2012,2012,WV,West Virginia,35.6,High school graduate,"(38.66551020200046, -80.71264013499967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,WV,West Virginia,28.1,College graduate,"(38.66551020200046, -80.71264013499967)",College graduate,EDU,EDUCOGRAD
+2013,2013,WV,West Virginia,36.2,Some college or technical school,"(38.66551020200046, -80.71264013499967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,WV,West Virginia,34.9,Less than high school,"(38.66551020200046, -80.71264013499967)",Less than high school,EDU,EDUHS
+2013,2013,WV,West Virginia,36,High school graduate,"(38.66551020200046, -80.71264013499967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,WV,West Virginia,31.7,College graduate,"(38.66551020200046, -80.71264013499967)",College graduate,EDU,EDUCOGRAD
+2014,2014,WV,West Virginia,35.3,Some college or technical school,"(38.66551020200046, -80.71264013499967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,WV,West Virginia,37.2,Less than high school,"(38.66551020200046, -80.71264013499967)",Less than high school,EDU,EDUHS
+2014,2014,WV,West Virginia,37.5,High school graduate,"(38.66551020200046, -80.71264013499967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,WV,West Virginia,30.4,College graduate,"(38.66551020200046, -80.71264013499967)",College graduate,EDU,EDUCOGRAD
+2015,2015,WV,West Virginia,33.6,Some college or technical school,"(38.66551020200046, -80.71264013499967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,WV,West Virginia,36.7,Less than high school,"(38.66551020200046, -80.71264013499967)",Less than high school,EDU,EDUHS
+2015,2015,WV,West Virginia,38.3,High school graduate,"(38.66551020200046, -80.71264013499967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,WV,West Virginia,31.4,College graduate,"(38.66551020200046, -80.71264013499967)",College graduate,EDU,EDUCOGRAD
+2011,2011,WI,Wisconsin,26.9,Some college or technical school,"(44.39319117400049, -89.81637074199966)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,WI,Wisconsin,40.5,Less than high school,"(44.39319117400049, -89.81637074199966)",Less than high school,EDU,EDUHS
+2011,2011,WI,Wisconsin,30.3,High school graduate,"(44.39319117400049, -89.81637074199966)",High school graduate,EDU,EDUHSGRAD
+2011,2011,WI,Wisconsin,19.6,College graduate,"(44.39319117400049, -89.81637074199966)",College graduate,EDU,EDUCOGRAD
+2012,2012,WI,Wisconsin,29.2,Some college or technical school,"(44.39319117400049, -89.81637074199966)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,WI,Wisconsin,37.5,Less than high school,"(44.39319117400049, -89.81637074199966)",Less than high school,EDU,EDUHS
+2012,2012,WI,Wisconsin,31.5,High school graduate,"(44.39319117400049, -89.81637074199966)",High school graduate,EDU,EDUHSGRAD
+2012,2012,WI,Wisconsin,24.1,College graduate,"(44.39319117400049, -89.81637074199966)",College graduate,EDU,EDUCOGRAD
+2013,2013,WI,Wisconsin,30.3,Some college or technical school,"(44.39319117400049, -89.81637074199966)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,WI,Wisconsin,36.2,Less than high school,"(44.39319117400049, -89.81637074199966)",Less than high school,EDU,EDUHS
+2013,2013,WI,Wisconsin,32,High school graduate,"(44.39319117400049, -89.81637074199966)",High school graduate,EDU,EDUHSGRAD
+2013,2013,WI,Wisconsin,23.1,College graduate,"(44.39319117400049, -89.81637074199966)",College graduate,EDU,EDUCOGRAD
+2014,2014,WI,Wisconsin,33.4,Some college or technical school,"(44.39319117400049, -89.81637074199966)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,WI,Wisconsin,33.6,Less than high school,"(44.39319117400049, -89.81637074199966)",Less than high school,EDU,EDUHS
+2014,2014,WI,Wisconsin,33.2,High school graduate,"(44.39319117400049, -89.81637074199966)",High school graduate,EDU,EDUHSGRAD
+2014,2014,WI,Wisconsin,24.3,College graduate,"(44.39319117400049, -89.81637074199966)",College graduate,EDU,EDUCOGRAD
+2015,2015,WI,Wisconsin,34.4,Some college or technical school,"(44.39319117400049, -89.81637074199966)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,WI,Wisconsin,28.9,Less than high school,"(44.39319117400049, -89.81637074199966)",Less than high school,EDU,EDUHS
+2015,2015,WI,Wisconsin,32.1,High school graduate,"(44.39319117400049, -89.81637074199966)",High school graduate,EDU,EDUHSGRAD
+2015,2015,WI,Wisconsin,24.8,College graduate,"(44.39319117400049, -89.81637074199966)",College graduate,EDU,EDUCOGRAD
+2011,2011,WY,Wyoming,25.4,Some college or technical school,"(43.23554134300048, -108.10983035299967)",Some college or technical school,EDU,EDUCOTEC
+2011,2011,WY,Wyoming,28,Less than high school,"(43.23554134300048, -108.10983035299967)",Less than high school,EDU,EDUHS
+2011,2011,WY,Wyoming,26.6,High school graduate,"(43.23554134300048, -108.10983035299967)",High school graduate,EDU,EDUHSGRAD
+2011,2011,WY,Wyoming,20.5,College graduate,"(43.23554134300048, -108.10983035299967)",College graduate,EDU,EDUCOGRAD
+2012,2012,WY,Wyoming,25.6,Some college or technical school,"(43.23554134300048, -108.10983035299967)",Some college or technical school,EDU,EDUCOTEC
+2012,2012,WY,Wyoming,36.2,Less than high school,"(43.23554134300048, -108.10983035299967)",Less than high school,EDU,EDUHS
+2012,2012,WY,Wyoming,25.7,High school graduate,"(43.23554134300048, -108.10983035299967)",High school graduate,EDU,EDUHSGRAD
+2012,2012,WY,Wyoming,17.1,College graduate,"(43.23554134300048, -108.10983035299967)",College graduate,EDU,EDUCOGRAD
+2013,2013,WY,Wyoming,30.7,Some college or technical school,"(43.23554134300048, -108.10983035299967)",Some college or technical school,EDU,EDUCOTEC
+2013,2013,WY,Wyoming,32.1,Less than high school,"(43.23554134300048, -108.10983035299967)",Less than high school,EDU,EDUHS
+2013,2013,WY,Wyoming,27.5,High school graduate,"(43.23554134300048, -108.10983035299967)",High school graduate,EDU,EDUHSGRAD
+2013,2013,WY,Wyoming,21.8,College graduate,"(43.23554134300048, -108.10983035299967)",College graduate,EDU,EDUCOGRAD
+2014,2014,WY,Wyoming,31,Some college or technical school,"(43.23554134300048, -108.10983035299967)",Some college or technical school,EDU,EDUCOTEC
+2014,2014,WY,Wyoming,43.3,Less than high school,"(43.23554134300048, -108.10983035299967)",Less than high school,EDU,EDUHS
+2014,2014,WY,Wyoming,27,High school graduate,"(43.23554134300048, -108.10983035299967)",High school graduate,EDU,EDUHSGRAD
+2014,2014,WY,Wyoming,25.2,College graduate,"(43.23554134300048, -108.10983035299967)",College graduate,EDU,EDUCOGRAD
+2015,2015,WY,Wyoming,33.3,Some college or technical school,"(43.23554134300048, -108.10983035299967)",Some college or technical school,EDU,EDUCOTEC
+2015,2015,WY,Wyoming,24.9,Less than high school,"(43.23554134300048, -108.10983035299967)",Less than high school,EDU,EDUHS
+2015,2015,WY,Wyoming,30.9,High school graduate,"(43.23554134300048, -108.10983035299967)",High school graduate,EDU,EDUHSGRAD
+2015,2015,WY,Wyoming,20.7,College graduate,"(43.23554134300048, -108.10983035299967)",College graduate,EDU,EDUCOGRAD
