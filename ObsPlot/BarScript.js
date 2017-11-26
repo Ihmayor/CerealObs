@@ -20,12 +20,39 @@ d3.csv("NatVal.csv", function (d, i) {
 
 
     var categorySelection = "GEN"
+    var colMapping = {
+        "GEN": "Gender",
+        "EDU": "Education",
+        "OVR": "Total",
+        "AGEYR": "AgeYear",
+        "RACE": "RaceEthnicity",
+        "INC": "Income",
+        "": "Total"
+    }
+    var colKeys = Object.keys(colMapping);
+    var nestedData = d3.nest()
+              .key(function (d) { return d.StratificationCategoryId1; })
+              .key(function (d) {
+                  for (var k = 0; k < colKeys.length; k++)
+                  {
+                      var stratCat = colKeys[k];
+                      var colMap = colMapping[stratCat];
+                      if (d.StratificationCategoryId1 == stratCat)
+                          return d[colMap];
+                  }
+                  return d.Total;
+              })
+              .key(function(d){ return d.YearStart})
+              .rollup(function (v) { return d3.sum(v, function (d) { return d.Data_Value; }); })
+              .object(data);
+    console.log(nestedData);
 
-    var selectedData = data.filter(d => {
-        return d.StratificationCategoryId1 == categorySelection;
-    });
+    var selectedNestedData = nestedData[categorySelection];
+    var innerCategories = Object.keys(selectedNestedData);
+
+    var selectedData = data.filter((d) => { return d.StratificationCategoryId1 == categorySelection; })
     console.log(selectedData);
-    x.domain(selectedData.map((d)=> { return d.YearStart; }));
+    x.domain(selectedData.map((d) => { return d.YearStart; }));
     y.domain([0, d3.max(selectedData, (d) => { return d.Data_Value; })]);
 
     g.append("g")
@@ -43,18 +70,23 @@ d3.csv("NatVal.csv", function (d, i) {
         .attr("text-anchor", "end")
         .text("Frequency");
 
+    
+
     g.selectAll(".bar")
       .data(selectedData)
       .enter().append("rect")
         .attr("class", "bar")
-        .style("fill", (d) => { if (d.Gender == "Male") return "green"; else return "steelblue";})
+        .style("fill", (d) => {
+            if (d.Gender == "Male") return "green"; else return "steelblue";
+        })
         .attr("x", function (d) {
-            if (d.Gender == "Male")
-                return x(d.YearStart) + 35
-            else
-                return x(d.YearStart);
+            for (var i = 0; i < innerCategories.length; i++)
+            {
+                if (d[colMapping[categorySelection]] == innerCategories[i])
+                    return x(d.YearStart) + 35*i
+            }
         })
         .attr("y", function (d) { return y(d.Data_Value); })
-        .attr("width", x.bandwidth()/5)
+        .attr("width", x.bandwidth()/(innerCategories.length*2.5))
         .attr("height", function (d) { console.log(height); return height - y(d.Data_Value); });
 });
