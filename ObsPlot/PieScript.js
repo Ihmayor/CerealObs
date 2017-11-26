@@ -7,10 +7,8 @@ d3.csv("data.csv", function (d) {
     var svg = d3.select("svg"),
         width = +svg.attr("width"),
         height = +svg.attr("height"),
-        radius = Math.min(width, height) / 5,
-        g = svg.append("g").attr("transform", "translate(" + (1320 - 200) + "," + 240 + ")");
-
-
+        radius = Math.min(width, height) / 9,
+        g = svg.append("g").attr("transform", "translate(" + (1320 - 180) + "," + 140 + ")");
 
     var color = d3.scaleOrdinal(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
@@ -44,7 +42,36 @@ d3.csv("data.csv", function (d) {
     .attr("fill", "black")
     .style("font-size", "20px")
     .attr("x", -110)
-    .attr("y",-140)
+    .attr("y",-80)
     .text("Population Demographic")
+
+    var g2 = g.append("g")
+
+    g2.append("text")
+    .attr("fill", "black")
+    .style("font-size", "20px")
+    .attr("x", -110)
+    .attr("y", 90)
+    .text("State Ordered By Obesity")
+
+    var y2 = d3.scaleLinear().rangeRound([400, 0]);
+    //TODO SET 60 TO MAX of all states with obseity level overall
+    y2.domain([0, 60]);
+
+    g2.append("g")
+        .call(d3.axisLeft(y2).ticks(10))
+        .attr("transform",'translate(-120,110)scale(0.35)')
+        .style("font-size", "20px")
+        .append("text")
+        .attr('transform', 'rotate(-90)')
+        .attr('y', -60)
+        .attr('x', 0)
+        .attr('fill', "black")
+        .text("Obesity Level")
+        .style('font-size', '25px')
+
+
+
+
 
 });
