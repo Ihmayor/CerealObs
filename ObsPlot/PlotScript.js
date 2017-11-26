@@ -1,8 +1,6 @@
-﻿var margin = { top: 30, right: 10, bottom: 10, left: 10 },
-    width = 1200 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+﻿var margin = { top: 30, right: 10, bottom: 10, left: 50 }
 
-var x = d3.scalePoint().range([0, 960-margin.left - margin.right], 1),
+var x = d3.scalePoint().range([0, 960 - margin.left - margin.right], 1),
     y = {};
 
 var line = d3.line(),
@@ -12,17 +10,28 @@ var line = d3.line(),
 
 var svg = d3.select("svg")
     .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform", "translate(" + margin.left + ",120)")
+
+
+svg.append("text")
+    .attr("fill", "black")
+    .text("All Cereal Brands")
+    .style("font-size", "40px")
+    .attr("x", "300")
+    .attr("y", "-80")
+
+
+
 var dimensions = [];
 
 d3.csv("AllCerealBrand.csv", function (error, data) {
     // Extract the list of dimensions and create a scale for each.
     console.log(data[0]);
     x.domain(dimensions = d3.keys(data[0]).filter(function (d) {
-        return d != "Brand" && (
+        return  d!= "mfr" && d!= "Serve" && d!= "Type" &&d != "Brand" && (
             y[d] = d3.scaleLinear()
             .domain(d3.extent(data, function (p) { return +p[d]; }))
-            .range([0, 600]));
+            .range([0, 480]));
     }));
 
     // Add grey background lines for context.
@@ -41,6 +50,8 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
       .enter().append("path")
         .attr("d", path);
 
+    
+
     // Add a group element for each dimension.
     var g = svg.selectAll(".dimension")
         .data(dimensions)
@@ -54,8 +65,8 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
         .each(function (d) { d3.select(this).call(axis.scale(y[d])); })
         .append("text")
         .style("text-anchor", "middle")
-        .attr("y",(d,i)=>{ return -9+-12*(i%2)})
-        .attr("fill","black")
+        .attr("y", (d, i) => { return -9 + -12 * (i % 2) })
+        .attr("fill", "black")
         .text(function (d) { console.log(d); return d; });
 
     //// Add and store a brush for each axis.

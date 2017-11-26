@@ -15,6 +15,7 @@
         y = d3.scaleLinear().rangeRound([height, 0]);
     var g = svg.append("g")
         .attr("transform", "translate("+(1320-330)+"," + 440 + ")scale(0.35)");
+
     var categorySelection = "GEN"
 
     var colMapping = {
@@ -26,6 +27,16 @@
         "INC": "Income",
         "": "Total"
     }
+
+
+    g.append("text")
+        .attr("fill", "black")
+        .text("Obesity Levels per "+colMapping[categorySelection]+" vs. Time")
+        .style("font-size", "40px")
+        .attr("x", "100")
+        .attr("y", "-80")
+
+
     var colKeys = Object.keys(colMapping);
     var nestedData = d3.nest()
               .key(function (d) { return d.StratificationCategoryId1; })

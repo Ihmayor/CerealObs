@@ -10,6 +10,8 @@ d3.csv("data.csv", function (d) {
         radius = Math.min(width, height) / 5,
         g = svg.append("g").attr("transform", "translate(" + (1320 - 200) + "," + 240 + ")");
 
+
+
     var color = d3.scaleOrdinal(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
     var pie = d3.pie()
@@ -37,4 +39,12 @@ d3.csv("data.csv", function (d) {
         .attr("transform", function (d) { return "translate(" + label.centroid(d) + ")"; })
         .attr("dy", "0.35em")
         .text(function (d) { return d.data.age; });
+
+    g.append("text")
+    .attr("fill", "black")
+    .style("font-size", "20px")
+    .attr("x", -110)
+    .attr("y",-140)
+    .text("Population Demographic")
+
 });
