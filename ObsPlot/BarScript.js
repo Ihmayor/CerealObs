@@ -1,5 +1,4 @@
-﻿
-d3.csv("NatVal.csv", function (d, i) {
+﻿d3.csv("NatVal.csv", function (d, i) {
     d.Data_Value = +d.Data_Value;
     return d;
 }, function (error, data) {
@@ -10,14 +9,12 @@ d3.csv("NatVal.csv", function (d, i) {
     var margin = { top: 20, right: 20, bottom: 70, left: 90 }
 
     var width = 960 - margin.left - margin.right,
-    height = 900 - margin.top - margin.bottom;
+    height = 500 - margin.top - margin.bottom;
 
     var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
         y = d3.scaleLinear().rangeRound([height, 0]);
-
     var g = svg.append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
+        .attr("transform", "translate("+(1320-330)+"," + 320 + ")scale(0.35)");
     var categorySelection = "GEN"
 
     var colMapping = {
@@ -51,7 +48,6 @@ d3.csv("NatVal.csv", function (d, i) {
     var color = d3.scaleOrdinal(d3.schemeAccent);
 
     var selectedData = data.filter((d) => { return d.StratificationCategoryId1 == categorySelection; })
-    console.log(selectedData);
 
     x.domain(selectedData.map((d) => { return d.YearStart; }));
     y.domain([0, d3.max(selectedData, (d) => { return d.Data_Value; })]);
@@ -101,6 +97,6 @@ d3.csv("NatVal.csv", function (d, i) {
         })
         .attr("y", function (d) { return y(d.Data_Value); })
         .attr("width", x.bandwidth()/(innerCategories.length*2.5))
-        .attr("height", function (d) { console.log(height); return height - y(d.Data_Value); })
+        .attr("height", function (d) { return height - y(d.Data_Value); })
     
 });

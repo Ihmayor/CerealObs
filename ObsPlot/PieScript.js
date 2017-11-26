@@ -1,8 +1,9 @@
-﻿var svg = d3.select("svg"),
-width = +svg.attr("width"),
-height = +svg.attr("height"),
-radius = Math.min(width, height) / 20,
-g = svg.append("g").attr("transform", "translate(" + width / 10 + "," + 450 + ")");
+﻿
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height"),
+    radius = Math.min(width, height) / 10,
+    g = svg.append("g").attr("transform", "translate(" + width / 10 + "," + height / 10 + ")");
 
 var color = d3.scaleOrdinal(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
