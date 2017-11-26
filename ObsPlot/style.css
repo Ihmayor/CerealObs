@@ -32,7 +32,7 @@
 
 .axis .tick text {
     fill: #222;
-    opacity: 0;
+    opacity: 10;
     pointer-events: none;
 }
 

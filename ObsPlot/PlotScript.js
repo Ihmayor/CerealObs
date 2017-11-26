@@ -14,24 +14,22 @@ var svg = d3.select("svg")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 var dimensions = [];
-d3.csv("cars.csv", function (error, cars) {
 
+d3.csv("AllCerealBrand.csv", function (error, data) {
     // Extract the list of dimensions and create a scale for each.
-    x.domain(dimensions = d3.keys(cars[0]).filter(function (d) {
-        return d != "name" && (
+    console.log(data[0]);
+    x.domain(dimensions = d3.keys(data[0]).filter(function (d) {
+        return d != "Brand" && (
             y[d] = d3.scaleLinear()
-            .domain(d3.extent(cars, function (p) { return +p[d]; }))
-            .range([600, 0]));
+            .domain(d3.extent(data, function (p) { return +p[d]; }))
+            .range([0, 600]));
     }));
-    console.log("heeeeeeeeeeere i am once again. FALLING INTO PIECES!!");
-    console.log(dimensions);
-
 
     // Add grey background lines for context.
     background = svg.append("g")
         .attr("class", "background")
       .selectAll("path")
-        .data(cars)
+        .data(data)
       .enter().append("path")
         .attr("d", path);
 
@@ -39,7 +37,7 @@ d3.csv("cars.csv", function (error, cars) {
     foreground = svg.append("g")
         .attr("class", "foreground")
       .selectAll("path")
-        .data(cars)
+        .data(data)
       .enter().append("path")
         .attr("d", path);
 
@@ -54,18 +52,19 @@ d3.csv("cars.csv", function (error, cars) {
     g.append("g")
         .attr("class", "axis")
         .each(function (d) { d3.select(this).call(axis.scale(y[d])); })
-      .append("text")
+        .append("text")
         .style("text-anchor", "middle")
-        .attr("y", -9)
-        .text(function (d) { return d; });
+        .attr("y",(d,i)=>{ return -9+-12*(i%2)})
+        .attr("fill","black")
+        .text(function (d) { console.log(d); return d; });
 
-    // Add and store a brush for each axis.
-    g.append("g")
-        .attr("class", "brush")
-        .each(function (d) { d3.select(this).call(y[d].brush = d3.brushY().on("brush", brush)); })
-        .selectAll("rect")
-        .attr("x", -8)
-        .attr("width", 16);
+    //// Add and store a brush for each axis.
+    //g.append("g")
+    //    .attr("class", "brush")
+    //    .each(function (d) { d3.select(this).call(y[d].brush = d3.brushY().on("brush", brush)); })
+    //    .selectAll("rect")
+    //    .attr("x", -8)
+    //    .attr("width", 16);
 });
 
 // Returns the path for a given data point.
