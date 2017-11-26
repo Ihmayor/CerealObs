@@ -85,7 +85,7 @@ svg {
 
 .foreground path {
     fill: none;
-    stroke: steelblue;
+    stroke: steelblue ;
 }
 
 .brush .extent {

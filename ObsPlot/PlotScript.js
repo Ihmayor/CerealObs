@@ -101,6 +101,70 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
 
     }));
 
+    var getBrandNames = data.map((d) => { return d.Brand });
+    var fillReferences = [];
+    var colorSet1 = d3.schemeCategory20;
+    var colorSet2 = d3.schemeCategory20b;
+    var colorSet3 = d3.schemeCategory20c;
+    var colorSet4 = d3.schemeCategory10;
+
+    getBrandNames.forEach((d, i) => {
+        //Generate Texture. Check if one already exists
+        var key = d;
+        if (fillReferences.length > 0)
+            getKeys = fillReferences.map(function (d) { return d["Key"]; });
+        getKeys = [];
+        if (getKeys.indexOf(key) < 0) {
+            var colorScheme1;
+            var schemeNum1;
+            var colorScheme2;
+            var schemeNum2;
+
+
+            if (i <= 10) {
+                colorScheme1 = colorSet1;
+                colorScheme2 = colorSet2;
+                schemeNum1 = 20;
+                schemeNum2 = 20;
+            }
+            else if (i <= 40) {
+                colorScheme1 = colorSet2;
+                colorScheme2 = colorSet3;
+                schemeNum1 = 20;
+                schemeNum2 = 20;
+            }
+            else if (i <= 60) {
+                colorScheme1 = colorSet3;
+                colorScheme2 = colorSet1;
+                schemeNum1 = 20;
+                schemeNum2 = 20;
+            }
+            else {
+                colorScheme1 = colorSet4;
+                colorScheme2 = colorSet1;
+                schemeNum1 = 10;
+                schemeNum2 = 20;
+            }
+
+            //Creates a new texture with index*5-lines and corresponding colors
+            var barTexture = textures.lines(i % 4 * 5)
+                    .strokeWidth(2)
+                    .stroke(colorScheme1[i % schemeNum1])
+                    .background(colorScheme2[i % schemeNum2]);
+
+            //Creates barTexture def and adds to the page
+            svg.call(barTexture);
+
+            //Keep track of each barTexture def created for legend
+            fillReferences.push({ Key: key, Value: barTexture.url() })
+
+            //Pass ref of the created BarTexture to as a fill for the bar
+        }
+
+    })
+
+
+
     console.log("dimensions");
     console.log(dimensions);
     console.log(scale["carbo"]);
@@ -112,16 +176,46 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
         .data(data)
       .enter().append("path")
         .attr("d", path)
-        
-
     // Add blue foreground lines for focus.
     foreground = svg.append("g")
         .attr("class", "foreground")
       .selectAll("path")
         .data(data)
       .enter().append("path")
-        .attr("d", path)
-      .style("stroke", "red")
+      .attr("d", path)
+      .style("stroke", (d) => {
+          var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
+          return fillUrl.Value;
+      })
+      .style("stroke-width", "10")
+      .style("opacity", "0.1")
+      .on("mouseover", function (d) {
+            console.log("yes it's over");
+            //Highlight the bar hovered over at this moment
+            d3.select(this).style("stroke", "aliceblue").style("opacity",1);
+            console.log(this);
+          //Show the tool tip with associated data
+        //    div.transition()
+         //   .duration(200)
+         //   .style("opacity", .9);
+        //    div.html("test")
+        //    .style("left", (d3.event.pageX) + "px")
+        //    .style("top", (d3.event.pageY - 28) + "px")
+        //    .style('font-size', '20px')
+        })
+        .on("mouseleave", function (d) {
+            //Remove highlight when no longer hovered over
+            var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
+            d3.select(this).style("stroke", fillUrl.Value).style("opacity","0.1");
+            //Fade away the tooltip
+            //div.transition()
+            //.style('opacity', 0)
+            //.duration(500)
+
+        })
+
+
+
 
 
     // Add a group element for each dimension.

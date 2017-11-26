@@ -1,6 +1,9 @@
-﻿
-d3.csv("data.csv", function (d) {
-    d.population = +d.population;
+﻿d3.csv("StateFaveBrand.csv", function (d) {
+    d.Exercise = +d.Exercise;
+    d.Good = +d.Good;
+    d.Obese = +d.Obese;
+    d.Overweight = +d.Overweight;
+    d.PovertyRate = +d.PovertyRate;
     return d;
 }, function (error, data) {
     if (error) throw error;
@@ -12,9 +15,13 @@ d3.csv("data.csv", function (d) {
 
     var color = d3.scaleOrdinal(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
+    var selectState = "Alabama";
+    var stateData = data.filter((d) => { return d.State == selectState });
+    var percentages_of_select =[stateDate.Exerc
+
     var pie = d3.pie()
         .sort(null)
-        .value(function (d) { return d.population; });
+        .value(function (d) { return d.Good; });
 
     var pathPie = d3.arc()
         .outerRadius(radius - 10)
@@ -69,9 +76,5 @@ d3.csv("data.csv", function (d) {
         .attr('fill', "black")
         .text("Obesity Level")
         .style('font-size', '25px')
-
-
-
-
 
 });
