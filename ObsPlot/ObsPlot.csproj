@@ -71,6 +71,7 @@
     <Content Include="cars.csv" />
     <Content Include="data.csv" />
     <Content Include="nutrients.csv" />
+    <Content Include="Plot.html" />
     <Content Include="StateAgeObs.csv" />
     <Content Include="StateEduObs.csv" />
     <Content Include="StateFave.csv" />
@@ -97,6 +98,8 @@
     <Content Include="PieScript.js" />
     <Content Include="PlotScript.js" />
     <Content Include="style.css" />
+    <Content Include="textures-master\textures.js" />
+    <Content Include="textures-master\textures.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

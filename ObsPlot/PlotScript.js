@@ -190,10 +190,8 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
       .style("stroke-width", "10")
       .style("opacity", "0.1")
       .on("mouseover", function (d) {
-            console.log("yes it's over");
             //Highlight the bar hovered over at this moment
             d3.select(this).style("stroke", "aliceblue").style("opacity",1);
-            console.log(this);
           //Show the tool tip with associated data
         //    div.transition()
          //   .duration(200)
