@@ -20,6 +20,7 @@ d3.csv("NatVal.csv", function (d, i) {
 
 
     var categorySelection = "GEN"
+
     var colMapping = {
         "GEN": "Gender",
         "EDU": "Education",
@@ -45,11 +46,17 @@ d3.csv("NatVal.csv", function (d, i) {
               .key(function(d){ return d.YearStart})
               .rollup(function (v) { return d3.sum(v, function (d) { return d.Data_Value; }); })
               .object(data);
-    console.log(nestedData);
 
     var selectedNestedData = nestedData[categorySelection];
     var innerCategories = Object.keys(selectedNestedData);
+    //var color = d3.scaleLinear()
+    //       .domain([-1, innerCategories.length])
+    //       .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    //       .interpolate(d3.interpolateHcl);
 
+    var color = d3.scaleOrdinal(d3.schemeAccent);
+
+        
     var selectedData = data.filter((d) => { return d.StratificationCategoryId1 == categorySelection; })
     console.log(selectedData);
     x.domain(selectedData.map((d) => { return d.YearStart; }));
@@ -77,13 +84,17 @@ d3.csv("NatVal.csv", function (d, i) {
       .enter().append("rect")
         .attr("class", "bar")
         .style("fill", (d) => {
-            if (d.Gender == "Male") return "green"; else return "steelblue";
+            for (var i = 0; i < innerCategories.length; i++) {
+                if (d[colMapping[categorySelection]] == innerCategories[i])
+                    return color(i);
+            }
         })
         .attr("x", function (d) {
+            var barW = x.bandwidth() / (innerCategories.length * 2.5);
             for (var i = 0; i < innerCategories.length; i++)
             {
                 if (d[colMapping[categorySelection]] == innerCategories[i])
-                    return x(d.YearStart) + 35*i
+                    return x(d.YearStart) +  ((barW+barW/2)* i)
             }
         })
         .attr("y", function (d) { return y(d.Data_Value); })
