@@ -7,7 +7,7 @@ d3.csv("NatVal.csv", function (d, i) {
 
     var svg = d3.select("svg");
 
-    var margin = { top: 20, right: 20, bottom: 30, left: 40 }
+    var margin = { top: 20, right: 20, bottom: 50, left: 60 }
 
     var width = 960 - margin.left - margin.right,
     height = 900 - margin.top - margin.bottom;
@@ -49,33 +49,34 @@ d3.csv("NatVal.csv", function (d, i) {
 
     var selectedNestedData = nestedData[categorySelection];
     var innerCategories = Object.keys(selectedNestedData);
-    //var color = d3.scaleLinear()
-    //       .domain([-1, innerCategories.length])
-    //       .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-    //       .interpolate(d3.interpolateHcl);
-
     var color = d3.scaleOrdinal(d3.schemeAccent);
 
-        
     var selectedData = data.filter((d) => { return d.StratificationCategoryId1 == categorySelection; })
     console.log(selectedData);
+
     x.domain(selectedData.map((d) => { return d.YearStart; }));
     y.domain([0, d3.max(selectedData, (d) => { return d.Data_Value; })]);
 
     g.append("g")
-        .attr("class", "axis axis--x")
+        .call(d3.axisBottom(x))
         .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
+        .append("text")
+        .attr('y', 40)
+        .attr('x', 400)
+        .attr('fill', "black")
+        .text("Year Start/End")
+        .style('font-size', '20px')
+
 
     g.append("g")
-        .attr("class", "axis axis--y")
         .call(d3.axisLeft(y).ticks(10))
-      .append("text")
-        .attr("transform", "rotate(-90)")
-        .attr("y", 6)
-        .attr("dy", "0.71em")
-        .attr("text-anchor", "end")
-        .text("Frequency");
+        .append("text")
+        .attr('transform', 'rotate(-90)')
+        .attr('y', -35)
+        .attr('x', (-1*height/2)+150)
+        .attr('fill',"black")
+        .text("Obesity Level")
+        .style('font-size', '25px')
 
     
 
@@ -94,10 +95,11 @@ d3.csv("NatVal.csv", function (d, i) {
             for (var i = 0; i < innerCategories.length; i++)
             {
                 if (d[colMapping[categorySelection]] == innerCategories[i])
-                    return x(d.YearStart) +  ((barW+barW/2)* i)
+                    return x(d.YearStart) + ((barW + barW / 2) * i) + x.bandwidth() / 4;
             }
         })
         .attr("y", function (d) { return y(d.Data_Value); })
         .attr("width", x.bandwidth()/(innerCategories.length*2.5))
-        .attr("height", function (d) { console.log(height); return height - y(d.Data_Value); });
+        .attr("height", function (d) { console.log(height); return height - y(d.Data_Value); })
+    
 });
