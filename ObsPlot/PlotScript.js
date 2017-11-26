@@ -21,7 +21,7 @@ d3.csv("cars.csv", function (error, cars) {
         return d != "name" && (
             y[d] = d3.scaleLinear()
             .domain(d3.extent(cars, function (p) { return +p[d]; }))
-            .range([height, 0]));
+            .range([600, 0]));
     }));
     console.log("heeeeeeeeeeere i am once again. FALLING INTO PIECES!!");
     console.log(dimensions);
