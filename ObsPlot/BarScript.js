@@ -7,7 +7,7 @@ d3.csv("NatVal.csv", function (d, i) {
 
     var svg = d3.select("svg");
 
-    var margin = { top: 20, right: 20, bottom: 50, left: 60 }
+    var margin = { top: 20, right: 20, bottom: 70, left: 90 }
 
     var width = 960 - margin.left - margin.right,
     height = 900 - margin.top - margin.bottom;
@@ -17,7 +17,6 @@ d3.csv("NatVal.csv", function (d, i) {
 
     var g = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
 
     var categorySelection = "GEN"
 
@@ -60,19 +59,21 @@ d3.csv("NatVal.csv", function (d, i) {
     g.append("g")
         .call(d3.axisBottom(x))
         .attr("transform", "translate(0," + height + ")")
+        .style("font-size", "20px")
         .append("text")
-        .attr('y', 40)
+        .attr('y', 70 )
         .attr('x', 400)
         .attr('fill', "black")
         .text("Year Start/End")
-        .style('font-size', '20px')
+        .style('font-size', '25px')
 
 
     g.append("g")
         .call(d3.axisLeft(y).ticks(10))
+        .style("font-size","20px")
         .append("text")
         .attr('transform', 'rotate(-90)')
-        .attr('y', -35)
+        .attr('y', -65)
         .attr('x', (-1*height/2)+150)
         .attr('fill',"black")
         .text("Obesity Level")
