@@ -66,8 +66,9 @@
 
         arc2.append("path")
         .attr("d", pathPie2)
-        .style("opacity", 0.6)
-        .attr("fill", function (d, i) { return color[i]; });
+        .style("opacity", 1)
+        .attr("fill", function (d, i) { return color[i]; })
+        
 
         var arc = g.selectAll(".arcPie")
           .data(pie(ExerciseValue))
@@ -76,7 +77,13 @@
 
         arc.append("path")
             .attr("d", pathPie)
-            .attr("fill", function (d, i) { return color2[i]; });
+            .attr("fill", function (d, i) { return color2[i]; })
+            .on("mouseover", (d) => {
+
+            })
+            .on("mouseleave", (d) => {
+                
+            })
 
         arc.append("text")
             .attr("text-anchor", "middle")
@@ -86,6 +93,23 @@
             .text(selectState)
 
         g.on("click", (d) => { console.log("g can be clicked"); })
+
+        arc.on("mouseover", (d) => {
+            arc.attr("fill", "yellow");
+        })
+        .on("mouseleave", (d) => {
+            arc.attr("fill", "black");
+        })
+        arc2.on("mouseover", (d) => {
+            console.log(d3.select(arc2));
+            arc2.style("fill", "yellow");
+        })
+        .on("mouseleave", (d) => {
+            console.log(d3.select(arc2));
+            arc2.style("fill", "black");
+        })
+
+
         //630 0% -630 100%
         var povScale = d3.scaleLinear().domain([0, 100]).range([630, -630]);
 

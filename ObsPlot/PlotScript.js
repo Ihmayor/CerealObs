@@ -35,7 +35,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
               .object(data));
 
     mfrOrdScale = Object.keys(d3.nest()
-          .key(function (d) { return d.mfr; })
+          .key(function (d) { return d.Manufacturer; })
           .object(data));
 
 
@@ -60,8 +60,8 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
                 }))
             );
         }
-        else if (d == "mfr") {
-            return d == "mfr" && (
+        else if (d == "Manufacturer") {
+            return d == "Manufacturer" && (
                  scale[d] =
                  d3.scaleOrdinal()
                 .domain(mfrOrdScale)
@@ -89,7 +89,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
             );
         }
         else {
-            return d != "Type" && d != "mfr" && d != "Serve" && d != "Brand" && (
+            return d != "Type" && d != "Manufacturer" && d != "Serve" && d != "Brand" && (
             scale[d] = d3.scaleLinear()
             .domain(
                 d3.extent(data, function (p, i) {
