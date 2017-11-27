@@ -1,4 +1,4 @@
-﻿YearStart,YearEnd,LocationAbbr,LocationDesc,Data_Value,Total,Age(years),Education,Gender,Income,Race/Ethnicity,Stratification1,StratificationCategoryId1,StratificationID1,Simple
+﻿YearStart,YearEnd,LocationAbbr,LocationDesc,Data_Value,Total,AgeYear,Education,Gender,Income,RaceEthnicity,Stratification1,StratificationCategoryId1,StratificationID1,Simple
 2011,2011,AL,Alabama,32.3,,,,Male,,,Male,GEN,MALE,M
 2011,2011,AK,Alaska,28,,,,Male,,,Male,GEN,MALE,M
 2011,2011,AZ,Arizona,24.4,,,,Male,,,Male,GEN,MALE,M

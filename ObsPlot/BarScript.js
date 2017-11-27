@@ -19,8 +19,8 @@
     var g = svg.append("g")
         .attr("transform", "translate("+(1320-300)+"," + 490 + ")scale(0.35)");
 
-    var categorySelection = "INC"
-    var areaSelection = "US";
+    var categorySelection = "RACE"
+    var areaSelection = "AL";
 
     var colMapping = {
         "GEN": "Gender",
