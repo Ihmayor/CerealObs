@@ -218,11 +218,9 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
 
           div.html(htmlFull)
               .style("left", (d3.event.pageX) + "px")
-              .style("top", (d3.event.pageY - 200) + "px")
+              .style("top", (d3.event.pageY -230) + "px")
               .style('font-size', '12px')
              .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
-              .style("height", '200px')
-             .style("width", '240px')
 
       })
       .on("mouseleave", function (d) {
@@ -268,14 +266,11 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           //Show the tool tip with associated data
               div.transition()
              .duration(200)
-             .style("opacity", .75);
-              div.html("<b>Cereal Brand</b>: "+fave+"</br>"+"No Info")
+             .style("opacity", .9);
+              div.html("<b>Cereal Brand</b>: "+fave)
               .style("left", (d3.event.pageX) + "px")
               .style("top", (d3.event.pageY - 28) + "px")
-              .style('font-size', '12px')
-              .style("height", '30px')
-             .style("width", '180px')
-
+              .style('font-size', '20px')
       })
       .on("mouseleave", function (d) {
           //Remove highlight when no longer hovered over

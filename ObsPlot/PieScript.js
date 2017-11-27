@@ -14,6 +14,139 @@
         height = +svg.attr("height"),
         radius = Math.min(width, height) / 9
 
+
+    var color = d3.schemeSet2;
+    var color2 = ["green", "grey"];
+    var pieLabels = ["Good", "Overweight", "Obese", "PovertyRate"]
+
+
+    var legendX = 1320 - (458);
+    var legendY = 10;
+
+    
+
+    var legend = svg.append("g")
+                .attr("class","legend")
+                .attr("transform", "translate(" + 960 + "," + 0 + ")");
+
+    var spacingX = 50;
+
+    legend.append("text")
+             .style("fill", "black")
+             .attr('x', -80)
+             .attr('y', 20)
+             .attr("text-anchor", "middle")
+             .attr('font-size', '18px')
+             .attr('font-weight','bold')
+             .text("STATE POP % ")
+
+
+
+    //Pop % Good
+    legend.append("rect")
+            .attr('fill', color[0])
+            .attr('x', 0)
+            .attr('y', 0)
+            .attr('height', 20)
+            .attr('width', 20)
+
+    legend.append("text")
+             .style("fill", "black")
+             .attr('x', 10)
+             .attr('y', 34)
+             .attr("text-anchor", "middle")
+             .attr('font-size', '10px')
+             .text("Good")
+
+           
+    //Pop %  Overweight
+    legend.append("rect")
+            .attr('fill', color[1])
+            .attr('x', 50*1)
+            .attr('y', 0)
+            .attr('height', 20)
+            .attr('width', 20)
+    legend.append("text")
+             .style("fill", "black")
+             .attr('x', (50 * 1) + 10)
+             .attr('y', 34)
+             .attr("text-anchor", "middle")
+             .attr('font-size', '10px')
+             .text("Overweight")
+
+
+
+    
+    //Pop % Obese
+    legend.append("rect")
+            .attr('fill', color[2])
+            .attr('x', 50 * 2)
+            .attr('y', 0)
+            .attr('height', 20)
+            .attr('width', 20)
+
+    legend.append("text")
+             .style("fill", "black")
+             .attr('x', (50 * 2) + 10)
+             .attr('y', 34)
+             .attr("text-anchor", "middle")
+             .attr('font-size', '10px')
+             .text("Obese")
+
+
+
+    //Pop % Exercise
+    legend.append("rect")
+            .attr('fill', color2[0])
+            .attr('x', 50 * 3)
+            .attr('y', 0)
+            .attr('height', 20)
+            .attr('width', 20)
+
+    legend.append("text")
+            .style("fill", "black")
+            .attr('x', (50 * 3)+5)
+            .attr('y', 34)
+            .attr("text-anchor", "middle")
+            .attr('font-size', '10px')
+            .text("Exercise")
+
+
+    //Pop % Not Exercise    
+    legend.append("rect")
+            .attr('fill', color2[1])
+            .attr('x', 50 * 4)
+            .attr('y', 0)
+            .attr('height', 20)
+            .attr('width', 20)
+
+    legend.append("text")
+            .style("fill", "black")
+            .attr('x', (50 * 4)+10)
+            .attr('y', 34)
+            .attr("text-anchor", "middle")
+            .attr('font-size', '10px')
+            .text("No Exercise")
+
+
+    //Poverty Line   
+    legend.append("rect")
+            .attr('fill', "black")
+            .attr('x', 50 * 5)
+            .attr('y', 16)
+            .attr('height', 4)
+            .attr('width', 100)
+
+    legend.append("text")
+            .style("fill", "black")
+            .attr('x', (50 * 5)+50)
+            .attr('y', 34)
+            .attr("text-anchor", "middle")
+            .attr('font-size', '10px')
+            .text("Poverty Rate")
+
+
+
     var stateNames = data.map((d) => { return d.StateAbbv; })
     stateNames.forEach((selectState,i) => {
         var perRow = 7;
@@ -26,9 +159,6 @@
         
 
 
-        var color = d3.schemeSet2;
-        var color2 = ["green", "grey"];
-        var pieLabels = ["Good", "Obese", "Overweight", "PovertyRate"]
 
         var stateData = data.filter((d) => { return d.StateAbbv == selectState })[0];
 
@@ -77,6 +207,7 @@
             .attr("d", pathPie)
             .attr("fill", function (d, i) { return color2[i]; })
             .on("mouseover", (d) => {
+                console.log(this);
 
             })
             .on("mouseleave", (d) => {
@@ -94,16 +225,26 @@
 
         arc.on("mouseover", (d) => {
             arc.attr("fill", "yellow");
+            showToolTip(stateData);
+            if (i %perRow > perRow -4)
+                div.style("left", (d3.event.pageX) - 200 + "px")
+    
         })
         .on("mouseleave", (d) => {
             arc.attr("fill", "black");
+            div.transition()
+            .style('opacity', 0)
+            .duration(500)
+
         })
         arc2.on("mouseover", (d) => {
-            console.log(d3.select(arc2));
             arc2.style("fill", "yellow");
+            showToolTip(stateData);
+            if (i % perRow > perRow - 4)
+                div.style("left", (d3.event.pageX) - 200 + "px")
+
         })
         .on("mouseleave", (d) => {
-            console.log(d3.select(arc2));
             arc2.style("fill", "black");
         })
 
@@ -122,6 +263,27 @@
 
 
 });
+
+function showToolTip(stateData)
+{
+    div.transition()
+    .duration(200)
+    .style("opacity", .84);
+    var htmlFull = "<b>" + stateData.State + "</b><br/>" +
+                    "<b>Exercise</b>: " + stateData.Exercise + "<br/>" +
+                    "<b>Good: </b>" + stateData.Good + "  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" +
+                    "<b>Obese: </b>" + stateData.Obese + " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" +
+                    "<b>Overweight: </b>" + stateData.Overweight + "<br/>" +
+                    "<b>Povery Rate: </b>" + stateData.PovertyRate + "<br/>";
+
+    div.html(htmlFull)
+        .style("left", (d3.event.pageX) + 30 + "px")
+        .style("top", (d3.event.pageY - 10) + "px")
+        .style('font-size', '12px')
+       .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
+        .style("height", '80px')
+       .style("width", '200px')
+}
 
 
 // Returns the path for a given data point.
