@@ -24,6 +24,10 @@ svg.append("text")
     .attr("x", "200")
     .attr("y", "-80")
 
+//Create tooltip div
+var div = d3.select("body").append("div")
+         .attr("class", "tooltip")
+         .style("opacity", 0);
 
 
 var dimensions = [];
@@ -196,22 +200,38 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           //Highlight the bar hovered over at this moment
           d3.select(this).style("stroke", "yellow").style("opacity", 1);
           //Show the tool tip with associated data
-          //    div.transition()
-          //   .duration(200)
-          //   .style("opacity", .9);
-          //    div.html("test")
-          //    .style("left", (d3.event.pageX) + "px")
-          //    .style("top", (d3.event.pageY - 28) + "px")
-          //    .style('font-size', '20px')
+              div.transition()
+             .duration(200)
+             .style("opacity", .9);
+              var htmlFull = "";
+              dimensions.forEach((dim, i) => {
+                  if (i == dim.length -1)
+                  {
+                      htmlFull += "<b>"+dim + "</b>: " + d[dim] + "";
+                  }
+                  else if (i%2 == 0)
+                  {
+                      htmlFull += "<b>" + dim + "</b>: " + d[dim] + "<br\>";
+                  }
+                  else
+                  {
+                      htmlFull += "<b>" + dim + "</b>: " + d[dim] + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+                  }
+              })
+
+          div.html(htmlFull)
+              .style("left", (d3.event.pageX) + "px")
+              .style("top", (d3.event.pageY - 28) + "px")
+              .style('font-size', '12px')
       })
       .on("mouseleave", function (d) {
           //Remove highlight when no longer hovered over
           var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
           d3.select(this).style("stroke", fillUrl.Value).style("opacity", "0.1");
           //Fade away the tooltip
-          //div.transition()
-          //.style('opacity', 0)
-          //.duration(500)
+          div.transition()
+          .style('opacity', 0)
+          .duration(500)
 
       })
 
@@ -225,7 +245,6 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
     ]
 
     NoInfoFave.forEach((fave, i) => {
-        console.log(i);
         var offset = 75 * i;
         var valY = 4910 + offset;
         var lineData = [{ x: 0, y: valY }, { x: 7400, y: valY }];

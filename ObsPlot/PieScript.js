@@ -20,7 +20,6 @@
         var offset = (i % perRow) * -70;
 
         var x = 1320-(458+offset);
-        console.log(x);
         var y = 130 + 60*(Math.floor((i/perRow))-1);
 
         var g = svg.append("g").attr("transform", "translate(" + x + "," + y + ")scale(0.32)");
@@ -30,7 +29,6 @@
         var color = d3.schemeSet2;
         var color2 = ["green", "grey"];
         var pieLabels = ["Good", "Obese", "Overweight", "PovertyRate"]
-        console.log(selectState);
 
         var stateData = data.filter((d) => { return d.StateAbbv == selectState })[0];
 
