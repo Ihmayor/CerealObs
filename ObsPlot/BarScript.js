@@ -20,7 +20,7 @@
         .attr("transform", "translate("+(1320-300)+"," + 490 + ")scale(0.35)");
 
     var categorySelection = "RACE"
-    var areaSelection = "AL";
+    var areaSelection = "US";
 
     var colMapping = {
         "GEN": "Gender",
@@ -32,10 +32,11 @@
         "": "Total"
     }
 
+    g.append("select")
 
     g.append("text")
         .attr("fill", "black")
-        .text(areaSelection+" Obesity per "+colMapping[categorySelection]+" vs. Time")
+        .text(areaSelection+" Obesity Rate per "+colMapping[categorySelection]+" per Year")
         .style("font-size", "40px")
         .attr("x", "20")
         .attr("y", "-30")
@@ -61,7 +62,6 @@
     var selectedNestedData = nestedData[categorySelection];
     var innerCategories = Object.keys(selectedNestedData);
     var color = d3.scaleOrdinal(d3.schemeAccent);
-
     var selectedData = data.filter((d) => {
         return d.StratificationCategoryId1 == categorySelection && d.LocationAbbr == areaSelection;
     })
@@ -70,12 +70,12 @@
     ///LEGEND INFO
     var barLegend = svg.append("g").attr("transform", "translate(" + (990) + "," + 490 + ")");
     var nestedLegend = d3.nest().key(function (d) { return d.Simple; }).object(selectedData);
-    console.log(nestedLegend);
-
+    
     Object.keys(nestedLegend).forEach((cat, i) => {
         var perRow = 4;
         var offset = (i % perRow) * 45;
-
+        var mappedCol = colMapping[categorySelection]
+        var fullName = nestedLegend[cat][0][mappedCol];
         var x = -170+offset;
         var y = 85 + 50 * (Math.floor((i / perRow)) - 1);
 
@@ -85,8 +85,15 @@
             .attr('y',y)
             .attr('height', 20)
             .attr('width', 20)
-
-
+            .on("mouseover", (d) =>{
+                var htmlFull = fullName
+                showToolTipBar(htmlFull,0,0,25,115);
+            })
+            .on("mouseleave", (x) => {
+                div.transition()
+                .style('opacity', 0)
+                .duration(500)
+            })
 
         barLegend.append("text")
            .attr("fill", "black")
@@ -123,8 +130,6 @@
         .text("Obesity Level")
         .style('font-size', '25px')
 
-    
-
     g.selectAll(".bar")
       .data(selectedData)
       .enter().append("rect")
@@ -146,5 +151,33 @@
         .attr("y", function (d) { return y(d.Data_Value); })
         .attr("width", x.bandwidth()/(innerCategories.length*2.5))
         .attr("height", function (d) { return height - y(d.Data_Value); })
+        .on("mouseleave", function (d) {
+        })
+        .on("mouseover", function (d) {
+
+        })
     
 });
+
+
+function hideToolTip() {
+    div.transition()
+    .style('opacity', 0)
+    .duration(500)
+}
+
+
+function showToolTipBar(htmlFull,yOffset,xOffset,h, w) {
+    console.log(yOffset);
+    div.transition()
+    .duration(200)
+    .style("opacity", .84);
+    div.html(htmlFull)
+        .style("left", (d3.event.pageX)+xOffset + "px")
+        .style("top", (d3.event.pageY + yOffset) + "px")
+        .style('font-size', '10px')
+       .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
+        .style("height", h+'px')
+       .style("width",w+'px')
+}
+

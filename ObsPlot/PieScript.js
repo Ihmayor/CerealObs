@@ -23,10 +23,10 @@
     var legendX = 1320 - (458);
     var legendY = 10;
 
-    
+
 
     var legend = svg.append("g")
-                .attr("class","legend")
+                .attr("class", "legend")
                 .attr("transform", "translate(" + 960 + "," + 0 + ")");
 
     var spacingX = 50;
@@ -37,7 +37,7 @@
              .attr('y', 20)
              .attr("text-anchor", "middle")
              .attr('font-size', '18px')
-             .attr('font-weight','bold')
+             .attr('font-weight', 'bold')
              .text("STATE POP % ")
 
 
@@ -58,11 +58,11 @@
              .attr('font-size', '10px')
              .text("Good")
 
-           
+
     //Pop %  Overweight
     legend.append("rect")
             .attr('fill', color[1])
-            .attr('x', 50*1)
+            .attr('x', 50 * 1)
             .attr('y', 0)
             .attr('height', 20)
             .attr('width', 20)
@@ -76,7 +76,7 @@
 
 
 
-    
+
     //Pop % Obese
     legend.append("rect")
             .attr('fill', color[2])
@@ -105,7 +105,7 @@
 
     legend.append("text")
             .style("fill", "black")
-            .attr('x', (50 * 3)+5)
+            .attr('x', (50 * 3) + 5)
             .attr('y', 34)
             .attr("text-anchor", "middle")
             .attr('font-size', '10px')
@@ -122,7 +122,7 @@
 
     legend.append("text")
             .style("fill", "black")
-            .attr('x', (50 * 4)+10)
+            .attr('x', (50 * 4) + 10)
             .attr('y', 34)
             .attr("text-anchor", "middle")
             .attr('font-size', '10px')
@@ -139,7 +139,7 @@
 
     legend.append("text")
             .style("fill", "black")
-            .attr('x', (50 * 5)+50)
+            .attr('x', (50 * 5) + 50)
             .attr('y', 34)
             .attr("text-anchor", "middle")
             .attr('font-size', '10px')
@@ -148,15 +148,15 @@
 
 
     var stateNames = data.map((d) => { return d.StateAbbv; })
-    stateNames.forEach((selectState,i) => {
+    stateNames.forEach((selectState, i) => {
         var perRow = 7;
         var offset = (i % perRow) * -70;
 
-        var x = 1320-(458+offset);
-        var y = 130 + 60*(Math.floor((i/perRow))-1);
+        var x = 1320 - (458 + offset);
+        var y = 130 + 60 * (Math.floor((i / perRow)) - 1);
 
         var g = svg.append("g").attr("transform", "translate(" + x + "," + y + ")scale(0.32)");
-        
+
 
 
 
@@ -184,7 +184,7 @@
         var ExerciseValue = [stateData.Exercise, 100 - stateData.Exercise];
 
         var pathPie2 = d3.arc()
-            .outerRadius(radius - 4)
+            .outerRadius(radius-20)
             .innerRadius(90);
 
         var arc2 = g.selectAll(".arcPie1")
@@ -196,7 +196,6 @@
         .attr("d", pathPie2)
         .style("opacity", 1)
         .attr("fill", function (d, i) { return color[i]; })
-        
 
         var arc = g.selectAll(".arcPie")
           .data(pie(ExerciseValue))
@@ -206,13 +205,6 @@
         arc.append("path")
             .attr("d", pathPie)
             .attr("fill", function (d, i) { return color2[i]; })
-            .on("mouseover", (d) => {
-                console.log(this);
-
-            })
-            .on("mouseleave", (d) => {
-                
-            })
 
         arc.append("text")
             .attr("text-anchor", "middle")
@@ -222,30 +214,21 @@
             .text(selectState)
 
         g.on("click", (d) => { console.log("g can be clicked"); })
-
-        arc.on("mouseover", (d) => {
-            arc.attr("fill", "yellow");
-            showToolTip(stateData);
-            if (i %perRow > perRow -4)
-                div.style("left", (d3.event.pageX) - 200 + "px")
-    
-        })
-        .on("mouseleave", (d) => {
-            arc.attr("fill", "black");
-            div.transition()
-            .style('opacity', 0)
-            .duration(500)
-
-        })
-        arc2.on("mouseover", (d) => {
-            arc2.style("fill", "yellow");
+        .on("mouseover", function (d, i) {
+            var transformCheck = d3.select(this).attr("transform");
+            d3.select(this).attr("transform", transformCheck.replace("scale(0.32)","scale(0.36)"))
+//            d3.select(this).attr("transform", "scale(2)");
+            
             showToolTip(stateData);
             if (i % perRow > perRow - 4)
                 div.style("left", (d3.event.pageX) - 200 + "px")
-
         })
-        .on("mouseleave", (d) => {
-            arc2.style("fill", "black");
+        .on("mouseleave", function (d) {
+            var transformCheck = d3.select(this).attr("transform");
+            d3.select(this).attr("transform", transformCheck.replace("scale(0.36)", "scale(0.32)"))
+
+            //        d3.select(this).attr("transform", "scale(1)");
+            //"(0.32)"
             div.transition()
             .style('opacity', 0)
             .duration(500)
@@ -263,12 +246,24 @@
         .style("stroke-shadow", "0 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000")
 
     })
+    svg.append("g")
+        .append("circle")
+        .attr("cx", 990)
+        .attr("cy", 480)
+        .attr("r", 16)
+        .attr("fill", "grey")
+
+    svg.append("text")
+        .attr("x", 980)
+        .attr("y", 480)
+        .attr("fill", "white")
+        .text("US")
+
 
 
 });
 
-function showToolTip(stateData)
-{
+function showToolTip(stateData) {
     div.transition()
     .duration(200)
     .style("opacity", .84);
@@ -287,6 +282,7 @@ function showToolTip(stateData)
         .style("height", '80px')
        .style("width", '200px')
 }
+
 
 
 // Returns the path for a given data point.
