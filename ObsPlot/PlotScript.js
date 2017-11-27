@@ -1,6 +1,6 @@
 ﻿var margin = { top: 30, right: 10, bottom: 10, left: 50 }
 
-var x = d3.scalePoint().range([0, 960 - margin.left - margin.right], 1),
+var x = d3.scalePoint().range([0, 800 - margin.left - margin.right], 1),
     scale = {},
     typeOrdScale = [],
     serveOrdScale = [],
@@ -14,14 +14,14 @@ var line = d3.line(),
 
 var svg = d3.select("svg")
     .append("g")
-    .attr("transform", "translate(" + (margin.left + 30) + ",120)")
+    .attr("transform", "translate(" + (margin.left + 22) + ",120)")
 
 
 svg.append("text")
     .attr("fill", "black")
     .text("All Cereal Brands")
     .style("font-size", "40px")
-    .attr("x", "300")
+    .attr("x", "200")
     .attr("y", "-80")
 
 
@@ -45,17 +45,18 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
 
 
     x.domain(dimensions = d3.keys(data[0]).filter(function (d) {
+        var plotH = 480;
         if (d == "Type") {
             return d == "Type" && (
                  scale[d] =
                  d3.scaleOrdinal()
                 .domain(typeOrdScale)
                 .range(typeOrdScale.map((a, i) => {
-                    var step = (480 / (typeOrdScale.length - 1));
+                    var step = (plotH / (typeOrdScale.length - 1));
                     if (i == 0) {
-                        return 480;
+                        return plotH;
                     }
-                    return 480 - (i * step);
+                    return plotH - (i * step);
                 }))
             );
         }
@@ -65,11 +66,11 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
                  d3.scaleOrdinal()
                 .domain(mfrOrdScale)
                 .range(mfrOrdScale.map((a, i) => {
-                    var step = (480 / (mfrOrdScale.length - 1));
+                    var step = (plotH / (mfrOrdScale.length - 1));
                     if (i == 0) {
-                        return 480;
+                        return plotH;
                     }
-                    return 480 - (i * step);
+                    return plotH - (i * step);
                 }))
             );
         }
@@ -79,11 +80,11 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
                  d3.scaleOrdinal()
                 .domain(serveOrdScale)
                 .range(serveOrdScale.map((a, i) => {
-                    var step = (480 / (serveOrdScale.length - 1));
+                    var step = (plotH / (serveOrdScale.length - 1));
                     if (i == 0) {
-                        return 480;
+                        return plotH;
                     }
-                    return 480 - (i * step);
+                    return plotH - (i * step);
                 }))
             );
         }
@@ -94,7 +95,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
                 d3.extent(data, function (p, i) {
                     return +p[d];
                 }))
-            .range([0, 480]));
+            .range([0, plotH]));
         }
 
 
@@ -176,6 +177,8 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
         .data(data)
       .enter().append("path")
         .attr("d", path)
+
+
     // Add blue foreground lines for focus.
     foreground = svg.append("g")
         .attr("class", "foreground")
@@ -190,30 +193,81 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
       .style("stroke-width", "4")
       .style("opacity", "0.1")
       .on("mouseover", function (d) {
-            //Highlight the bar hovered over at this moment
-            d3.select(this).style("stroke", "aliceblue").style("opacity",1);
+          //Highlight the bar hovered over at this moment
+          d3.select(this).style("stroke", "yellow").style("opacity", 1);
           //Show the tool tip with associated data
-        //    div.transition()
-         //   .duration(200)
-         //   .style("opacity", .9);
-        //    div.html("test")
-        //    .style("left", (d3.event.pageX) + "px")
-        //    .style("top", (d3.event.pageY - 28) + "px")
-        //    .style('font-size', '20px')
-        })
-        .on("mouseleave", function (d) {
-            //Remove highlight when no longer hovered over
-            var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
-            d3.select(this).style("stroke", fillUrl.Value).style("opacity","0.1");
-            //Fade away the tooltip
-            //div.transition()
-            //.style('opacity', 0)
-            //.duration(500)
+          //    div.transition()
+          //   .duration(200)
+          //   .style("opacity", .9);
+          //    div.html("test")
+          //    .style("left", (d3.event.pageX) + "px")
+          //    .style("top", (d3.event.pageY - 28) + "px")
+          //    .style('font-size', '20px')
+      })
+      .on("mouseleave", function (d) {
+          //Remove highlight when no longer hovered over
+          var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
+          d3.select(this).style("stroke", fillUrl.Value).style("opacity", "0.1");
+          //Fade away the tooltip
+          //div.transition()
+          //.style('opacity', 0)
+          //.duration(500)
 
-        })
+      })
+
+    var NoInfoFave =
+    ["All Bran",
+    "Cascade Farms",
+    "Kashi",
+    "Nature Valley",
+    "Oreo O's",
+    "Quaker Oatmeal Squares"
+    ]
+
+    NoInfoFave.forEach((fave, i) => {
+        console.log(i);
+        var offset = 75 * i;
+        var valY = 4910 + offset;
+        var lineData = [{ x: 0, y: valY }, { x: 7400, y: valY }];
+        var lineX = d3.scaleLinear().domain([0, 200]).range([0, 20]);
+        var lineY = d3.scaleLinear().domain([0, 100]).range([0, 10]);
+        var line = d3.line()
+          .x(function (d) { return lineX(d.x); })
+          .y(function (d) { return lineY(d.y); });
+
+        svg.append("g")
+             .attr("class", "foreground")
+            .append("path")
+            .attr("d", line(lineData))
+            .style("stroke", "red")
+            .style("stroke-width", "4")
+            .style("opacity", "0.5")
+      .on("mouseover", function (d) {
+          //Highlight the bar hovered over at this moment
+          d3.select(this).style("stroke", "yellow").style("opacity", 1);
+          //Show the tool tip with associated data
+          //    div.transition()
+          //   .duration(200)
+          //   .style("opacity", .9);
+          //    div.html("test")
+          //    .style("left", (d3.event.pageX) + "px")
+          //    .style("top", (d3.event.pageY - 28) + "px")
+          //    .style('font-size', '20px')
+      })
+      .on("mouseleave", function (d) {
+          //Remove highlight when no longer hovered over
+          d3.select(this).style("stroke", "red").style("opacity", "0.5")
+          //Fade away the tooltip
+          //div.transition()
+          //.style('opacity', 0)
+          //.duration(500)
+
+      })
 
 
 
+
+    })
 
 
     // Add a group element for each dimension.
@@ -244,7 +298,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
 
 // Returns the path for a given data point.
 function path(d) {
-    return line(dimensions.map(function (p) {
+    return line(dimensions.map(function (p, i) {
         return [x(p), scale[p](d[p])];
     }));
 }
