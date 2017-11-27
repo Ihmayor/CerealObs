@@ -246,6 +246,9 @@
         })
         .on("mouseleave", (d) => {
             arc2.style("fill", "black");
+            div.transition()
+            .style('opacity', 0)
+            .duration(500)
         })
 
 

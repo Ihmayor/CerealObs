@@ -20,7 +20,7 @@
         .attr("transform", "translate("+(1320-300)+"," + 490 + ")scale(0.35)");
 
     var categorySelection = "INC"
-    var areaSelection = "AL";
+    var areaSelection = "US";
 
     var colMapping = {
         "GEN": "Gender",
