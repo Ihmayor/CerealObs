@@ -1,4 +1,4 @@
-﻿d3.csv("NatVal.csv", function (d, i) {
+﻿d3.csv("AllSurvVal.csv", function (d, i) {
     d.Data_Value = +d.Data_Value;
     return d;
 }, function (error, data) {
@@ -13,10 +13,14 @@
 
     var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
         y = d3.scaleLinear().rangeRound([height, 0]);
+
+
+
     var g = svg.append("g")
         .attr("transform", "translate("+(1320-300)+"," + 490 + ")scale(0.35)");
 
-    var categorySelection = "RACE"
+    var categorySelection = "INC"
+    var areaSelection = "AL";
 
     var colMapping = {
         "GEN": "Gender",
@@ -31,7 +35,7 @@
 
     g.append("text")
         .attr("fill", "black")
-        .text("Obesity Levels per "+colMapping[categorySelection]+" vs. Time")
+        .text(areaSelection+" Obesity per "+colMapping[categorySelection]+" vs. Time")
         .style("font-size", "40px")
         .attr("x", "20")
         .attr("y", "-30")
@@ -58,7 +62,40 @@
     var innerCategories = Object.keys(selectedNestedData);
     var color = d3.scaleOrdinal(d3.schemeAccent);
 
-    var selectedData = data.filter((d) => { return d.StratificationCategoryId1 == categorySelection; })
+    var selectedData = data.filter((d) => {
+        return d.StratificationCategoryId1 == categorySelection && d.LocationAbbr == areaSelection;
+    })
+    
+
+    ///LEGEND INFO
+    var barLegend = svg.append("g").attr("transform", "translate(" + (990) + "," + 490 + ")");
+    var nestedLegend = d3.nest().key(function (d) { return d.Simple; }).object(selectedData);
+    console.log(nestedLegend);
+
+    Object.keys(nestedLegend).forEach((cat, i) => {
+        var perRow = 4;
+        var offset = (i % perRow) * 45;
+
+        var x = -170+offset;
+        var y = 85 + 50 * (Math.floor((i / perRow)) - 1);
+
+        barLegend.append("rect")
+            .attr("fill", color(i)) 
+            .attr('x', x)
+            .attr('y',y)
+            .attr('height', 20)
+            .attr('width', 20)
+
+
+
+        barLegend.append("text")
+           .attr("fill", "black")
+            .attr('x', x)
+            .attr('y', y+30)
+            .attr("font-size",'8px')
+            .text(cat)
+    })
+    
 
     x.domain(selectedData.map((d) => { return d.YearStart; }));
     y.domain([0, d3.max(selectedData, (d) => { return d.Data_Value; })]);
