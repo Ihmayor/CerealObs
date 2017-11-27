@@ -187,7 +187,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
           return fillUrl.Value;
       })
-      .style("stroke-width", "10")
+      .style("stroke-width", "4")
       .style("opacity", "0.1")
       .on("mouseover", function (d) {
             //Highlight the bar hovered over at this moment

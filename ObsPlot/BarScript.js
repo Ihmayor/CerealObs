@@ -33,8 +33,8 @@
         .attr("fill", "black")
         .text("Obesity Levels per "+colMapping[categorySelection]+" vs. Time")
         .style("font-size", "40px")
-        .attr("x", "100")
-        .attr("y", "-80")
+        .attr("x", "20")
+        .attr("y", "-30")
 
 
     var colKeys = Object.keys(colMapping);
