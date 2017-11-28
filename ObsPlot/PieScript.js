@@ -1,5 +1,6 @@
 ﻿function highlightBrand(brandName)
 {
+
     var stateBrand = pieLoadedData.filter((state) =>{ return state.Favourite == brandName })
     stateBrand = stateBrand.map((state) => { return state.StateAbbv });
     stateBrand.forEach(function (d) {

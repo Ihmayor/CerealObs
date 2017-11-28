@@ -283,6 +283,11 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
             .style("stroke-width", "4")
             .style("opacity", "0.5")
       .on("mouseover", function (d) {
+
+          var setY = (d3.event.pageY - 28);
+          if ((d3.event.pageY - 28) > 600)
+              setY = 600;
+          console.log();
           //Highlight the path hovered over at this moment
           d3.select(this).style("stroke", "yellow").style("opacity", 1);
           //Show the tool tip with associated data
@@ -291,10 +296,10 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
              .style("opacity", .75);
               div.html("<b>Cereal Brand</b>: "+fave+"</br>"+"No Info")
               .style("left", (d3.event.pageX) + "px")
-              .style("top", (d3.event.pageY - 28) + "px")
-              .style('font-size', '12px')
-              .style("height", '30px')
-             .style("width", '180px')
+              .style("top", setY+ "px")
+              .style('font-size', '11px')
+              .style("height", '45px')
+             .style("width", '190px')
               highlightBrand(fave);
 
       })
