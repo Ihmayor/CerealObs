@@ -71,6 +71,7 @@
     <Content Include="cars.csv" />
     <Content Include="data.csv" />
     <Content Include="nutrients.csv" />
+    <Content Include="pie.png" />
     <Content Include="Plot.html" />
     <Content Include="StateAgeObs.csv" />
     <Content Include="StateEduObs.csv" />

@@ -24,6 +24,8 @@ var selectedNestedData = [];
 
 var dataLoaded;
 var nestedData;
+
+
 $("#SelectBar").change(function (sb) {
     var selectedValue = sb.target.value;
     var newCat = barMapping[selectedValue];
@@ -31,6 +33,16 @@ $("#SelectBar").change(function (sb) {
     $(".barChart").remove();
     update();
 });
+
+$("#SelectBar").ready(function (sb) {
+    document.getElementById('SelectBar').options[0].selected = 'selected';
+});
+
+$("#SelectBar").load(function (sb) {
+    document.getElementById('SelectBar').options[0].selected = 'selected';
+});
+
+
 
 function changeAreaSelection(areaSelect) {
     areaSelection = areaSelect;
@@ -63,7 +75,7 @@ function update() {
     var colKeys = Object.keys(colMapping);
     selectedNestedData = nestedData[categorySelection];
     var innerCategories = Object.keys(selectedNestedData);
-    var color = d3.scaleOrdinal(d3.schemeAccent);
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
     var selectedData = dataLoaded.filter((d) => {
         return d.StratificationCategoryId1 == categorySelection && d.LocationAbbr == areaSelection;
     })
@@ -154,9 +166,21 @@ function update() {
         .attr("y", function (d) { return y(d.Data_Value); })
         .attr("width", x.bandwidth() / (innerCategories.length * 2.5))
         .attr("height", function (d) { return height - y(d.Data_Value); })
-        .on("mouseleave", function (d) {
-        })
+           .on("mouseleave", function (d) {
+               hideToolTip();
+           })
         .on("mouseover", function (d) {
+
+            var htmlFull = d.Data_Value;
+            var yOffset = 0;
+            var xOffset = 0;
+            var h = 16;
+            var w = 40;
+            showToolTipBar(htmlFull, yOffset, xOffset, h, w);
+            //style("left", (d3.event.pageX) + xOffset + "px")
+            //style("top", (d3.event.pageY + yOffset) + "px")
+
+
 
         })
 }
@@ -311,7 +335,7 @@ function (error, data) {
             showToolTipBar(htmlFull, yOffset, xOffset, h, w);
             //style("left", (d3.event.pageX) + xOffset + "px")
             //style("top", (d3.event.pageY + yOffset) + "px")
-        
+
 
 
         })
