@@ -55,7 +55,7 @@ function update() {
 
     g.append("text")
         .attr("fill", "black")
-     .text(areaSelection + " Obesity Rate per" + ' ------------------  ' + "per Year")
+     .text(areaSelection + " Obesity Rate per" + ' -------------------  ' + "per Year")
            .style("font-size", "40px")
         .attr("x", "20")
         .attr("y", "-30")
@@ -186,7 +186,7 @@ function (error, data) {
 
     g.append("text")
         .attr("fill", "black")
-     .text(areaSelection + " Obesity Rate per" + ' ------------------  ' + "per Year")
+     .text(areaSelection + " Obesity Rate per" + ' -------------------  ' + "per Year")
         .style("font-size", "40px")
         .attr("x", "20")
         .attr("y", "-30")

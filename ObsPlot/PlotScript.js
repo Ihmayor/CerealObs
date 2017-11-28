@@ -31,6 +31,7 @@ var div = d3.select("body").append("div")
 
 
 var dimensions = [];
+var fillReferences = [];
 
 d3.csv("AllCerealBrand.csv", function (error, data) {
     // Extract the list of dimensions and create a scale for each.
@@ -107,7 +108,6 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
     }));
 
     var getBrandNames = data.map((d) => { return d.Brand });
-    var fillReferences = [];
     var colorSet1 = d3.schemeCategory20;
     var colorSet2 = d3.schemeCategory20b;
     var colorSet3 = d3.schemeCategory20c;
@@ -191,6 +191,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
           return fillUrl.Value;
       })
+      .attr("class", (d) => { console.log("test"); return "path " + d.Brand.replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "") })
       .style("stroke-width", "4")
       .style("opacity", "0.1")
       .on("mouseover", function (d) {
@@ -220,9 +221,16 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
               .style("left", (d3.event.pageX) + "px")
               .style("top", (d3.event.pageY - 200) + "px")
               .style('font-size', '12px')
-             .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
+              .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
               .style("height", '200px')
-             .style("width", '240px')
+              .style("width", '240px')
+
+
+          if (d.state_num > 0)
+          {
+              highlightBrand(d.Brand);
+          }
+          //Send Message to Pie Script to Highlight State
 
       })
       .on("mouseleave", function (d) {
@@ -233,6 +241,11 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           div.transition()
           .style('opacity', 0)
           .duration(500)
+
+          if (d.state_num > 0) {
+              unhighlightBrand(d.Brand);
+          }
+
 
       })
 
@@ -258,6 +271,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
         svg.append("g")
              .attr("class", "foreground")
             .append("path")
+            .attr("class", "path " + fave.replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", ""))
             .attr("d", line(lineData))
             .style("stroke", "red")
             .style("stroke-width", "4")
@@ -337,6 +351,22 @@ function brush() {
     });
 }
 
+var prevCSS;
+function highlightState(brand) {
+    brand = brand.replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "")
+    $("." + brand).css("stroke", "yellow")
+    $("." + brand).css("opacity", 1);
+}
 
 
-
+function unhighlightState(brand) {
+    var fillTest = fillReferences.filter((fill) => { return fill.Key == brand })[0]
+    var opacity = 0.3;
+    if (fillTest == undefined) {
+        fillTest = { Value: "red" }
+        opacity = 0.5;
+    }
+    brand = brand.replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "")
+    $("." + brand).css("stroke", fillTest.Value)
+    $("." + brand).css("opacity", opacity);
+}

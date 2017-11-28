@@ -1,4 +1,25 @@
-﻿var prevSelect;
+﻿function highlightBrand(brandName)
+{
+    var stateBrand = pieLoadedData.filter((state) =>{ return state.Favorite == brandName })
+    stateBrand = stateBrand.map((state) => { return state.StateAbbv });
+    stateBrand.forEach(function (d) {
+        $("." + d).css("stroke", "red");
+    })
+}
+
+function unhighlightBrand(brandName) {
+    var stateBrand = pieLoadedData.filter((state) => { return state.Favorite == brandName })
+    stateBrand = stateBrand.map((state) => { return state.StateAbbv });
+    stateBrand.forEach(function (d) {
+        $("." + d).css("stroke", "");
+    })
+}
+
+
+var prevSelect;
+
+var pieLoadedData;
+
 
 d3.csv("StateFaveBrand.csv", function (d, i) {
     d.Exercise = +d.Exercise;
@@ -9,14 +30,12 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
     return d;
 }, function (error, data) {
     if (error) throw error;
-
-
     var svg = d3.select("svg"),
         width = +svg.attr("width"),
         height = +svg.attr("height"),
         radius = Math.min(width, height) / 9
 
-
+    pieLoadedData = data;
     var color = d3.schemeSet2;
     var color2 = ["green", "grey"];
     var pieLabels = ["Good", "Overweight", "Obese", "PovertyRate"]
@@ -41,8 +60,6 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
              .attr('font-size', '18px')
              .attr('font-weight', 'bold')
              .text("STATE POP % ")
-
-
 
     //Pop % Good
     legend.append("rect")
@@ -218,12 +235,16 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             var transformCheck = d3.select(this).attr("transform");
             d3.select(this).attr("transform", transformCheck.replace("scale(0.32)", "scale(0.36)"))
             showToolTip(stateData);
+            //SET THE PLOT GRAPH to highlight the cerealBrand
+            highlightState(stateData.Favourite)
+            //stateData.Favorite <== Gets the brand
 
             if (i % perRow > perRow - 4) {
                 div.style("left", (d3.event.pageX) - 200 + "px")
             }
         })
         .on("mouseleave", function (d) {
+            unhighlightState(stateData.Favourite)
             var transformCheck = d3.select(this).attr("transform");
             d3.select(this).attr("transform", transformCheck.replace("scale(0.36)", "scale(0.32)"))
             div.transition()
@@ -253,16 +274,12 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
                 d3.select(this).attr("stroke", "")
                 d3.select(this).attr("stroke-width", "0")
 
+                //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL
                 changeAreaSelection("US")
                 $("#usCirc").css("stroke", "yellow")
                 $("#usCirc").css("stroke-width", "3")
             }
-            //sendOver: selectState
-            //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL
 
-
-            //SET THE PLOT GRAPH to highlight the cerealBrand
-            //stateData.Favorite <== Gets the brand
         })
 
 
