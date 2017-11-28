@@ -19,9 +19,9 @@ var svg = d3.select("svg")
 
 svg.append("text")
     .attr("fill", "black")
-    .text("All Cereal Brands")
-    .style("font-size", "40px")
-    .attr("x", "200")
+    .text("Cereal Brand Contents vs. US Weight Levels")
+    .style("font-size", "38px")
+    .attr("x", "-15")
     .attr("y", "-80")
 
 //Create tooltip div

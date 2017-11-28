@@ -57,7 +57,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
 
     legend.append("text")
              .style("fill", "black")
-             .attr('x', -80)
+             .attr('x', -70)
              .attr('y', 20)
              .attr("text-anchor", "middle")
              .attr('font-size', '18px')
