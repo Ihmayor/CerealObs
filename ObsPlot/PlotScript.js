@@ -191,7 +191,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
           return fillUrl.Value;
       })
-      .attr("class", (d) => { console.log("test"); return "path " + d.Brand.replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "") })
+      .attr("class", (d) => { console.log("test"); return "path " + d.Brand.replace("'", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "") })
       .style("stroke-width", "4")
       .style("opacity", "0.1")
       .on("mouseover", function (d) {
@@ -271,13 +271,13 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
         svg.append("g")
              .attr("class", "foreground")
             .append("path")
-            .attr("class", "path " + fave.replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", ""))
+            .attr("class", "path " + fave.replace("'", "").replace(" ", "").replace(" ", "").replace(" ", ""))
             .attr("d", line(lineData))
             .style("stroke", "red")
             .style("stroke-width", "4")
             .style("opacity", "0.5")
       .on("mouseover", function (d) {
-          //Highlight the bar hovered over at this moment
+          //Highlight the path hovered over at this moment
           d3.select(this).style("stroke", "yellow").style("opacity", 1);
           //Show the tool tip with associated data
               div.transition()
@@ -289,6 +289,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
               .style('font-size', '12px')
               .style("height", '30px')
              .style("width", '180px')
+              highlightBrand(fave);
 
       })
       .on("mouseleave", function (d) {
@@ -298,6 +299,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           div.transition()
           .style('opacity', 0)
           .duration(500)
+          unhighlightBrand(fave);
 
       })
 
@@ -353,7 +355,7 @@ function brush() {
 
 var prevCSS;
 function highlightState(brand) {
-    brand = brand.replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "")
+    brand = brand.replace("'", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "")
     $("." + brand).css("stroke", "yellow")
     $("." + brand).css("opacity", 1);
 }
@@ -366,7 +368,7 @@ function unhighlightState(brand) {
         fillTest = { Value: "red" }
         opacity = 0.5;
     }
-    brand = brand.replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "")
+    brand = brand.replace("'", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "")
     $("." + brand).css("stroke", fillTest.Value)
     $("." + brand).css("opacity", opacity);
 }

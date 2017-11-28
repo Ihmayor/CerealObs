@@ -1,17 +1,24 @@
 ﻿function highlightBrand(brandName)
 {
-    var stateBrand = pieLoadedData.filter((state) =>{ return state.Favorite == brandName })
+    var stateBrand = pieLoadedData.filter((state) =>{ return state.Favourite == brandName })
+    console.log(stateBrand);
+    console.log("aaaaaaa12");
     stateBrand = stateBrand.map((state) => { return state.StateAbbv });
     stateBrand.forEach(function (d) {
         $("." + d).css("stroke", "red");
+        $("." + d).css("stroke-width", "3");
+
     })
 }
 
 function unhighlightBrand(brandName) {
-    var stateBrand = pieLoadedData.filter((state) => { return state.Favorite == brandName })
+    var stateBrand = pieLoadedData.filter((state) => { return state.Favourite == brandName })
+    console.log(stateBrand);
+    console.log("aaaaaaa");
     stateBrand = stateBrand.map((state) => { return state.StateAbbv });
     stateBrand.forEach(function (d) {
         $("." + d).css("stroke", "");
+        $("." + d).css("stroke-width", "0");
     })
 }
 
@@ -225,6 +232,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .attr("fill", function (d, i) { return color2[i]; })
             .attr("class", "pathPie")
         arc.append("text")
+            .attr("class",selectState)
             .attr("text-anchor", "middle")
             .attr('font-size', '4em')
             .attr('y', 0)
