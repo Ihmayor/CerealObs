@@ -38,6 +38,7 @@ $("#SelectBar").ready(function (sb) {
     document.getElementById('SelectBar').options[0].selected = 'selected';
 });
 
+
 $("#SelectBar").load(function (sb) {
     document.getElementById('SelectBar').options[0].selected = 'selected';
 });
