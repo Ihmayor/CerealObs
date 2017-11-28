@@ -1,4 +1,6 @@
-﻿d3.csv("StateFaveBrand.csv", function (d, i) {
+﻿
+
+d3.csv("StateFaveBrand.csv", function (d, i) {
     d.Exercise = +d.Exercise;
     d.Good = +d.Good;
     d.Obese = +d.Obese;
@@ -6,9 +8,9 @@
     d.PovertyRate = +d.PovertyRate;
     return d;
 }, function (error, data) {
-
-
     if (error) throw error;
+
+
     var svg = d3.select("svg"),
         width = +svg.attr("width"),
         height = +svg.attr("height"),
@@ -75,8 +77,6 @@
              .text("Overweight")
 
 
-
-
     //Pop % Obese
     legend.append("rect")
             .attr('fill', color[2])
@@ -134,7 +134,7 @@
             .attr('fill', "black")
             .attr('x', 50 * 5)
             .attr('y', 16)
-            .attr('height', 4)
+            .attr('height', 3.5)
             .attr('width', 100)
 
     legend.append("text")
@@ -146,8 +146,8 @@
             .text("Poverty Rate")
 
 
-
     var stateNames = data.map((d) => { return d.StateAbbv; })
+
     stateNames.forEach((selectState, i) => {
         var perRow = 7;
         var offset = (i % perRow) * -70;
@@ -213,12 +213,9 @@
             .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
             .text(selectState)
 
-        g.on("click", (d) => { console.log("g can be clicked"); })
-        .on("mouseover", function (d, i) {
+        g.on("mouseover", function (d, i) {
             var transformCheck = d3.select(this).attr("transform");
             d3.select(this).attr("transform", transformCheck.replace("scale(0.32)","scale(0.36)"))
-//            d3.select(this).attr("transform", "scale(2)");
-            
             showToolTip(stateData);
             if (i % perRow > perRow - 4)
                 div.style("left", (d3.event.pageX) - 200 + "px")
@@ -226,13 +223,19 @@
         .on("mouseleave", function (d) {
             var transformCheck = d3.select(this).attr("transform");
             d3.select(this).attr("transform", transformCheck.replace("scale(0.36)", "scale(0.32)"))
-
-            //        d3.select(this).attr("transform", "scale(1)");
-            //"(0.32)"
             div.transition()
             .style('opacity', 0)
             .duration(500)
         })
+        .on("click", function (d) {
+            //sendOver: selectState
+            //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL
+            
+
+            //SET THE PLOT GRAPH to highlight the cerealBrand
+            //stateData.Favorite <== Gets the brand
+        })
+
 
 
         //630 0% -630 100%
@@ -252,15 +255,25 @@
         .attr("cy", 480)
         .attr("r", 16)
         .attr("fill", "grey")
+        .on("mouseover", function (d) {
+             d3.select(this).attr("stroke","yellow")
+             d3.select(this).attr("stroke-width","3")
+        })
+        .on("mouseleave", function (d) {
+            d3.select(this).attr("stroke", "")
+            d3.select(  this).attr("stroke-width","0")
+        })
+        .on("click", function (d) {
+            //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL
+            //RESET THE PLOT GRAPH
+        })
+
 
     svg.append("text")
-        .attr("x", 980)
-        .attr("y", 480)
+        .attr("x", 983)
+        .attr("y", 483)
         .attr("fill", "white")
         .text("US")
-
-
-
 });
 
 function showToolTip(stateData) {
