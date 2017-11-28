@@ -1,4 +1,4 @@
-﻿
+﻿var prevSelect;
 
 d3.csv("StateFaveBrand.csv", function (d, i) {
     d.Exercise = +d.Exercise;
@@ -184,7 +184,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
         var ExerciseValue = [stateData.Exercise, 100 - stateData.Exercise];
 
         var pathPie2 = d3.arc()
-            .outerRadius(radius-20)
+            .outerRadius(radius - 20)
             .innerRadius(90);
 
         var arc2 = g.selectAll(".arcPie1")
@@ -196,6 +196,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
         .attr("d", pathPie2)
         .style("opacity", 1)
         .attr("fill", function (d, i) { return color[i]; })
+        .attr("class", "pathPie")
 
         var arc = g.selectAll(".arcPie")
           .data(pie(ExerciseValue))
@@ -205,7 +206,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
         arc.append("path")
             .attr("d", pathPie)
             .attr("fill", function (d, i) { return color2[i]; })
-
+            .attr("class", "pathPie")
         arc.append("text")
             .attr("text-anchor", "middle")
             .attr('font-size', '4em')
@@ -215,7 +216,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
 
         g.on("mouseover", function (d, i) {
             var transformCheck = d3.select(this).attr("transform");
-            d3.select(this).attr("transform", transformCheck.replace("scale(0.32)","scale(0.36)"))
+            d3.select(this).attr("transform", transformCheck.replace("scale(0.32)", "scale(0.36)"))
             showToolTip(stateData);
             if (i % perRow > perRow - 4)
                 div.style("left", (d3.event.pageX) - 200 + "px")
@@ -228,9 +229,35 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .duration(500)
         })
         .on("click", function (d) {
+            if (areaSelection != selectState) {
+
+                if (prevSelect != null) {
+                    d3.select(prevSelect).attr("stroke", "")
+                    d3.select(prevSelect).attr("stroke-width", "0")
+
+                    $("#usCirc").css("stroke", "")
+                    $("#usCirc").css("stroke-width", "0")
+
+                }
+
+                //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL
+                changeAreaSelection(selectState);
+                d3.select(this).attr("stroke", "yellow")
+                d3.select(this).attr("stroke-width", "3")
+
+                prevSelect = this;
+            }
+            else {
+                d3.select(this).attr("stroke", "")
+                d3.select(this).attr("stroke-width", "0")
+
+                changeAreaSelection("US")
+                $("#usCirc").css("stroke", "yellow")
+                $("#usCirc").css("stroke-width", "3")
+            }
             //sendOver: selectState
             //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL
-            
+
 
             //SET THE PLOT GRAPH to highlight the cerealBrand
             //stateData.Favorite <== Gets the brand
@@ -249,31 +276,79 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
         .style("stroke-shadow", "0 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000")
 
     })
+
+    var usCirc;
     svg.append("g")
         .append("circle")
+        .attr("id", "usCirc")
         .attr("cx", 990)
         .attr("cy", 480)
         .attr("r", 16)
-        .attr("fill", "grey")
+        .style("stroke-width", "3")
+        .style("stroke", "yellow")
+        .attr("fill", function (d) { usCirc = this; prevSelect = this; return "grey"; })
         .on("mouseover", function (d) {
-             d3.select(this).attr("stroke","yellow")
-             d3.select(this).attr("stroke-width","3")
+            if (areaSelection != "US") {
+                d3.select(this).attr("stroke", "yellow")
+                d3.select(this).attr("stroke-width", "3")
+            }
         })
         .on("mouseleave", function (d) {
-            d3.select(this).attr("stroke", "")
-            d3.select(  this).attr("stroke-width","0")
+            if (areaSelection != "US") {
+                d3.select(this).attr("stroke", "")
+                d3.select(this).attr("stroke-width", "0")
+            }
         })
         .on("click", function (d) {
-            //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL
-            //RESET THE PLOT GRAPH
-        })
+            if (areaSelection != "US") {
+                d3.select(prevSelect).attr("stroke", "")
+                d3.select(prevSelect).attr("stroke-width", "0")
 
+                d3.select(this).attr("stroke", "yellow")
+                d3.select(this).attr("stroke-width", "3")
+                //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL
+                changeAreaSelection("US");
+                prevSelect = this;
+            }
+
+            //TODO: RESET THE PLOT GRAPH
+        })
 
     svg.append("text")
         .attr("x", 983)
         .attr("y", 483)
         .attr("fill", "white")
         .text("US")
+        .on("mouseover", function (d) {
+            if (areaSelection != "US") {
+                $("#usCirc").css("stroke", "yellow")
+                $("#usCirc").css("stroke-width", "3")
+               
+            }
+        })
+        .on("mouseleave", function (d) {
+            if (areaSelection != "US") {
+                d3.select(usCirc).attr("stroke", "")
+                d3.select(usCirc).attr("stroke-width", "0")
+            }
+        })
+        .on("click", function (d) {
+            if (areaSelection != "US") {
+                d3.select(prevSelect).attr("stroke", "")
+                d3.select(prevSelect).attr("stroke-width", "0")
+
+    
+                d3.select(usCirc).attr("stroke", "yellow")
+                d3.select(usCirc).attr("stroke-width", "3")
+                //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL
+                changeAreaSelection("US");
+                prevSelect = usCirc;
+            }
+
+
+            //RESET THE PLOT GRAPH
+        })
+
 });
 
 function showToolTip(stateData) {

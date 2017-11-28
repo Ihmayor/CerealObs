@@ -32,6 +32,12 @@ $("#SelectBar").change(function (sb) {
     update();
 });
 
+function changeAreaSelection(areaSelect) {
+    areaSelection = areaSelect;
+    $(".barChart").remove();
+    update();
+}
+
 
 function update()
 {
