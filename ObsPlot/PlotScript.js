@@ -217,8 +217,14 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
                   }
               })
 
+            var setX = (d3.event.pageX);
+            var maxX = 570;
+            if (setX > maxX)
+            setX = maxX
+
+
           div.html(htmlFull)
-              .style("left", (d3.event.pageX) + "px")
+              .style("left", setX + "px")
               .style("top", (d3.event.pageY - 200) + "px")
               .style('font-size', '12px')
               .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")

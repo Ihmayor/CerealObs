@@ -1,8 +1,6 @@
 ﻿function highlightBrand(brandName)
 {
     var stateBrand = pieLoadedData.filter((state) =>{ return state.Favourite == brandName })
-    console.log(stateBrand);
-    console.log("aaaaaaa12");
     stateBrand = stateBrand.map((state) => { return state.StateAbbv });
     stateBrand.forEach(function (d) {
         $("." + d).css("stroke", "red");
@@ -13,8 +11,6 @@
 
 function unhighlightBrand(brandName) {
     var stateBrand = pieLoadedData.filter((state) => { return state.Favourite == brandName })
-    console.log(stateBrand);
-    console.log("aaaaaaa");
     stateBrand = stateBrand.map((state) => { return state.StateAbbv });
     stateBrand.forEach(function (d) {
         $("." + d).css("stroke", "");
@@ -388,6 +384,7 @@ function showToolTip(stateData) {
                     "<b>Obese: </b>" + stateData.Obese + " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" +
                     "<b>Overweight: </b>" + stateData.Overweight + "<br/>" +
                     "<b>Povery Rate: </b>" + stateData.PovertyRate + "<br/>";
+
 
     div.html(htmlFull)
         .style("left", (d3.event.pageX) + 30 + "px")
