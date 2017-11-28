@@ -84,6 +84,7 @@
     <Content Include="StateTotObs.csv" />
     <Content Include="AllCerealBrand.csv" />
     <Content Include="NatVal.csv" />
+    <Content Include="AllSurvVal.csv" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
