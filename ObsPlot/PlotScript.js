@@ -223,9 +223,16 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
             setX = maxX
 
 
+            var setY = (d3.event.pageY - 200);
+            console.log(setY);
+            var maxY = 0;
+            if (setY < maxY)
+                setY = maxY
+
+
           div.html(htmlFull)
               .style("left", setX + "px")
-              .style("top", (d3.event.pageY - 200) + "px")
+              .style("top", setY + "px")
               .style('font-size', '12px')
               .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
               .style("height", '200px')
