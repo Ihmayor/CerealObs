@@ -214,12 +214,14 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
             .text(selectState)
 
-        g.on("mouseover", function (d, i) {
+        g.on("mouseover", function () {
             var transformCheck = d3.select(this).attr("transform");
             d3.select(this).attr("transform", transformCheck.replace("scale(0.32)", "scale(0.36)"))
             showToolTip(stateData);
-            if (i % perRow > perRow - 4)
+
+            if (i % perRow > perRow - 4) {
                 div.style("left", (d3.event.pageX) - 200 + "px")
+            }
         })
         .on("mouseleave", function (d) {
             var transformCheck = d3.select(this).attr("transform");

@@ -39,8 +39,7 @@ function changeAreaSelection(areaSelect) {
 }
 
 
-function update()
-{
+function update() {
     var svg = d3.select("svg");
 
     var margin = { top: 20, right: 20, bottom: 70, left: 90 }
@@ -51,13 +50,13 @@ function update()
     var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
         y = d3.scaleLinear().rangeRound([height, 0]);
 
-    var g = svg.append("g").attr("class","barChart")
+    var g = svg.append("g").attr("class", "barChart")
         .attr("transform", "translate(" + (1320 - 300) + "," + 490 + ")scale(0.35)");
 
     g.append("text")
         .attr("fill", "black")
-        .text(areaSelection + " Obesity Rate per " + colMapping[categorySelection] + " per Year")
-        .style("font-size", "40px")
+     .text(areaSelection + " Obesity Rate per" + ' ------------------  ' + "per Year")
+           .style("font-size", "40px")
         .attr("x", "20")
         .attr("y", "-30")
 
@@ -71,7 +70,7 @@ function update()
 
 
     ///LEGEND INFO
-    var barLegend = svg.append("g").attr("class","barChart").attr("transform", "translate(" + (990) + "," + 490 + ")");
+    var barLegend = svg.append("g").attr("class", "barChart").attr("transform", "translate(" + (990) + "," + 490 + ")");
     var nestedLegend = d3.nest().key(function (d) { return d.Simple; }).object(selectedData);
 
     Object.keys(nestedLegend).forEach((cat, i) => {
@@ -187,7 +186,7 @@ function (error, data) {
 
     g.append("text")
         .attr("fill", "black")
-        .text(areaSelection + " Obesity Rate per " + colMapping[categorySelection] + " per Year")
+     .text(areaSelection + " Obesity Rate per" + ' ------------------  ' + "per Year")
         .style("font-size", "40px")
         .attr("x", "20")
         .attr("y", "-30")
@@ -208,7 +207,7 @@ function (error, data) {
               .rollup(function (v) { return d3.sum(v, function (d) { return d.Data_Value; }); })
               .object(data);
 
-     selectedNestedData = nestedData[categorySelection];
+    selectedNestedData = nestedData[categorySelection];
     var innerCategories = Object.keys(selectedNestedData);
     var color = d3.scaleOrdinal(d3.schemeAccent);
     var selectedData = data.filter((d) => {
@@ -217,7 +216,7 @@ function (error, data) {
 
 
     ///LEGEND INFO
-    var barLegend = svg.append("g").attr("class","barChart").attr("transform", "translate(" + (990) + "," + 490 + ")");
+    var barLegend = svg.append("g").attr("class", "barChart").attr("transform", "translate(" + (990) + "," + 490 + ")");
     var nestedLegend = d3.nest().key(function (d) { return d.Simple; }).object(selectedData);
 
     Object.keys(nestedLegend).forEach((cat, i) => {
