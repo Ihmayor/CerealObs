@@ -1,7 +1,6 @@
-﻿function highlightBrand(brandName)
-{
+﻿function highlightBrand(brandName) {
 
-    var stateBrand = pieLoadedData.filter((state) =>{ return state.Favourite == brandName })
+    var stateBrand = pieLoadedData.filter((state) => { return state.Favourite == brandName })
     stateBrand = stateBrand.map((state) => { return state.StateAbbv });
     stateBrand.forEach(function (d) {
         $("." + d).css("stroke", "red");
@@ -41,7 +40,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
 
     pieLoadedData = data;
     var color = d3.schemeSet2;
-    var color2 = ["green", "grey"];
+    var color2 = ["green", "#d6cfcf"];
     var pieLabels = ["Good", "Overweight", "Obese", "PovertyRate"]
 
 
@@ -72,6 +71,17 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .attr('y', 0)
             .attr('height', 20)
             .attr('width', 20)
+            .on("mouseover", function (d) {
+                var yOffset = 0;
+                var xOffset = 0;
+                var h = 40;
+                var w = 110;
+                var htmlFull = "Population % with Good Weight"
+                showToolTipBar(htmlFull, yOffset, xOffset, h, w);
+            })
+            .on("mouseleave", function (d) {
+                hideToolTip();
+            })
 
     legend.append("text")
              .style("fill", "black")
@@ -89,6 +99,21 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .attr('y', 0)
             .attr('height', 20)
             .attr('width', 20)
+            .on("mouseover", function (d) {
+                var yOffset = 0;
+                var xOffset = 0;
+                var h = 40;
+                var w = 110;
+                var htmlFull = "Population % Overweight"
+                showToolTipBar(htmlFull, yOffset, xOffset, h, w);
+            })
+            .on("mouseleave", function (d) {
+                hideToolTip();
+            })
+
+
+
+
     legend.append("text")
              .style("fill", "black")
              .attr('x', (50 * 1) + 10)
@@ -97,7 +122,6 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
              .attr('font-size', '10px')
              .text("Overweight")
 
-
     //Pop % Obese
     legend.append("rect")
             .attr('fill', color[2])
@@ -105,6 +129,17 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .attr('y', 0)
             .attr('height', 20)
             .attr('width', 20)
+            .on("mouseover", function (d) {
+                var yOffset = 0;
+                var xOffset = 0;
+                var h = 40;
+                var w = 110;
+                var htmlFull = "Population % Obese"
+                showToolTipBar(htmlFull, yOffset, xOffset, h, w);
+            })
+            .on("mouseleave", function (d) {
+                hideToolTip();
+            })
 
     legend.append("text")
              .style("fill", "black")
@@ -123,6 +158,17 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .attr('y', 0)
             .attr('height', 20)
             .attr('width', 20)
+            .on("mouseover", function (d) {
+                var yOffset = 0;
+                var xOffset = 0;
+                var h = 40;
+                var w = 110;
+                var htmlFull = "Population % Reported Exercise"
+                showToolTipBar(htmlFull, yOffset, xOffset, h, w);
+            })
+            .on("mouseleave", function (d) {
+                hideToolTip();
+            })
 
     legend.append("text")
             .style("fill", "black")
@@ -140,6 +186,17 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .attr('y', 0)
             .attr('height', 20)
             .attr('width', 20)
+            .on("mouseover", function (d) {
+                var yOffset = 0;
+                var xOffset = 0;
+                var h = 40;
+                var w = 110;
+                var htmlFull = "Population % did not report exercise"
+                showToolTipBar(htmlFull, yOffset, xOffset, h, w);
+            })
+            .on("mouseleave", function (d) {
+                hideToolTip();
+            })
 
     legend.append("text")
             .style("fill", "black")
@@ -157,6 +214,25 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .attr('y', 16)
             .attr('height', 3.5)
             .attr('width', 100)
+            .on("mouseover", function (d) {
+                var yOffset = 0;
+                var xOffset = 0;
+                var h = 100;
+                var w = 110;
+                var htmlFull = "Poverty rate % </br><img src='pie.png' height='80' width='100'></img>"
+                showToolTipBar(htmlFull, yOffset, xOffset, h, w);
+
+                var setX = (d3.event.pageX);
+                var maxX = 1200;
+                if (setX > maxX)
+                    setX = maxX
+
+                div.style("left", setX + "px")
+
+            })
+            .on("mouseleave", function (d) {
+                hideToolTip();
+            })
 
     legend.append("text")
             .style("fill", "black")
@@ -229,7 +305,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             .attr("fill", function (d, i) { return color2[i]; })
             .attr("class", "pathPie")
         arc.append("text")
-            .attr("class",selectState)
+            .attr("class", selectState)
             .attr("text-anchor", "middle")
             .attr('font-size', '4em')
             .attr('y', 0)
@@ -289,9 +365,8 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
 
 
 
-        //630 0% -630 100%
+        ////630 0% -630 100%
         var povScale = d3.scaleLinear().domain([0, 100]).range([630, -630]);
-
         var center = { x: 1000, y: povScale(stateData.PovertyRate) }
         var povLinePath = g.append("path")
         .attr("d", draw(2000, center))
@@ -347,7 +422,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
             if (areaSelection != "US") {
                 $("#usCirc").css("stroke", "yellow")
                 $("#usCirc").css("stroke-width", "3")
-               
+
             }
         })
         .on("mouseleave", function (d) {
@@ -361,7 +436,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
                 d3.select(prevSelect).attr("stroke", "")
                 d3.select(prevSelect).attr("stroke-width", "0")
 
-    
+
                 d3.select(usCirc).attr("stroke", "yellow")
                 d3.select(usCirc).attr("stroke-width", "3")
                 //SEND MESSAGE TO BAR GRAPH TO SET NATIONAL

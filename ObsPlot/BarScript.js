@@ -209,7 +209,7 @@ function (error, data) {
 
     selectedNestedData = nestedData[categorySelection];
     var innerCategories = Object.keys(selectedNestedData);
-    var color = d3.scaleOrdinal(d3.schemeAccent);
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
     var selectedData = data.filter((d) => {
         return d.StratificationCategoryId1 == categorySelection && d.LocationAbbr == areaSelection;
     })
@@ -299,8 +299,20 @@ function (error, data) {
         .attr("width", x.bandwidth() / (innerCategories.length * 2.5))
         .attr("height", function (d) { return height - y(d.Data_Value); })
         .on("mouseleave", function (d) {
+            hideToolTip();
         })
         .on("mouseover", function (d) {
+
+            var htmlFull = d.Data_Value;
+            var yOffset = 0;
+            var xOffset = 0;
+            var h = 16;
+            var w = 40;
+            showToolTipBar(htmlFull, yOffset, xOffset, h, w);
+            //style("left", (d3.event.pageX) + xOffset + "px")
+            //style("top", (d3.event.pageY + yOffset) + "px")
+        
+
 
         })
 
