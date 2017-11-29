@@ -68,9 +68,10 @@ function update() {
 
     g.append("text")
         .attr("fill", "black")
-     .text(areaSelection + " Obesity Rate per" + ' -------------------  ' + "per Year")
-           .style("font-size", "40px")
-        .attr("x", "20")
+   .text(areaSelection + " OBESITY RATE PER" + ' ------------------------  ' + "PER YEAR")
+        .style("font-size", "35px")
+        .style("font-weight", "bold")
+          .attr("x", "20")
         .attr("y", "-30")
 
     var colKeys = Object.keys(colMapping);
@@ -211,9 +212,10 @@ function (error, data) {
 
     g.append("text")
         .attr("fill", "black")
-     .text(areaSelection + " Obesity Rate per" + ' -------------------  ' + "per Year")
-        .style("font-size", "40px")
-        .attr("x", "20")
+     .text(areaSelection + " OBESITY RATE PER" + ' -----------------------  ' + "PER YEAR")
+        .style("font-size", "35px")
+            .style("font-weight", "bold")
+    .attr("x", "20")
         .attr("y", "-30")
 
     var colKeys = Object.keys(colMapping);

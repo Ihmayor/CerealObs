@@ -62,7 +62,7 @@ d3.csv("StateFaveBrand.csv", function (d, i) {
              .attr("text-anchor", "middle")
              .attr('font-size', '18px')
              .attr('font-weight', 'bold')
-             .text("STATE POP % ")
+             .text("STATE POP. % ")
 
     //Pop % Good
     legend.append("rect")

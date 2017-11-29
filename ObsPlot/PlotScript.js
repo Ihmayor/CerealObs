@@ -10,6 +10,7 @@ var line = d3.line(),
     axis = d3.axisLeft(),
     background,
     foreground;
+
 //SOURCE ALL PLOT CODE AND BAR GRAPH CODE AND PIE CODE.
 
 var svg = d3.select("svg")
@@ -19,10 +20,18 @@ var svg = d3.select("svg")
 
 svg.append("text")
     .attr("fill", "black")
-    .text("Cereal Brand Contents vs. US Weight Levels")
+    .text("Cereal Brand vs. US Weight Levels")
     .style("font-size", "38px")
-    .attr("x", "-15")
+    .attr("x", "70")
     .attr("y", "-80")
+
+svg.append("text")
+    .attr("fill", "black")
+    .text("CEREAL BRAND CHARACTERISTICS")
+    .style("font-size", "18px")
+    .style("font-weight", "bold")
+    .attr("x", "200")
+    .attr("y", "-50")
 
 //Create tooltip div
 var div = d3.select("body").append("div")
@@ -194,40 +203,70 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
       .attr("class", (d) => { console.log("test"); return "path " + d.Brand.replace("'", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "") })
       .style("stroke-width", "4")
       .style("opacity", "0.1")
-      .on("mouseover", function (d) {
-          //Highlight the bar hovered over at this moment
-          d3.select(this).style("stroke", "yellow").style("opacity", 1);
-          //Show the tool tip with associated data
+      .on("click", function (d) {
+          var checkDiv = div.html().toString();
+          var toCheck = "<b>Cereal Brand</b>: " + d.Brand + "<br>";
+          if (div.style("opacity") > 0 && !(checkDiv == toCheck)) {
+              div.transition()
+              .style('opacity', 0)
+              .duration(500)
+          }
+          else {
+
+              //Show the tool tip with associated data
               div.transition()
              .duration(200)
              .style("opacity", .75);
-              var htmlFull = "<b>Cereal Brand</b>: "+d.Brand+"<br/>";
+              var htmlFull = "<b>Cereal Brand</b>: " + d.Brand + "<br/>";
               dimensions.forEach((dim, i) => {
-                  if (i == dim.length -1)
-                  {
-                      htmlFull += "<b>"+dim + "</b>: " + d[dim] + "";
+                  if (i == dim.length - 1) {
+                      htmlFull += "<b>" + dim + "</b>: " + d[dim] + "";
                   }
-                  else if (i%2 == 0)
-                  {
+                  else if (i % 2 == 0) {
                       htmlFull += "<b>" + dim + "</b>: " + d[dim] + "<br\>";
                   }
-                  else
-                  {
+                  else {
                       htmlFull += "<b>" + dim + "</b>: " + d[dim] + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
                   }
               })
 
-            var setX = (d3.event.pageX);
-            var maxX = 570;
-            if (setX > maxX)
-            setX = maxX
+              var setX = (d3.event.pageX);
+              var maxX = 570;
+              if (setX > maxX)
+                  setX = maxX
 
 
-            var setY = (d3.event.pageY - 200);
-            console.log(setY);
-            var maxY = 0;
-            if (setY < maxY)
-                setY = maxY
+              var setY = (d3.event.pageY - 200);
+              console.log(setY);
+              var maxY = 0;
+              if (setY < maxY)
+                  setY = maxY
+
+
+              div.html(htmlFull)
+                  .style("left", setX + "px")
+                  .style("top", setY + "px")
+                  .style('font-size', '12px')
+                  .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
+                  .style("height", '200px')
+                  .style("width", '240px')
+
+          }
+
+      })
+      .on("mouseover", function (d) {
+          //Highlight the bar hovered over at this moment
+          d3.select(this).style("stroke", "yellow").style("opacity", 1);
+
+          //Show the tool tip with associated data
+          div.transition()
+         .duration(200)
+         .style("opacity", .75);
+          var htmlFull = "<b>Cereal Brand</b>: " + d.Brand + "<br/>";
+
+          var setX = (d3.event.pageX);
+
+          var setY = (d3.event.pageY - 10);
 
 
           div.html(htmlFull)
@@ -235,12 +274,10 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
               .style("top", setY + "px")
               .style('font-size', '12px')
               .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
-              .style("height", '200px')
-              .style("width", '240px')
+              .style("height", '40px')
+              .style("width", '140px')
 
-
-          if (d.state_num > 0)
-          {
+          if (d.state_num > 0) {
               highlightBrand(d.Brand);
           }
           //Send Message to Pie Script to Highlight State
@@ -258,8 +295,6 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           if (d.state_num > 0) {
               unhighlightBrand(d.Brand);
           }
-
-
       })
 
     var NoInfoFave =
@@ -290,24 +325,23 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
             .style("stroke-width", "4")
             .style("opacity", "0.5")
       .on("mouseover", function (d) {
+          //Highlight the path hovered over at this moment
+          d3.select(this).style("stroke", "yellow").style("opacity", 1);
+          highlightBrand(fave);
 
+          //Show the tool tip with associated data
           var setY = (d3.event.pageY - 28);
           if ((d3.event.pageY - 28) > 600)
               setY = 600;
-          console.log();
-          //Highlight the path hovered over at this moment
-          d3.select(this).style("stroke", "yellow").style("opacity", 1);
-          //Show the tool tip with associated data
-              div.transition()
-             .duration(200)
-             .style("opacity", .75);
-              div.html("<b>Cereal Brand</b>: "+fave+"</br>"+"No Info")
-              .style("left", (d3.event.pageX) + "px")
-              .style("top", setY+ "px")
-              .style('font-size', '11px')
-              .style("height", '45px')
-             .style("width", '190px')
-              highlightBrand(fave);
+          div.transition()
+         .duration(200)
+         .style("opacity", .75);
+          div.html("<b>Cereal Brand</b>: " + fave + "</br>" + "No Info")
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", setY + "px")
+          .style('font-size', '11px')
+          .style("height", '45px')
+         .style("width", '190px')
 
       })
       .on("mouseleave", function (d) {
