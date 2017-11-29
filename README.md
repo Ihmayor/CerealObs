@@ -9,17 +9,17 @@ Associated Data and Scripts:
 
 * AllSurvVal.csv
 
-*StateFaveBrand.csv
+* StateFaveBrand.csv
 
-*"PlotScript.js"
+* "PlotScript.js"
 
-*"textures.js" (Source Credit: https://riccardoscalco.github.io/textures/)
+* "textures.js" (Source Credit: https://riccardoscalco.github.io/textures/)
 
-*"textures.min.js" (Source Credit: https://riccardoscalco.github.io/textures/)
+* "textures.min.js" (Source Credit: https://riccardoscalco.github.io/textures/)
 
-*"PieScript.js"
+* "PieScript.js"
 
-*"BarScript.js"
+* "BarScript.js"
 
 Further Sources:
 
