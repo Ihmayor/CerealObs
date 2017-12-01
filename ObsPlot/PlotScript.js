@@ -421,6 +421,7 @@ function highlightState(brand) {
     brand = cleanBrand(brand);
     $("." + brand).css("stroke", "yellow")
     $("." + brand).css("opacity", 1);
+    $("." + brand).css("stroke-width", 4);
 }
 
 function unhighlightcleanBrand(brand) {
@@ -445,6 +446,7 @@ function unhighlightState(brand) {
     brand = cleanBrand(brand);
     $("." + brand).css("stroke", fillTest.Value)
     $("." + brand).css("opacity", opacity);
+    $("." + brand).css("stroke-width", 4);
 }
 
 function cleanBrand(brandName)
