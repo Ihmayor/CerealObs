@@ -25,6 +25,15 @@ svg.append("text")
     .attr("x", "70")
     .attr("y", "-80")
 
+
+svg.append("text")
+    .attr("fill", "black")
+    .text("CPSC 583 Assignment 3 Irene Mayor 10126658")
+    .style("font-size", "8px")
+    .attr("x", "-60")
+    .attr("y", "-50")
+
+
 svg.append("text")
     .attr("fill", "black")
     .text("CEREAL BRAND CHARACTERISTICS")
@@ -41,8 +50,12 @@ var div = d3.select("body").append("div")
 
 var dimensions = [];
 var fillReferences = [];
+var parallelPlotData = [];
+
 
 d3.csv("AllCerealBrand.csv", function (error, data) {
+    
+
     // Extract the list of dimensions and create a scale for each.
     typeOrdScale = Object.keys(d3.nest()
               .key(function (d) { return d.Type; })
@@ -57,7 +70,7 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           .key(function (d) { return d.Serve; })
           .object(data));
 
-
+    parallelPlotData = data;
     x.domain(dimensions = d3.keys(data[0]).filter(function (d) {
         var plotH = 480;
         if (d == "Type") {
@@ -200,57 +213,53 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
           var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
           return fillUrl.Value;
       })
-      .attr("class", (d) => { console.log("test"); return "path " + d.Brand.replace("'", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "") })
+      .attr("class", (d) => { var brand = cleanBrand(d.Brand); return "path " + brand })
       .style("stroke-width", "4")
       .style("opacity", "0.1")
       .on("click", function (d) {
           var checkDiv = div.html().toString();
+          
           var toCheck = "<b>Cereal Brand</b>: " + d.Brand + "<br>";
+          var selectedOrange = d3.selectAll("[style*=orange]")._groups[0];
           if (div.style("opacity") > 0 && !(checkDiv == toCheck)) {
               div.transition()
               .style('opacity', 0)
               .duration(500)
-          }
-          else {
-
-              //Show the tool tip with associated data
-              div.transition()
-             .duration(200)
-             .style("opacity", .75);
-              var htmlFull = "<b>Cereal Brand</b>: " + d.Brand + "<br/>";
-              dimensions.forEach((dim, i) => {
-                  if (i == dim.length - 1) {
-                      htmlFull += "<b>" + dim + "</b>: " + d[dim] + "";
-                  }
-                  else if (i % 2 == 0) {
-                      htmlFull += "<b>" + dim + "</b>: " + d[dim] + "<br\>";
-                  }
-                  else {
-                      htmlFull += "<b>" + dim + "</b>: " + d[dim] + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-                  }
+              d3.select(this).style("stroke", "yellow").style("opacity", 1);
+              d3.selectAll("[style*=orange]")._groups[0].forEach(function (d) {
+                  unhighlightcleanBrand(d3.select(d).attr("class").split(" ")[1]);
               })
 
-              var setX = (d3.event.pageX);
-              var maxX = 570;
-              if (setX > maxX)
-                  setX = maxX
+          }
+          else if (selectedOrange.length != 0)
+          {
+               d3.selectAll("[style*=orange]")._groups[0].forEach(function (d) {
+                  unhighlightcleanBrand(d3.select(d).attr("class").split(" ")[1]);
+              })
+          }
+          else {
+              d3.selectAll("[style*=orange]")._groups[0].forEach(function (d) {
+                  unhighlightcleanBrand(d3.select(d).attr("class").split(" ")[1]);
+              })
+            
+              var foundDim = findClosestDimToMouse(d3.event.pageX);
+              if (foundDim == null)
+              {
+                  console.log("error!!!");
+                  console.log(d3.event.pageX);
+                  return;
+              }
+              else {
+                  d3.select(this).style("stroke", "orange").style("opacity", 1).style("stroke-width",1);
+                  var foundBrand = findCommonBrandsOfDim(foundDim, d.Brand, d[foundDim])
+                  foundBrand.forEach((f) => {
+                      f = cleanBrand(f);
+                      $("." + f).css("stroke", "orange").css("opacity", 1).css("stroke-width", 1);
+                 })
+              }
 
-
-              var setY = (d3.event.pageY - 200);
-              console.log(setY);
-              var maxY = 0;
-              if (setY < maxY)
-                  setY = maxY
-
-
-              div.html(htmlFull)
-                  .style("left", setX + "px")
-                  .style("top", setY + "px")
-                  .style('font-size', '12px')
-                  .style("text-shadow", "0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff")
-                  .style("height", '200px')
-                  .style("width", '240px')
-
+              return;
+              //Show the tool tip with associated data
           }
 
       })
@@ -284,9 +293,11 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
 
       })
       .on("mouseleave", function (d) {
+          if (d3.select(this).style("stroke") == "orange")
+              return;
           //Remove highlight when no longer hovered over
           var fillUrl = fillReferences.filter((fill) => { return fill.Key == d.Brand })[0];
-          d3.select(this).style("stroke", fillUrl.Value).style("opacity", "0.1");
+          d3.select(this).style("stroke", fillUrl.Value).style("opacity", "0.1").style("stroke-width", 4);
           //Fade away the tooltip
           div.transition()
           .style('opacity', 0)
@@ -319,12 +330,12 @@ d3.csv("AllCerealBrand.csv", function (error, data) {
         svg.append("g")
              .attr("class", "foreground")
             .append("path")
-            .attr("class", "path " + fave.replace("'", "").replace(" ", "").replace(" ", "").replace(" ", ""))
+            .attr("class", function (d) { return "path " + cleanBrand(fave); })
             .attr("d", line(lineData))
             .style("stroke", "red")
             .style("stroke-width", "4")
             .style("opacity", "0.5")
-      .on("mouseover", function (d) {
+      .on("mouseover", function (d) {   
           //Highlight the path hovered over at this moment
           d3.select(this).style("stroke", "yellow").style("opacity", 1);
           highlightBrand(fave);
@@ -407,11 +418,22 @@ function brush() {
 
 var prevCSS;
 function highlightState(brand) {
-    brand = brand.replace("'", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "")
+    brand = cleanBrand(brand);
     $("." + brand).css("stroke", "yellow")
     $("." + brand).css("opacity", 1);
 }
 
+function unhighlightcleanBrand(brand) {
+    var fillTest = fillReferences.filter((fill) => { return cleanBrand(fill.Key) == brand })[0]
+    var opacity = 0.1;
+    if (fillTest == undefined) {
+        fillTest = { Value: "red" }
+        opacity = 0.5;
+    }
+    $("." + brand).css("stroke", fillTest.Value)
+    $("." + brand).css("opacity", opacity);
+    $("." + brand).css("stroke-width", 4);
+}
 
 function unhighlightState(brand) {
     var fillTest = fillReferences.filter((fill) => { return fill.Key == brand })[0]
@@ -420,7 +442,45 @@ function unhighlightState(brand) {
         fillTest = { Value: "red" }
         opacity = 0.5;
     }
-    brand = brand.replace("'", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "")
+    brand = cleanBrand(brand);
     $("." + brand).css("stroke", fillTest.Value)
     $("." + brand).css("opacity", opacity);
+}
+
+function cleanBrand(brandName)
+{
+    return brandName.replace("&", "").replace("%", "").replace("(", "").replace(")", "").replace("'", "").replace("'", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "").replace(" ", "");
+}
+
+function findClosestDimToMouse(value)
+{
+    var offsetVal = 80;
+    value -= offsetVal;
+    var returnVal = null;
+    dimensions.forEach(function (d, i) {
+        if (x(d) > value && returnVal == null)
+        {
+            var check1 = Math.abs(x(d) - value);
+            
+            var check2 = Math.abs(x(dimensions[i - 1]) - value);
+            if (check1 < check2)
+                returnVal = d;
+            else
+                returnVal = dimensions[i - 1];
+        }
+    });
+    if (returnVal == null)
+        console.log("errorrrr");
+    return returnVal;
+}
+
+
+function findCommonBrandsOfDim(dim, brandOrg, brandVal)
+{
+    var foundBrands = [];
+    parallelPlotData.forEach((d) => {
+        if (d.Brand != brandOrg && d[dim] == brandVal)
+            foundBrands.push(d.Brand);
+    });
+    return foundBrands;
 }

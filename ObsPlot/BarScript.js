@@ -64,7 +64,7 @@ function update() {
         y = d3.scaleLinear().rangeRound([height, 0]);
 
     var g = svg.append("g").attr("class", "barChart")
-        .attr("transform", "translate(" + (1320 - 300) + "," + 490 + ")scale(0.35)");
+        .attr("transform", "translate(" + (1320 - 295) + "," + 490 + ")scale(0.35)");
 
     g.append("text")
         .attr("fill", "black")
@@ -205,7 +205,7 @@ function (error, data) {
         y = d3.scaleLinear().rangeRound([height, 0]);
 
     var g = svg.append("g").attr("class", "barChart")
-        .attr("transform", "translate(" + (1320 - 300) + "," + 490 + ")scale(0.35)");
+        .attr("transform", "translate(" + (1320 - 295) + "," + 490 + ")scale(0.35)");
 
 
     g.append("select")
